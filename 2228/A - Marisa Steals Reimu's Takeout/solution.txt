@@ -1,0 +1,22 @@
+import sys
+ 
+input = sys.stdin.readline
+ 
+t = int(input())
+ 
+for _ in range(t):
+    n = int(input())
+    a = list(map(int, input().split()))
+ 
+    c0 = a.count(0)
+    c1 = a.count(1)
+    c2 = a.count(2)
+ 
+    pairs = min(c1, c2)
+ 
+    c1 -= pairs
+    c2 -= pairs
+ 
+    ans = c0 + pairs + c1 // 3 + c2 // 3
+ 
+    print(ans)
