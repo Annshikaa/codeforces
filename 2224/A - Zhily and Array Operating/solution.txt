@@ -1,0 +1,47 @@
+import sys
+ 
+input = sys.stdin.readline
+ 
+t = int(input())
+ 
+for _ in range(t):
+    n = int(input())
+    a = list(map(int, input().split()))
+ 
+    dp = {}
+ 
+    last_sign = 1 if a[-1] > 0 else 0
+    dp[last_sign] = (1 if a[-1] > 0 else 0, a[-1])
+ 
+    for i in range(n - 2, -1, -1):
+        ndp = {}
+ 
+        for cnt, val in dp.values():
+ 
+            # Option 1: don't use i
+            nv = a[i]
+            nc = cnt + (1 if nv > 0 else 0)
+            s = 1 if nv > 0 else 0
+ 
+            if (
+                s not in ndp
+                or nc > ndp[s][0]
+                or (nc == ndp[s][0] and nv > ndp[s][1])
+            ):
+                ndp[s] = (nc, nv)
+ 
+            # Option 2: use i
+            nv = a[i] + val
+            nc = cnt + (1 if nv > 0 else 0)
+            s = 1 if nv > 0 else 0
+ 
+            if (
+                s not in ndp
+                or nc > ndp[s][0]
+                or (nc == ndp[s][0] and nv > ndp[s][1])
+            ):
+                ndp[s] = (nc, nv)
+ 
+        dp = ndp
+ 
+    print(max(cnt for cnt, _ in dp.values()))
