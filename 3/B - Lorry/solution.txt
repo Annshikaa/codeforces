@@ -1,0 +1,53 @@
+n, v = map(int, input().split())
+ 
+kayaks = []      # (capacity, index)
+catamarans = []  # (capacity, index)
+ 
+for i in range(1, n + 1):
+    t, p = map(int, input().split())
+ 
+    if t == 1:
+        kayaks.append((p, i))
+    else:
+        catamarans.append((p, i))
+ 
+# Sort by capacity descending
+kayaks.sort(reverse=True)
+catamarans.sort(reverse=True)
+ 
+# Prefix sums
+pref1 = [0]
+for p, _ in kayaks:
+    pref1.append(pref1[-1] + p)
+ 
+pref2 = [0]
+for p, _ in catamarans:
+    pref2.append(pref2[-1] + p)
+ 
+best = -1
+best_k = 0
+best_c = 0
+ 
+# Try taking c catamarans
+for c in range(min(len(catamarans), v // 2) + 1):
+    rem = v - 2 * c
+    k = min(rem, len(kayaks))
+ 
+    total = pref2[c] + pref1[k]
+ 
+    if total > best:
+        best = total
+        best_c = c
+        best_k = k
+ 
+print(best)
+ 
+ans = []
+ 
+for i in range(best_k):
+    ans.append(str(kayaks[i][1]))
+ 
+for i in range(best_c):
+    ans.append(str(catamarans[i][1]))
+ 
+print(*ans)
