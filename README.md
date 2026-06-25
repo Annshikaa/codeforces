@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 4 | 7 |
+| 5 | 8 |
 
 ---
 
@@ -14,11 +14,12 @@
 
 - [dp](#dp) (1)
 - [geometry](#geometry) (1)
-- [greedy](#greedy) (1)
+- [greedy](#greedy) (2)
 - [hashing](#hashing) (1)
 - [implementation](#implementation) (1)
 - [math](#math) (1)
 - [shortest paths](#shortest-paths) (1)
+- [sortings](#sortings) (1)
 
 ---
 
@@ -39,6 +40,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 3A | [Shortest path of the king](https://codeforces.com/contest/3/problem/A) | 1000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/3/A%20-%20Shortest%20path%20of%20the%20king/solution.txt) |
+| 3B | [Lorry](https://codeforces.com/contest/3/problem/B) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/3/B%20-%20Lorry/solution.txt) |
 
 ### hashing
 
@@ -63,6 +65,12 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 3A | [Shortest path of the king](https://codeforces.com/contest/3/problem/A) | 1000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/3/A%20-%20Shortest%20path%20of%20the%20king/solution.txt) |
+
+### sortings
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 3B | [Lorry](https://codeforces.com/contest/3/problem/B) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/3/B%20-%20Lorry/solution.txt) |
 
 ---
 
