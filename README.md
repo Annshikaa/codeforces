@@ -6,13 +6,14 @@
 
 | Total Problems | Topics |
 |---|---|
-| 2 | 4 |
+| 3 | 5 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [dp](#dp) (1)
+- [geometry](#geometry) (1)
 - [hashing](#hashing) (1)
 - [implementation](#implementation) (1)
 - [math](#math) (1)
@@ -24,6 +25,12 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 2B | [The least round way](https://codeforces.com/contest/2/problem/B) | 2000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/2/B%20-%20The%20least%20round%20way/solution.txt) |
+
+### geometry
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2C | [Commentator problem](https://codeforces.com/contest/2/problem/C) | 2600 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/2/C%20-%20Commentator%20problem/solution.txt) |
 
 ### hashing
 
