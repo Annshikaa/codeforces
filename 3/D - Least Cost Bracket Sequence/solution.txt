@@ -1,0 +1,58 @@
+import sys
+import heapq
+ 
+def solve():
+    
+    input_data = sys.stdin.read().split()
+    if not input_data:
+        return
+ 
+    s = list(input_data[0])
+    n = len(s)
+    
+    
+    costs = []
+    idx = 1
+    for i in range(n):
+        if s[i] == '?':
+            costs.append((int(input_data[idx]), int(input_data[idx+1])))
+            idx += 2
+ 
+    min_heap = []
+    total_cost = 0
+    balance = 0
+    q_index = 0  
+ 
+    for i in range(n):
+        if s[i] == '(':
+            balance += 1
+        elif s[i] == ')':
+            balance -= 1
+        else:  
+            a, b = costs[q_index]
+            q_index += 1
+            
+            
+            s[i] = ')'
+            balance -= 1
+            total_cost += b
+            
+            heapq.heappush(min_heap, (a - b, i))
+        if balance < 0:
+            if not min_heap:
+                print("-1")
+                return
+            
+            diff, flip_idx = heapq.heappop(min_heap)
+            s[flip_idx] = '('
+            balance += 2
+            total_cost += diff
+ 
+    if balance == 0:
+        print(total_cost)
+        print("".join(s))
+    else:
+        print("-1")
+ 
+if __name__ == '__main__':
+    solve()
