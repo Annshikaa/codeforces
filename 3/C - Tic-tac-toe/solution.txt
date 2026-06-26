@@ -1,0 +1,65 @@
+import sys
+ 
+def solve():
+    # Read all 3 lines from standard input
+    board = [sys.stdin.readline().strip() for _ in range(3)]
+    
+    # Flatten the board into a single string to count frequencies easily
+    flat_board = "".join(board)
+    count_x = flat_board.count('X')
+    count_0 = flat_board.count('0')
+    
+    # Rule 1: 'X' always goes first.
+    if not (count_x == count_0 or count_x == count_0 + 1):
+        print("illegal")
+        return
+ 
+    # Helper function to evaluate if a specific player has achieved a line
+    def check_win(player):
+        # Check all rows
+        for i in range(3):
+            if board[i][0] == player and board[i][1] == player and board[i][2] == player:
+                return True
+        # Check all columns
+        for j in range(3):
+            if board[0][j] == player and board[1][j] == player and board[2][j] == player:
+                return True
+        # Check both diagonals
+        if board[0][0] == player and board[1][1] == player and board[2][2] == player:
+            return True
+        if board[0][2] == player and board[1][1] == player and board[2][0] == player:
+            return True
+        return False
+ 
+    x_won = check_win('X')
+    o_won = check_win('0')
+ 
+    # Rule 2: Both players cannot have a winning line simultaneously
+    if x_won and o_won:
+        print("illegal")
+        return
+        
+    # Rule 3: If X won, it must have been X's turn that ended the game
+    if x_won and count_x != count_0 + 1:
+        print("illegal")
+        return
+        
+    # Rule 4: If 0 won, it must have been 0's turn that ended the game
+    if o_won and count_x != count_0:
+        print("illegal")
+        return
+ 
+    # --- Output Determination ---
+    if x_won:
+        print("the first player won")
+    elif o_won:
+        print("the second player won")
+    elif count_x + count_0 == 9:
+        print("draw")
+    elif count_x == count_0:
+        print("first")
+    else:
+        print("second")
+ 
+if __name__ == '__main__':
+    solve()
