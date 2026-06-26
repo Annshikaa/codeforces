@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 6 | 10 |
+| 7 | 10 |
 
 ---
 
@@ -16,7 +16,7 @@
 - [dp](#dp) (1)
 - [games](#games) (1)
 - [geometry](#geometry) (1)
-- [greedy](#greedy) (2)
+- [greedy](#greedy) (3)
 - [hashing](#hashing) (1)
 - [implementation](#implementation) (2)
 - [math](#math) (1)
@@ -55,6 +55,7 @@
 |---|---------|------------|----------|
 | 3A | [Shortest path of the king](https://codeforces.com/contest/3/problem/A) | 1000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/3/A%20-%20Shortest%20path%20of%20the%20king/solution.txt) |
 | 3B | [Lorry](https://codeforces.com/contest/3/problem/B) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/3/B%20-%20Lorry/solution.txt) |
+| 3D | [Least Cost Bracket Sequence](https://codeforces.com/contest/3/problem/D) | 2600 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/3/D%20-%20Least%20Cost%20Bracket%20Sequence/solution.txt) |
 
 ### hashing
 
