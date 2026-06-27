@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 8 | 10 |
+| 9 | 10 |
 
 ---
 
@@ -18,8 +18,8 @@
 - [geometry](#geometry) (1)
 - [greedy](#greedy) (3)
 - [hashing](#hashing) (1)
-- [implementation](#implementation) (2)
-- [math](#math) (2)
+- [implementation](#implementation) (3)
+- [math](#math) (3)
 - [shortest paths](#shortest-paths) (1)
 - [sortings](#sortings) (1)
 
@@ -70,6 +70,7 @@
 |---|---------|------------|----------|
 | 2A | [Winner](https://codeforces.com/contest/2/problem/A) | 1500 | [Python 3](https://github.com/Annshikaa/codeforces/blob/HEAD/2/A%20-%20Winner/solution.py) |
 | 3C | [Tic-tac-toe](https://codeforces.com/contest/3/problem/C) | 1800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/3/C%20-%20Tic-tac-toe/solution.txt) |
+| 2227A | [Koshary](https://codeforces.com/contest/2227/problem/A) | 800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/2227/A%20-%20Koshary/solution.txt) |
 
 ### math
 
@@ -77,6 +78,7 @@
 |---|---------|------------|----------|
 | 2B | [The least round way](https://codeforces.com/contest/2/problem/B) | 2000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/2/B%20-%20The%20least%20round%20way/solution.txt) |
 | 4A | [Watermelon](https://codeforces.com/contest/4/problem/A) | 800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/4/A%20-%20Watermelon/solution.txt) |
+| 2227A | [Koshary](https://codeforces.com/contest/2227/problem/A) | 800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/2227/A%20-%20Koshary/solution.txt) |
 
 ### shortest paths
 
