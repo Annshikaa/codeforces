@@ -1,0 +1,40 @@
+import sys
+ 
+def main():
+    input_data = sys.stdin.read().split()
+    if not input_data:
+        return
+    
+    d = int(input_data[0])
+    sum_time = int(input_data[1])
+    
+    min_time = []
+    max_time = []
+    
+    idx = 2
+    for _ in range(d):
+        min_time.append(int(input_data[idx]))
+        max_time.append(int(input_data[idx+1]))
+        idx += 2
+        
+    min_total = sum(min_time)
+    max_total = sum(max_time)
+    
+    if min_total <= sum_time <= max_total:
+        print("YES")
+        current_schedule = list(min_time)
+        remaining = sum_time - min_total
+        
+        for i in range(d):
+            if remaining <= 0:
+                break
+            add = min(remaining, max_time[i] - min_time[i])
+            current_schedule[i] += add
+            remaining -= add
+            
+        print(*(current_schedule))
+    else:
+        print("NO")
+ 
+if __name__ == '__main__':
+    main()
