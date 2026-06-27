@@ -6,17 +6,18 @@
 
 | Total Problems | Topics |
 |---|---|
-| 9 | 10 |
+| 10 | 11 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [brute force](#brute-force) (2)
+- [constructive algorithms](#constructive-algorithms) (1)
 - [dp](#dp) (1)
 - [games](#games) (1)
 - [geometry](#geometry) (1)
-- [greedy](#greedy) (3)
+- [greedy](#greedy) (4)
 - [hashing](#hashing) (1)
 - [implementation](#implementation) (3)
 - [math](#math) (3)
@@ -31,6 +32,12 @@
 |---|---------|------------|----------|
 | 3C | [Tic-tac-toe](https://codeforces.com/contest/3/problem/C) | 1800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/3/C%20-%20Tic-tac-toe/solution.txt) |
 | 4A | [Watermelon](https://codeforces.com/contest/4/problem/A) | 800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/4/A%20-%20Watermelon/solution.txt) |
+
+### constructive algorithms
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 4B | [Before an Exam](https://codeforces.com/contest/4/problem/B) | 1200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/4/B%20-%20Before%20an%20Exam/solution.txt) |
 
 ### dp
 
@@ -57,6 +64,7 @@
 | 3A | [Shortest path of the king](https://codeforces.com/contest/3/problem/A) | 1000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/3/A%20-%20Shortest%20path%20of%20the%20king/solution.txt) |
 | 3B | [Lorry](https://codeforces.com/contest/3/problem/B) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/3/B%20-%20Lorry/solution.txt) |
 | 3D | [Least Cost Bracket Sequence](https://codeforces.com/contest/3/problem/D) | 2600 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/3/D%20-%20Least%20Cost%20Bracket%20Sequence/solution.txt) |
+| 4B | [Before an Exam](https://codeforces.com/contest/4/problem/B) | 1200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/4/B%20-%20Before%20an%20Exam/solution.txt) |
 
 ### hashing
 
