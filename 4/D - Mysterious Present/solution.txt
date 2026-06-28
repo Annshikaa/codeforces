@@ -1,0 +1,62 @@
+import sys
+ 
+def solve():
+    # Fast I/O
+    input_data = sys.stdin.read().splitlines()
+    if not input_data:
+        return
+    
+    # Read first line: n, w, h
+    first_line = input_data[0].split()
+    n = int(first_line[0])
+    w = int(first_line[1])
+    h = int(first_line[2])
+    
+    envelopes = []
+    # Indexing starts from 1 as per problem requirement
+    for i in range(1, n + 1):
+        wi, hi = map(int, input_data[i].split())
+        # Filter out envelopes that cannot fit the card
+        if wi > w and hi > h:
+            envelopes.append((wi, hi, i))
+            
+    # If no envelopes can fit the card, the chain size is 0
+    if not envelopes:
+        print(0)
+        return
+        
+    # Sort by width ascending; if widths are equal, sort by height descending
+    envelopes.sort(key=lambda x: (x[0], -x[1]))
+    
+    m = len(envelopes)
+    dp = [1] * m
+    parent = [-1] * m
+    
+    # DP for Longest Increasing Subsequence
+    for i in range(m):
+        for j in range(i):
+            if envelopes[i][0] > envelopes[j][0] and envelopes[i][1] > envelopes[j][1]:
+                if dp[j] + 1 > dp[i]:
+                    dp[i] = dp[j] + 1
+                    parent[i] = j
+                    
+    # Find the maximum chain size and its ending position
+    max_len = max(dp)
+    best_idx = dp.index(max_len)
+    
+    # Reconstruct the path
+    path = []
+    curr = best_idx
+    while curr != -1:
+        path.append(envelopes[curr][2]) # original index
+        curr = parent[curr]
+        
+    # Reverse path to start from the smallest envelope
+    path.reverse()
+    
+    # Print results
+    print(max_len)
+    print(*(path))
+ 
+if __name__ == '__main__':
+    solve()
