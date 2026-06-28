@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 11 | 12 |
+| 12 | 12 |
 
 ---
 
@@ -15,7 +15,7 @@
 - [brute force](#brute-force) (2)
 - [constructive algorithms](#constructive-algorithms) (1)
 - [data structures](#data-structures) (1)
-- [dp](#dp) (1)
+- [dp](#dp) (2)
 - [games](#games) (1)
 - [geometry](#geometry) (1)
 - [greedy](#greedy) (4)
@@ -23,7 +23,7 @@
 - [implementation](#implementation) (4)
 - [math](#math) (3)
 - [shortest paths](#shortest-paths) (1)
-- [sortings](#sortings) (1)
+- [sortings](#sortings) (2)
 
 ---
 
@@ -51,6 +51,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 2B | [The least round way](https://codeforces.com/contest/2/problem/B) | 2000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/2/B%20-%20The%20least%20round%20way/solution.txt) |
+| 4D | [Mysterious Present](https://codeforces.com/contest/4/problem/D) | 1700 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/4/D%20-%20Mysterious%20Present/solution.txt) |
 
 ### games
 
@@ -108,6 +109,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 3B | [Lorry](https://codeforces.com/contest/3/problem/B) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/3/B%20-%20Lorry/solution.txt) |
+| 4D | [Mysterious Present](https://codeforces.com/contest/4/problem/D) | 1700 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/4/D%20-%20Mysterious%20Present/solution.txt) |
 
 ---
 
