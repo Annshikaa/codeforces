@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 10 | 11 |
+| 11 | 12 |
 
 ---
 
@@ -14,12 +14,13 @@
 
 - [brute force](#brute-force) (2)
 - [constructive algorithms](#constructive-algorithms) (1)
+- [data structures](#data-structures) (1)
 - [dp](#dp) (1)
 - [games](#games) (1)
 - [geometry](#geometry) (1)
 - [greedy](#greedy) (4)
-- [hashing](#hashing) (1)
-- [implementation](#implementation) (3)
+- [hashing](#hashing) (2)
+- [implementation](#implementation) (4)
 - [math](#math) (3)
 - [shortest paths](#shortest-paths) (1)
 - [sortings](#sortings) (1)
@@ -38,6 +39,12 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 4B | [Before an Exam](https://codeforces.com/contest/4/problem/B) | 1200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/4/B%20-%20Before%20an%20Exam/solution.txt) |
+
+### data structures
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 4C | [Registration System](https://codeforces.com/contest/4/problem/C) | 1300 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/4/C%20-%20Registration%20System/solution.txt) |
 
 ### dp
 
@@ -71,6 +78,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 2A | [Winner](https://codeforces.com/contest/2/problem/A) | 1500 | [Python 3](https://github.com/Annshikaa/codeforces/blob/HEAD/2/A%20-%20Winner/solution.py) |
+| 4C | [Registration System](https://codeforces.com/contest/4/problem/C) | 1300 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/4/C%20-%20Registration%20System/solution.txt) |
 
 ### implementation
 
@@ -78,6 +86,7 @@
 |---|---------|------------|----------|
 | 2A | [Winner](https://codeforces.com/contest/2/problem/A) | 1500 | [Python 3](https://github.com/Annshikaa/codeforces/blob/HEAD/2/A%20-%20Winner/solution.py) |
 | 3C | [Tic-tac-toe](https://codeforces.com/contest/3/problem/C) | 1800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/3/C%20-%20Tic-tac-toe/solution.txt) |
+| 4C | [Registration System](https://codeforces.com/contest/4/problem/C) | 1300 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/4/C%20-%20Registration%20System/solution.txt) |
 | 2227A | [Koshary](https://codeforces.com/contest/2227/problem/A) | 800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/2227/A%20-%20Koshary/solution.txt) |
 
 ### math
