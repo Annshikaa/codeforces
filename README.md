@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 13 | 12 |
+| 14 | 13 |
 
 ---
 
@@ -20,10 +20,11 @@
 - [geometry](#geometry) (1)
 - [greedy](#greedy) (4)
 - [hashing](#hashing) (2)
-- [implementation](#implementation) (5)
+- [implementation](#implementation) (6)
 - [math](#math) (3)
 - [shortest paths](#shortest-paths) (1)
 - [sortings](#sortings) (2)
+- [strings](#strings) (1)
 
 ---
 
@@ -89,6 +90,7 @@
 | 3C | [Tic-tac-toe](https://codeforces.com/contest/3/problem/C) | 1800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/3/C%20-%20Tic-tac-toe/solution.txt) |
 | 4C | [Registration System](https://codeforces.com/contest/4/problem/C) | 1300 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/4/C%20-%20Registration%20System/solution.txt) |
 | 5A | [Chat Servers Outgoing Traffic](https://codeforces.com/contest/5/problem/A) | 1000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/5/A%20-%20Chat%20Servers%20Outgoing%20Traffic/solution.txt) |
+| 5B | [Center Alignment](https://codeforces.com/contest/5/problem/B) | 1200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/5/B%20-%20Center%20Alignment/solution.txt) |
 | 2227A | [Koshary](https://codeforces.com/contest/2227/problem/A) | 800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/2227/A%20-%20Koshary/solution.txt) |
 
 ### math
@@ -111,6 +113,12 @@
 |---|---------|------------|----------|
 | 3B | [Lorry](https://codeforces.com/contest/3/problem/B) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/3/B%20-%20Lorry/solution.txt) |
 | 4D | [Mysterious Present](https://codeforces.com/contest/4/problem/D) | 1700 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/4/D%20-%20Mysterious%20Present/solution.txt) |
+
+### strings
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 5B | [Center Alignment](https://codeforces.com/contest/5/problem/B) | 1200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/5/B%20-%20Center%20Alignment/solution.txt) |
 
 ---
 
