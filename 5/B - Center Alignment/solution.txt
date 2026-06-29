@@ -1,0 +1,43 @@
+import sys
+ 
+def main():
+    # Read all lines from standard input
+    lines = sys.stdin.read().splitlines()
+    
+    if not lines:
+        return
+ 
+    # Find the maximum line length to determine the inner frame width
+    max_width = max(len(line) for line in lines)
+    
+    # The top and bottom borders consist of max_width + 2 asterisks
+    border = '*' * (max_width + 2)
+    print(border)
+    
+    # Flag to alternate rounding behavior when the padding difference is odd
+    # True means we give the extra space to the right (shifting text left)
+    left_shift = True
+    
+    for line in lines:
+        total_spaces = max_width - len(line)
+        
+        if total_spaces % 2 == 0:
+            left_spaces = total_spaces // 2
+            right_spaces = total_spaces // 2
+        else:
+            if left_shift:
+                left_spaces = total_spaces // 2
+                right_spaces = left_spaces + 1
+            else:
+                right_spaces = total_spaces // 2
+                left_spaces = right_spaces + 1
+            # Alternate the flag for the next odd-space line
+            left_shift = not left_shift
+            
+        # Construct and print the framed line
+        print(f"*{' ' * left_spaces}{line}{' ' * right_spaces}*")
+        
+    print(border)
+ 
+if __name__ == '__main__':
+    main()
