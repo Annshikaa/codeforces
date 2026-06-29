@@ -6,25 +6,25 @@
 
 | Total Problems | Topics |
 |---|---|
-| 14 | 13 |
+| 15 | 13 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [brute force](#brute-force) (2)
-- [constructive algorithms](#constructive-algorithms) (1)
-- [data structures](#data-structures) (1)
-- [dp](#dp) (2)
+- [constructive algorithms](#constructive-algorithms) (2)
+- [data structures](#data-structures) (2)
+- [dp](#dp) (3)
 - [games](#games) (1)
 - [geometry](#geometry) (1)
-- [greedy](#greedy) (4)
+- [greedy](#greedy) (5)
 - [hashing](#hashing) (2)
 - [implementation](#implementation) (6)
 - [math](#math) (3)
 - [shortest paths](#shortest-paths) (1)
-- [sortings](#sortings) (2)
-- [strings](#strings) (1)
+- [sortings](#sortings) (3)
+- [strings](#strings) (2)
 
 ---
 
@@ -40,12 +40,14 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 4B | [Before an Exam](https://codeforces.com/contest/4/problem/B) | 1200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/4/B%20-%20Before%20an%20Exam/solution.txt) |
+| 5C | [Longest Regular Bracket Sequence](https://codeforces.com/contest/5/problem/C) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/5/C%20-%20Longest%20Regular%20Bracket%20Sequence/solution.txt) |
 
 ### data structures
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 4C | [Registration System](https://codeforces.com/contest/4/problem/C) | 1300 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/4/C%20-%20Registration%20System/solution.txt) |
+| 5C | [Longest Regular Bracket Sequence](https://codeforces.com/contest/5/problem/C) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/5/C%20-%20Longest%20Regular%20Bracket%20Sequence/solution.txt) |
 
 ### dp
 
@@ -53,6 +55,7 @@
 |---|---------|------------|----------|
 | 2B | [The least round way](https://codeforces.com/contest/2/problem/B) | 2000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/2/B%20-%20The%20least%20round%20way/solution.txt) |
 | 4D | [Mysterious Present](https://codeforces.com/contest/4/problem/D) | 1700 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/4/D%20-%20Mysterious%20Present/solution.txt) |
+| 5C | [Longest Regular Bracket Sequence](https://codeforces.com/contest/5/problem/C) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/5/C%20-%20Longest%20Regular%20Bracket%20Sequence/solution.txt) |
 
 ### games
 
@@ -74,6 +77,7 @@
 | 3B | [Lorry](https://codeforces.com/contest/3/problem/B) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/3/B%20-%20Lorry/solution.txt) |
 | 3D | [Least Cost Bracket Sequence](https://codeforces.com/contest/3/problem/D) | 2600 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/3/D%20-%20Least%20Cost%20Bracket%20Sequence/solution.txt) |
 | 4B | [Before an Exam](https://codeforces.com/contest/4/problem/B) | 1200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/4/B%20-%20Before%20an%20Exam/solution.txt) |
+| 5C | [Longest Regular Bracket Sequence](https://codeforces.com/contest/5/problem/C) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/5/C%20-%20Longest%20Regular%20Bracket%20Sequence/solution.txt) |
 
 ### hashing
 
@@ -113,12 +117,14 @@
 |---|---------|------------|----------|
 | 3B | [Lorry](https://codeforces.com/contest/3/problem/B) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/3/B%20-%20Lorry/solution.txt) |
 | 4D | [Mysterious Present](https://codeforces.com/contest/4/problem/D) | 1700 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/4/D%20-%20Mysterious%20Present/solution.txt) |
+| 5C | [Longest Regular Bracket Sequence](https://codeforces.com/contest/5/problem/C) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/5/C%20-%20Longest%20Regular%20Bracket%20Sequence/solution.txt) |
 
 ### strings
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 5B | [Center Alignment](https://codeforces.com/contest/5/problem/B) | 1200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/5/B%20-%20Center%20Alignment/solution.txt) |
+| 5C | [Longest Regular Bracket Sequence](https://codeforces.com/contest/5/problem/C) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/5/C%20-%20Longest%20Regular%20Bracket%20Sequence/solution.txt) |
 
 ---
 
