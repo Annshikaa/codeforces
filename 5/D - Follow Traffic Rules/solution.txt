@@ -1,0 +1,84 @@
+import sys
+import math
+ 
+def solve_segment(d, v_start, v_end, v_max, a):
+    """
+    Calculates the minimum time to cover distance `d` starting at speed `v_start`
+    and ending at speed `v_end`, given a maximum speed cap `v_max` and acceleration `a`.
+    """
+    # Distance required to just accelerate to v_max and decelerate to v_end
+    # (assuming no flat peak cruising phase)
+    # v_peak^2 = (2 * a * d + v_start^2 + v_end^2) / 2
+    v_peak_sq = (2 * a * d + v_start**2 + v_end**2) / 2.0
+    
+    if v_peak_sq <= v_max**2:
+        # Peak speed fits within the speed limit
+        v_peak = math.sqrt(v_peak_sq)
+        t1 = (v_peak - v_start) / a
+        t2 = (v_peak - v_end) / a
+        return t1 + t2
+    else:
+        # Peak speed exceeds v_max, so we cruise at v_max
+        t_acc = (v_max - v_start) / a
+        s_acc = (v_max**2 - v_start**2) / (2.0 * a)
+        
+        t_dec = (v_max - v_end) / a
+        s_dec = (v_max**2 - v_end**2) / (2.0 * a)
+        
+        s_cruise = d - (s_acc + s_dec)
+        t_cruise = s_cruise / v_max
+        
+        return t_acc + t_cruise + t_dec
+ 
+def main():
+    input_data = sys.stdin.read().split()
+    if not input_data:
+        return
+        
+    a = float(input_data[0])
+    v = float(input_data[1])
+    l = float(input_data[2])
+    d = float(input_data[3])
+    w = float(input_data[4])
+    
+    # Part 1: Segment from 0 to d
+    # If the limit at d is larger than top speed, it doesn't restrict us.
+    if w >= v:
+        # Check if we reach top speed v within distance d
+        s_to_v = (v**2) / (2.0 * a)
+        if s_to_v <= d:
+            t1 = v / a + (d - s_to_v) / v
+            v_at_d = v
+        else:
+            t1 = math.sqrt(2.0 * d / a)
+            v_at_d = a * t1
+    else:
+        # Speed limit w < v is a restriction.
+        # Check if we even reach w if we accelerate continuously for distance d
+        s_to_w = (w**2) / (2.0 * a)
+        if s_to_w >= d:
+            # We can't even hit w, so just accelerate the whole way
+            t1 = math.sqrt(2.0 * d / a)
+            v_at_d = a * t1
+        else:
+            # We can reach w, so we apply the optimal accelerate-cruise-decelerate strategy
+            t1 = solve_segment(d, 0.0, w, v, a)
+            v_at_d = w
+            
+    # Part 2: Segment from d to l
+    rem_d = l - d
+    # Check if we can reach top speed v from v_at_d within the remaining distance
+    s_to_max = (v**2 - v_at_d**2) / (2.0 * a)
+    if s_to_max <= rem_d:
+        t2 = (v - v_at_d) / a + (rem_d - s_to_max) / v
+    else:
+        # Otherwise, we just accelerate full throttle until the finish line
+        # v_final^2 = v_at_d^2 + 2 * a * rem_d
+        v_final = math.sqrt(v_at_d**2 + 2.0 * a * rem_d)
+        t2 = (v_final - v_at_d) / a
+        
+    total_time = t1 + t2
+    print(f"{total_time:.12f}")
+ 
+if __name__ == '__main__':
+    main()
