@@ -1,0 +1,35 @@
+import sys
+ 
+def main():
+    # Read all lines from standard input until EOF
+    lines = sys.stdin.read().splitlines()
+    
+    current_participants = 0
+    total_traffic = 0
+    
+    for line in lines:
+        if not line:
+            continue
+        
+        # 'Add' command
+        if line.startswith('+'):
+            current_participants += 1
+            
+        # 'Remove' command
+        elif line.startswith('-'):
+            current_participants -= 1
+            
+        # 'Send' command
+        else:
+            # Find the position of the first ':' to extract the message text
+            colon_index = line.find(':')
+            message_text = line[colon_index + 1:]
+            
+            # Traffic generated = message length * number of current participants
+            total_traffic += len(message_text) * current_participants
+            
+    # Output the total accumulated traffic
+    print(total_traffic)
+ 
+if __name__ == '__main__':
+    main()
