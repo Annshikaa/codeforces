@@ -1,0 +1,43 @@
+import sys
+ 
+def main():
+    # Read the input string
+    s = sys.stdin.read().strip()
+    if not s:
+        print("0 1")
+        return
+ 
+    n = len(s)
+    stack = []
+    dp = [0] * n  # dp[i] stores the length of the longest RBS ending at index i
+    
+    max_len = 0
+    count = 1  # Base case: if no valid substring is found, output "0 1"
+ 
+    for i in range(n):
+        if s[i] == '(':
+            stack.append(i)
+        elif s[i] == ')' and stack:
+            # Found a matching pair
+            open_idx = stack.pop()
+            
+            # Length of the current valid pair
+            current_len = i - open_idx + 1
+            
+            # Chain with any valid sequence that ended right before the opening bracket
+            if open_idx > 0:
+                current_len += dp[open_idx - 1]
+                
+            dp[i] = current_len
+            
+            # Update global maximum and frequencies
+            if current_len > max_len:
+                max_len = current_len
+                count = 1
+            elif current_len == max_len and max_len > 0:
+                count += 1
+ 
+    print(f"{max_len} {count}")
+ 
+if __name__ == '__main__':
+    main()
