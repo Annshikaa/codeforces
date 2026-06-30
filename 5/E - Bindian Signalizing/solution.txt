@@ -1,0 +1,54 @@
+import sys
+ 
+def main():
+    # Fast I/O
+    input_data = sys.stdin.read().split()
+    if not input_data:
+        return
+    
+    n = int(input_data[0])
+    heights = [int(x) for x in input_data[1:n+1]]
+    
+    # Step 1: Find the maximum value and shift the array to start at it
+    max_val = max(heights)
+    max_idx = heights.index(max_val)
+    a = heights[max_idx:] + heights[:max_idx]
+    
+    ans = 0
+    stack = []  # Elements stored as list: [height, count]
+    
+    # Step 2: Linear sweep with a decreasing monotonic stack
+    for x in a:
+        while stack and stack[-1][0] < x:
+            ans += stack.pop()[1]
+            
+        if stack and stack[-1][0] == x:
+            ans += stack[-1][1]
+            if len(stack) > 1:
+                ans += 1
+            stack[-1][1] += 1
+        else:
+            if stack:
+                ans += 1
+            stack.append([x, 1])
+            
+    # Step 3: Precise wrap-around circular processing for elements remaining in the stack
+    if len(stack) > 1:
+        # stack[0] contains the global maximum elements.
+        
+        # For stack[1]: its left neighbor is the first max element (stack[0]). 
+        # Its right neighbor wraps around to the max element group too. 
+        # It can only see a *distinct* second max element if the total max count > 1.
+        if stack[0][1] > 1:
+            ans += stack[1][1]
+            
+        # For stack[2:]: their left neighbor is stack[i-1] (which is strictly less than max_val)
+        # and their right neighbor wraps around to the first max_val in stack[0].
+        # Since these two neighbors are completely distinct, they get exactly +1 connection.
+        for i in range(2, len(stack)):
+            ans += stack[i][1]
+            
+    print(ans)
+ 
+if __name__ == '__main__':
+    main()
