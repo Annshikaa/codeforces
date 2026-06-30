@@ -1,0 +1,25 @@
+import sys
+ 
+def main():
+    # Read the four stick lengths
+    input_data = sys.stdin.read().split()
+    if not input_data:
+        return
+        
+    sticks = [int(x) for x in input_data]
+    
+    # Sort the lengths to simplify triangle inequality checks
+    sticks.sort()
+    a, b, c, d = sticks
+    
+    # Check for a non-degenerate triangle (positive area)
+    if (a + b > c) or (b + c > d):
+        print("TRIANGLE")
+    # Check for a degenerate triangle (straight line segment)
+    elif (a + b == c) or (b + c == d):
+        print("SEGMENT")
+    else:
+        print("IMPOSSIBLE")
+ 
+if __name__ == '__main__':
+    main()
