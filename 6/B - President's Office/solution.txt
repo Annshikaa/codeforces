@@ -1,0 +1,41 @@
+import sys
+ 
+def main():
+    # Read all inputs from standard input
+    input_data = sys.stdin.read().split()
+    if not input_data:
+        return
+    
+    n = int(input_data[0])
+    m = int(input_data[1])
+    pres_color = input_data[2]
+    
+    # Construct the grid matrix
+    grid = input_data[3:]
+    
+    deputies = set()
+    
+    # Direction vectors for Up, Down, Left, Right neighbors
+    dr = [-1, 1, 0, 0]
+    dc = [0, 0, -1, 1]
+    
+    # Traverse the grid to inspect neighbors of the President's desk
+    for r in range(n):
+        for c in range(m):
+            if grid[r][c] == pres_color:
+                # Check all 4 adjacent sides
+                for i in range(4):
+                    nr, nc = r + dr[i], c + dc[i]
+                    
+                    # Ensure neighbor coordinates are within the valid matrix boundaries
+                    if 0 <= nr < n and 0 <= nc < m:
+                        neighbor_char = grid[nr][nc]
+                        # If it is a valid desk and not the president's own desk
+                        if neighbor_char != '.' and neighbor_char != pres_color:
+                            deputies.add(neighbor_char)
+                            
+    # The size of the set represents the number of unique deputy desks adjacent
+    print(len(deputies))
+ 
+if __name__ == '__main__':
+    main()
