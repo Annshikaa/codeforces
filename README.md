@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 16 | 13 |
+| 17 | 13 |
 
 ---
 
@@ -14,7 +14,7 @@
 
 - [brute force](#brute-force) (2)
 - [constructive algorithms](#constructive-algorithms) (2)
-- [data structures](#data-structures) (2)
+- [data structures](#data-structures) (3)
 - [dp](#dp) (3)
 - [games](#games) (1)
 - [geometry](#geometry) (1)
@@ -48,6 +48,7 @@
 |---|---------|------------|----------|
 | 4C | [Registration System](https://codeforces.com/contest/4/problem/C) | 1300 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/4/C%20-%20Registration%20System/solution.txt) |
 | 5C | [Longest Regular Bracket Sequence](https://codeforces.com/contest/5/problem/C) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/5/C%20-%20Longest%20Regular%20Bracket%20Sequence/solution.txt) |
+| 5E | [Bindian Signalizing](https://codeforces.com/contest/5/problem/E) | 2400 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/5/E%20-%20Bindian%20Signalizing/solution.txt) |
 
 ### dp
 
