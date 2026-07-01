@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 19 | 13 |
+| 20 | 14 |
 
 ---
 
@@ -18,13 +18,14 @@
 - [dp](#dp) (3)
 - [games](#games) (1)
 - [geometry](#geometry) (2)
-- [greedy](#greedy) (5)
+- [greedy](#greedy) (6)
 - [hashing](#hashing) (2)
 - [implementation](#implementation) (8)
 - [math](#math) (4)
 - [shortest paths](#shortest-paths) (1)
 - [sortings](#sortings) (3)
 - [strings](#strings) (2)
+- [two pointers](#two-pointers) (1)
 
 ---
 
@@ -81,6 +82,7 @@
 | 3D | [Least Cost Bracket Sequence](https://codeforces.com/contest/3/problem/D) | 2600 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/3/D%20-%20Least%20Cost%20Bracket%20Sequence/solution.txt) |
 | 4B | [Before an Exam](https://codeforces.com/contest/4/problem/B) | 1200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/4/B%20-%20Before%20an%20Exam/solution.txt) |
 | 5C | [Longest Regular Bracket Sequence](https://codeforces.com/contest/5/problem/C) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/5/C%20-%20Longest%20Regular%20Bracket%20Sequence/solution.txt) |
+| 6C | [Alice, Bob and Chocolate](https://codeforces.com/contest/6/problem/C) | 1200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/6/C%20-%20Alice%2C%20Bob%20and%20Chocolate/solution.txt) |
 
 ### hashing
 
@@ -131,6 +133,12 @@
 |---|---------|------------|----------|
 | 5B | [Center Alignment](https://codeforces.com/contest/5/problem/B) | 1200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/5/B%20-%20Center%20Alignment/solution.txt) |
 | 5C | [Longest Regular Bracket Sequence](https://codeforces.com/contest/5/problem/C) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/5/C%20-%20Longest%20Regular%20Bracket%20Sequence/solution.txt) |
+
+### two pointers
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 6C | [Alice, Bob and Chocolate](https://codeforces.com/contest/6/problem/C) | 1200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/6/C%20-%20Alice%2C%20Bob%20and%20Chocolate/solution.txt) |
 
 ---
 
