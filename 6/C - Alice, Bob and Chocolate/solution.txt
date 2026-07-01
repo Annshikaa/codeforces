@@ -1,0 +1,37 @@
+import sys
+ 
+def solve():
+    # Read all input from standard input efficiently
+    input = sys.stdin.read
+    data = input().split()
+    
+    if not data:
+        return
+ 
+    n = int(data[0])
+    t = [int(x) for x in data[1:n+1]]
+    
+    # Two pointers
+    left = 0
+    right = n - 1
+    
+    alice_time = 0
+    bob_time = 0
+    
+    alice_bars = 0
+    bob_bars = 0
+    
+    while left <= right:
+        if alice_time <= bob_time:
+            alice_time += t[left]
+            left += 1
+            alice_bars += 1
+        else:
+            bob_time += t[right]
+            right -= 1
+            bob_bars += 1
+            
+    print(f"{alice_bars} {bob_bars}")
+ 
+if __name__ == '__main__':
+    solve()
