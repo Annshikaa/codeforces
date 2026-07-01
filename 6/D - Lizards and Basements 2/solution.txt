@@ -1,0 +1,78 @@
+import sys
+ 
+def solve():
+    input = sys.stdin.read
+    data = input().split()
+    if not data:
+        return
+    
+    n = int(data[0])
+    a = int(data[1])
+    b = int(data[2])
+    
+    h = [int(x) for x in data[3:3+n]]
+    
+    best_shots = float('inf')
+    best_path = []
+    
+    def dfs(idx, current_shots, path):
+        nonlocal best_shots, best_path
+        
+        # Prune early if we've already exceeded or equaled our best score
+        if current_shots >= best_shots:
+            return
+            
+        # BASE CASE: We are at the very last targetable archer (n-2)
+        if idx == n - 2:
+            # This archer MUST finish off h[idx-1], h[idx], and h[idx+1]
+            needed_for_left = (h[idx-1] // b + 1) if h[idx-1] >= 0 else 0
+            needed_for_mid = (h[idx] // a + 1) if h[idx] >= 0 else 0
+            needed_for_right = (h[idx+1] // b + 1) if h[idx+1] >= 0 else 0
+            
+            req_shots = max(needed_for_left, needed_for_mid, needed_for_right)
+            
+            if current_shots + req_shots < best_shots:
+                best_shots = current_shots + req_shots
+                # Build the final path quickly
+                best_path = list(path) + [idx + 1] * req_shots
+            return
+ 
+        # Regular branching for middle archers
+        min_needed = (h[idx-1] // b + 1) if h[idx-1] >= 0 else 0
+        
+        # Max reasonable shots at this position to clear its own or neighbors' health
+        max_needed = max(
+            min_needed,
+            (h[idx] // a + 1) if h[idx] >= 0 else 0,
+            (h[idx+1] // b + 1) if h[idx+1] >= 0 else 0
+        )
+        
+        for shots in range(min_needed, max_needed + 1):
+            if current_shots + shots >= best_shots:
+                break
+                
+            # Apply damage
+            h[idx-1] -= shots * b
+            h[idx] -= shots * a
+            h[idx+1] -= shots * b
+            
+            for _ in range(shots):
+                path.append(idx + 1)
+                
+            dfs(idx + 1, current_shots + shots, path)
+            
+            # Backtrack
+            for _ in range(shots):
+                path.pop()
+            h[idx-1] += shots * b
+            h[idx] += shots * a
+            h[idx+1] += shots * b
+ 
+    # Start targeting from index 1 (the second archer)
+    dfs(1, 0, [])
+    
+    print(best_shots)
+    print(*(best_path))
+ 
+if __name__ == '__main__':
+    solve()
