@@ -6,16 +6,16 @@
 
 | Total Problems | Topics |
 |---|---|
-| 20 | 14 |
+| 21 | 14 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [brute force](#brute-force) (3)
+- [brute force](#brute-force) (4)
 - [constructive algorithms](#constructive-algorithms) (2)
 - [data structures](#data-structures) (3)
-- [dp](#dp) (3)
+- [dp](#dp) (4)
 - [games](#games) (1)
 - [geometry](#geometry) (2)
 - [greedy](#greedy) (6)
@@ -36,6 +36,7 @@
 | 3C | [Tic-tac-toe](https://codeforces.com/contest/3/problem/C) | 1800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/3/C%20-%20Tic-tac-toe/solution.txt) |
 | 4A | [Watermelon](https://codeforces.com/contest/4/problem/A) | 800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/4/A%20-%20Watermelon/solution.txt) |
 | 6A | [Triangle](https://codeforces.com/contest/6/problem/A) | 900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/6/A%20-%20Triangle/solution.txt) |
+| 6D | [Lizards and Basements 2](https://codeforces.com/contest/6/problem/D) | 2600 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/6/D%20-%20Lizards%20and%20Basements%202/solution.txt) |
 
 ### constructive algorithms
 
@@ -59,6 +60,7 @@
 | 2B | [The least round way](https://codeforces.com/contest/2/problem/B) | 2000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/2/B%20-%20The%20least%20round%20way/solution.txt) |
 | 4D | [Mysterious Present](https://codeforces.com/contest/4/problem/D) | 1700 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/4/D%20-%20Mysterious%20Present/solution.txt) |
 | 5C | [Longest Regular Bracket Sequence](https://codeforces.com/contest/5/problem/C) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/5/C%20-%20Longest%20Regular%20Bracket%20Sequence/solution.txt) |
+| 6D | [Lizards and Basements 2](https://codeforces.com/contest/6/problem/D) | 2600 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/6/D%20-%20Lizards%20and%20Basements%202/solution.txt) |
 
 ### games
 
