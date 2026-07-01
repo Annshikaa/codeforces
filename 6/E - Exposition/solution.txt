@@ -1,0 +1,38 @@
+from collections import deque
+ 
+n, k = map(int, input().split())
+h = list(map(int, input().split()))
+ 
+min_d = deque()
+max_d = deque()
+ 
+left = 0
+best = 0
+ans = []
+ 
+for right in range(n):
+    while min_d and h[min_d[-1]] >= h[right]:
+        min_d.pop()
+    min_d.append(right)
+ 
+    while max_d and h[max_d[-1]] <= h[right]:
+        max_d.pop()
+    max_d.append(right)
+ 
+    while h[max_d[0]] - h[min_d[0]] > k:
+        if min_d[0] == left:
+            min_d.popleft()
+        if max_d[0] == left:
+            max_d.popleft()
+        left += 1
+ 
+    length = right - left + 1
+    if length > best:
+        best = length
+        ans = [(left + 1, right + 1)]  # 1-based indexing
+    elif length == best:
+        ans.append((left + 1, right + 1))
+ 
+print(best, len(ans))
+for l, r in ans:
+    print(l, r)
