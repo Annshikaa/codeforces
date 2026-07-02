@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 25 | 18 |
+| 26 | 18 |
 
 ---
 
@@ -21,13 +21,13 @@
 - [games](#games) (1)
 - [geometry](#geometry) (2)
 - [greedy](#greedy) (6)
-- [hashing](#hashing) (2)
+- [hashing](#hashing) (3)
 - [implementation](#implementation) (9)
 - [math](#math) (5)
 - [number theory](#number-theory) (1)
 - [shortest paths](#shortest-paths) (1)
 - [sortings](#sortings) (3)
-- [strings](#strings) (2)
+- [strings](#strings) (3)
 - [trees](#trees) (1)
 - [two pointers](#two-pointers) (2)
 
@@ -111,6 +111,7 @@
 |---|---------|------------|----------|
 | 2A | [Winner](https://codeforces.com/contest/2/problem/A) | 1500 | [Python 3](https://github.com/Annshikaa/codeforces/blob/HEAD/2/A%20-%20Winner/solution.py) |
 | 4C | [Registration System](https://codeforces.com/contest/4/problem/C) | 1300 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/4/C%20-%20Registration%20System/solution.txt) |
+| 7D | [Palindrome Degree](https://codeforces.com/contest/7/problem/D) | 2200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/7/D%20-%20Palindrome%20Degree/solution.txt) |
 
 ### implementation
 
@@ -162,6 +163,7 @@
 |---|---------|------------|----------|
 | 5B | [Center Alignment](https://codeforces.com/contest/5/problem/B) | 1200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/5/B%20-%20Center%20Alignment/solution.txt) |
 | 5C | [Longest Regular Bracket Sequence](https://codeforces.com/contest/5/problem/C) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/5/C%20-%20Longest%20Regular%20Bracket%20Sequence/solution.txt) |
+| 7D | [Palindrome Degree](https://codeforces.com/contest/7/problem/D) | 2200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/7/D%20-%20Palindrome%20Degree/solution.txt) |
 
 ### trees
 
