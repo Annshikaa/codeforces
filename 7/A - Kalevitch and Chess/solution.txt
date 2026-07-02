@@ -1,0 +1,24 @@
+import sys
+ 
+def main():
+    # Read the 8x8 chessboard from standard input
+    board = [sys.stdin.readline().strip() for _ in range(8)]
+    
+    # Case 1: If the entire board is black, it takes exactly 8 strokes
+    if all(row == 'BBBBBBBB' for row in board):
+        print(8)
+        return
+        
+    # Case 2: Count fully black rows and fully black columns
+    row_count = sum(1 for row in board if row == 'BBBBBBBB')
+    
+    col_count = 0
+    for j in range(8):
+        if all(board[i][j] == 'B' for i in range(8)):
+            col_count += 1
+            
+    # The minimum strokes is the sum of independent row and column operations
+    print(row_count + col_count)
+ 
+if __name__ == '__main__':
+    main()
