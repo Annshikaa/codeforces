@@ -1,0 +1,39 @@
+import sys
+ 
+def ext_gcd(a, b):
+    """
+    Extended Euclidean Algorithm.
+    Returns (gcd, x, y) such that a*x + b*y = gcd
+    """
+    if b == 0:
+        return a, 1, 0
+    gcd, x1, y1 = ext_gcd(b, a % b)
+    x = y1
+    y = x1 - (a // b) * y1
+    return gcd, x, y
+ 
+def main():
+    # Read input coefficients A, B, C
+    input_data = sys.stdin.read().split()
+    if not input_data:
+        return
+        
+    A = int(input_data[0])
+    B = int(input_data[1])
+    C = int(input_data[2])
+    
+    # Solve A*x + B*y = gcd(A, B)
+    g, x0, y0 = ext_gcd(A, B)
+    
+    # A solution to A*x + B*y = -C exists if and only if gcd(A, B) divides -C
+    if (-C) % g != 0:
+        print(-1)
+    else:
+        # Scale the base solution
+        factor = (-C) // g
+        x = x0 * factor
+        y = y0 * factor
+        print(f"{x} {y}")
+ 
+if __name__ == '__main__':
+    main()
