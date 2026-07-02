@@ -1,0 +1,62 @@
+import sys
+ 
+def main():
+    # Read t (operations) and m (memory size)
+    input_data = sys.stdin.read().splitlines()
+    if not input_data:
+        return
+        
+    t, m = map(int, input_data[0].split())
+    
+    # Represent memory as a list of size m (0 means free space)
+    memory = [0] * m
+    alloc_id = 1  # Track the next available unique identifier
+    
+    for i in range(1, t + 1):
+        parts = input_data[i].split()
+        cmd = parts[0]
+        
+        if cmd == "alloc":
+            n = int(parts[1])
+            allocated = False
+            
+            # Find the first consecutive block of n free bytes (0)
+            consecutive_free = 0
+            for j in range(m):
+                if memory[j] == 0:
+                    consecutive_free += 1
+                else:
+                    consecutive_free = 0
+                
+                if consecutive_free == n:
+                    # Found a suitable block; mark it with alloc_id
+                    start_idx = j - n + 1
+                    for k in range(start_idx, j + 1):
+                        memory[k] = alloc_id
+                    print(alloc_id)
+                    alloc_id += 1
+                    allocated = True
+                    break
+            
+            if not allocated:
+                print("NULL")
+                
+        elif cmd == "erase":
+            x = int(parts[1])
+            # x must be a valid ID (> 0) and must currently exist in memory
+            if x <= 0 or x not in memory:
+                print("ILLEGAL_ERASE_ARGUMENT")
+            else:
+                # Free the block by replacing its ID with 0
+                for j in range(m):
+                    if memory[j] == x:
+                        memory[j] = 0
+                        
+        elif cmd == "defragment":
+            # Filter out all occupied slots
+            occupied_slots = [byte for byte in memory if byte != 0]
+            # Pad the remaining space with 0s
+            memory = occupied_slots + [0] * (m - len(occupied_slots))
+ 
+if __name__ == '__main__':
+    main()
