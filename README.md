@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 24 | 17 |
+| 25 | 18 |
 
 ---
 
@@ -23,7 +23,8 @@
 - [greedy](#greedy) (6)
 - [hashing](#hashing) (2)
 - [implementation](#implementation) (9)
-- [math](#math) (4)
+- [math](#math) (5)
+- [number theory](#number-theory) (1)
 - [shortest paths](#shortest-paths) (1)
 - [sortings](#sortings) (3)
 - [strings](#strings) (2)
@@ -132,7 +133,14 @@
 | 2B | [The least round way](https://codeforces.com/contest/2/problem/B) | 2000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/2/B%20-%20The%20least%20round%20way/solution.txt) |
 | 4A | [Watermelon](https://codeforces.com/contest/4/problem/A) | 800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/4/A%20-%20Watermelon/solution.txt) |
 | 5D | [Follow Traffic Rules](https://codeforces.com/contest/5/problem/D) | 2100 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/5/D%20-%20Follow%20Traffic%20Rules/solution.txt) |
+| 7C | [Line](https://codeforces.com/contest/7/problem/C) | 1800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/7/C%20-%20Line/solution.txt) |
 | 2227A | [Koshary](https://codeforces.com/contest/2227/problem/A) | 800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/2227/A%20-%20Koshary/solution.txt) |
+
+### number theory
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 7C | [Line](https://codeforces.com/contest/7/problem/C) | 1800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/7/C%20-%20Line/solution.txt) |
 
 ### shortest paths
 
