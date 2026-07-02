@@ -1,0 +1,41 @@
+import sys
+ 
+def main():
+    # Read the input string efficiently
+    s = sys.stdin.readline().strip()
+    if not s:
+        return
+ 
+    n = len(s)
+    
+    # Hash parameters
+    base = 131
+    mod = 1000000007
+    
+    forward_hash = 0
+    backward_hash = 0
+    power = 1
+    
+    # dp[i] stores the palindrome degree of the prefix of length i
+    dp = [0] * (n + 1)
+    total_degree_sum = 0
+    
+    for i in range(1, n + 1):
+        char_val = ord(s[i - 1])
+        
+        # Update forward and backward hashes
+        forward_hash = (forward_hash * base + char_val) % mod
+        backward_hash = (backward_hash + char_val * power) % mod
+        power = (power * base) % mod
+        
+        # If the prefix is a palindrome, its degree depends on its half-length prefix
+        if forward_hash == backward_hash:
+            dp[i] = dp[i // 2] + 1
+            total_degree_sum += dp[i]
+        else:
+            dp[i] = 0
+ 
+    print(total_degree_sum)
+ 
+if __name__ == '__main__':
+    main()
