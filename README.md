@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 23 | 17 |
+| 24 | 17 |
 
 ---
 
@@ -22,7 +22,7 @@
 - [geometry](#geometry) (2)
 - [greedy](#greedy) (6)
 - [hashing](#hashing) (2)
-- [implementation](#implementation) (8)
+- [implementation](#implementation) (9)
 - [math](#math) (4)
 - [shortest paths](#shortest-paths) (1)
 - [sortings](#sortings) (3)
@@ -122,6 +122,7 @@
 | 5B | [Center Alignment](https://codeforces.com/contest/5/problem/B) | 1200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/5/B%20-%20Center%20Alignment/solution.txt) |
 | 5D | [Follow Traffic Rules](https://codeforces.com/contest/5/problem/D) | 2100 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/5/D%20-%20Follow%20Traffic%20Rules/solution.txt) |
 | 6B | [President's Office](https://codeforces.com/contest/6/problem/B) | 1100 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/6/B%20-%20President's%20Office/solution.txt) |
+| 7B | [Memory Manager](https://codeforces.com/contest/7/problem/B) | 1600 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/7/B%20-%20Memory%20Manager/solution.txt) |
 | 2227A | [Koshary](https://codeforces.com/contest/2227/problem/A) | 800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/2227/A%20-%20Koshary/solution.txt) |
 
 ### math
