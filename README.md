@@ -6,17 +6,18 @@
 
 | Total Problems | Topics |
 |---|---|
-| 28 | 19 |
+| 29 | 20 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [binary search](#binary-search) (1)
+- [bitmasks](#bitmasks) (1)
 - [brute force](#brute-force) (5)
 - [constructive algorithms](#constructive-algorithms) (4)
 - [data structures](#data-structures) (4)
-- [dp](#dp) (4)
+- [dp](#dp) (5)
 - [dsu](#dsu) (1)
 - [games](#games) (1)
 - [geometry](#geometry) (2)
@@ -39,6 +40,12 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 6E | [Exposition](https://codeforces.com/contest/6/problem/E) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/6/E%20-%20Exposition/solution.txt) |
+
+### bitmasks
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 8C | [Looking for Order](https://codeforces.com/contest/8/problem/C) | 2000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/8/C%20-%20Looking%20for%20Order/solution.txt) |
 
 ### brute force
 
@@ -76,6 +83,7 @@
 | 4D | [Mysterious Present](https://codeforces.com/contest/4/problem/D) | 1700 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/4/D%20-%20Mysterious%20Present/solution.txt) |
 | 5C | [Longest Regular Bracket Sequence](https://codeforces.com/contest/5/problem/C) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/5/C%20-%20Longest%20Regular%20Bracket%20Sequence/solution.txt) |
 | 6D | [Lizards and Basements 2](https://codeforces.com/contest/6/problem/D) | 2600 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/6/D%20-%20Lizards%20and%20Basements%202/solution.txt) |
+| 8C | [Looking for Order](https://codeforces.com/contest/8/problem/C) | 2000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/8/C%20-%20Looking%20for%20Order/solution.txt) |
 
 ### dsu
 
