@@ -1,0 +1,53 @@
+import sys
+ 
+def solve():
+    # Read the robot's movements
+    s = sys.stdin.read().strip()
+    if not s:
+        return
+        
+    # Mapping directions to coordinate changes
+    moves = {
+        'L': (-1, 0),
+        'R': (1, 0),
+        'U': (0, 1),
+        'D': (0, -1)
+    }
+    
+    # Track visited coordinates
+    visited = set()
+    x, y = 0, 0
+    visited.add((x, y))
+    
+    # Adjacent neighbor offsets for checking shortcuts
+    neighbors = [(0, 1), (0, -1), (1, 0), (-1, 0)]
+    
+    for char in s:
+        dx, dy = moves[char]
+        nx, ny = x + dx, y + dy
+        
+        # Rule 1: Cannot revisit a square (self-intersection)
+        if (nx, ny) in visited:
+            print("BUG")
+            return
+            
+        # Rule 2: The new square should only touch exactly ONE visited square
+        # (the one it just came from).
+        touch_count = 0
+        for ndx, ndy in neighbors:
+            if (nx + ndx, ny + ndy) in visited:
+                touch_count += 1
+                
+        if touch_count > 1:
+            print("BUG")
+            return
+            
+        # Move the robot and mark as visited
+        visited.add((nx, ny))
+        x, y = nx, ny
+        
+    # If all moves are valid and no shortcuts exist
+    print("OK")
+ 
+if __name__ == '__main__':
+    solve()
