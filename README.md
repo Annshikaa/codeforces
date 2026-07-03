@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 26 | 18 |
+| 27 | 18 |
 
 ---
 
@@ -27,7 +27,7 @@
 - [number theory](#number-theory) (1)
 - [shortest paths](#shortest-paths) (1)
 - [sortings](#sortings) (3)
-- [strings](#strings) (3)
+- [strings](#strings) (4)
 - [trees](#trees) (1)
 - [two pointers](#two-pointers) (2)
 
@@ -164,6 +164,7 @@
 | 5B | [Center Alignment](https://codeforces.com/contest/5/problem/B) | 1200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/5/B%20-%20Center%20Alignment/solution.txt) |
 | 5C | [Longest Regular Bracket Sequence](https://codeforces.com/contest/5/problem/C) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/5/C%20-%20Longest%20Regular%20Bracket%20Sequence/solution.txt) |
 | 7D | [Palindrome Degree](https://codeforces.com/contest/7/problem/D) | 2200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/7/D%20-%20Palindrome%20Degree/solution.txt) |
+| 8A | [Train and Peter](https://codeforces.com/contest/8/problem/A) | 1200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/8/A%20-%20Train%20and%20Peter/solution.txt) |
 
 ### trees
 
