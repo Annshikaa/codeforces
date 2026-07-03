@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 27 | 18 |
+| 28 | 19 |
 
 ---
 
@@ -14,15 +14,16 @@
 
 - [binary search](#binary-search) (1)
 - [brute force](#brute-force) (5)
-- [constructive algorithms](#constructive-algorithms) (3)
+- [constructive algorithms](#constructive-algorithms) (4)
 - [data structures](#data-structures) (4)
 - [dp](#dp) (4)
 - [dsu](#dsu) (1)
 - [games](#games) (1)
 - [geometry](#geometry) (2)
+- [graphs](#graphs) (1)
 - [greedy](#greedy) (6)
 - [hashing](#hashing) (3)
-- [implementation](#implementation) (9)
+- [implementation](#implementation) (10)
 - [math](#math) (5)
 - [number theory](#number-theory) (1)
 - [shortest paths](#shortest-paths) (1)
@@ -56,6 +57,7 @@
 | 4B | [Before an Exam](https://codeforces.com/contest/4/problem/B) | 1200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/4/B%20-%20Before%20an%20Exam/solution.txt) |
 | 5C | [Longest Regular Bracket Sequence](https://codeforces.com/contest/5/problem/C) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/5/C%20-%20Longest%20Regular%20Bracket%20Sequence/solution.txt) |
 | 7A | [Kalevitch and Chess](https://codeforces.com/contest/7/problem/A) | 1100 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/7/A%20-%20Kalevitch%20and%20Chess/solution.txt) |
+| 8B | [Obsession with Robots](https://codeforces.com/contest/8/problem/B) | 1400 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/8/B%20-%20Obsession%20with%20Robots/solution.txt) |
 
 ### data structures
 
@@ -94,6 +96,12 @@
 | 2C | [Commentator problem](https://codeforces.com/contest/2/problem/C) | 2600 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/2/C%20-%20Commentator%20problem/solution.txt) |
 | 6A | [Triangle](https://codeforces.com/contest/6/problem/A) | 900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/6/A%20-%20Triangle/solution.txt) |
 
+### graphs
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 8B | [Obsession with Robots](https://codeforces.com/contest/8/problem/B) | 1400 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/8/B%20-%20Obsession%20with%20Robots/solution.txt) |
+
 ### greedy
 
 | # | Problem | Difficulty | Solution |
@@ -125,6 +133,7 @@
 | 5D | [Follow Traffic Rules](https://codeforces.com/contest/5/problem/D) | 2100 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/5/D%20-%20Follow%20Traffic%20Rules/solution.txt) |
 | 6B | [President's Office](https://codeforces.com/contest/6/problem/B) | 1100 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/6/B%20-%20President's%20Office/solution.txt) |
 | 7B | [Memory Manager](https://codeforces.com/contest/7/problem/B) | 1600 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/7/B%20-%20Memory%20Manager/solution.txt) |
+| 8B | [Obsession with Robots](https://codeforces.com/contest/8/problem/B) | 1400 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/8/B%20-%20Obsession%20with%20Robots/solution.txt) |
 | 2227A | [Koshary](https://codeforces.com/contest/2227/problem/A) | 800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/2227/A%20-%20Koshary/solution.txt) |
 
 ### math
