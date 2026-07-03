@@ -1,0 +1,122 @@
+import sys
+ 
+# Increase recursion limit to comfortably accommodate n <= 24 (default is 1000)
+sys.setrecursionlimit(2000)
+ 
+def solve():
+    # Read all inputs efficiently from standard input
+    input_data = sys.stdin.read().split()
+    if not input_data:
+        return
+        
+    xs = int(input_data[0])
+    ys = int(input_data[1])
+    n = int(input_data[2])
+    
+    x = [0] * n
+    y = [0] * n
+    
+    idx = 3
+    for i in range(n):
+        x[i] = int(input_data[idx])
+        y[i] = int(input_data[idx+1])
+        idx += 2
+        
+    # Precompute squared distance costs to avoid repetitive calculations
+    cost1 = [0] * n
+    cost2 = [[0] * n for _ in range(n)]
+    
+    for i in range(n):
+        dist_s_i = (x[i] - xs)**2 + (y[i] - ys)**2
+        cost1[i] = 2 * dist_s_i
+        
+        for j in range(i + 1, n):
+            dist_s_j = (x[j] - xs)**2 + (y[j] - ys)**2
+            dist_i_j = (x[i] - x[j])**2 + (y[i] - y[j])**2
+            c = dist_s_i + dist_i_j + dist_s_j
+            cost2[i][j] = c
+            cost2[j][i] = c
+            
+    dp = {}
+    target = (1 << n) - 1
+    
+    # Top-down DP with Memoization
+    def get_min_cost(mask):
+        if mask == target:
+            return 0
+        if mask in dp:
+            return dp[mask]
+            
+        # Fast way to find the lowest unset bit
+        inv = ~mask
+        low_bit = inv & -inv
+        low = low_bit.bit_length() - 1
+        
+        # Option 1: Pick the 'low' item alone
+        best_cost = get_min_cost(mask | low_bit) + cost1[low]
+        
+        # Option 2: Pick the 'low' item paired with another unpicked item 'j'
+        unpicked = inv & target
+        unpicked &= ~low_bit
+        
+        # Fast iteration over only the set bits using `unpicked & -unpicked`
+        while unpicked > 0:
+            j_bit = unpicked & -unpicked
+            j = j_bit.bit_length() - 1
+            
+            cand = get_min_cost(mask | low_bit | j_bit) + cost2[low][j]
+            if cand < best_cost:
+                best_cost = cand
+                
+            unpicked &= ~j_bit
+            
+        dp[mask] = best_cost
+        return best_cost
+ 
+    min_time = get_min_cost(0)
+    
+    # Helper for path reconstruction
+    def get_dp(mask):
+        return 0 if mask == target else dp[mask]
+        
+    # Trace back the optimal transitions to build the path
+    path = [0]
+    curr = 0
+    
+    while curr != target:
+        inv = ~curr
+        low_bit = inv & -inv
+        low = low_bit.bit_length() - 1
+        
+        nxt1 = curr | low_bit
+        
+        # Was taking the 'low' item alone the optimal step?
+        if get_dp(curr) == get_dp(nxt1) + cost1[low]:
+            path.append(low + 1)
+            path.append(0)
+            curr = nxt1
+            continue
+            
+        unpicked = inv & target
+        unpicked &= ~low_bit
+        
+        # Otherwise, find which 'j' item it was paired with optimally
+        while unpicked > 0:
+            j_bit = unpicked & -unpicked
+            j = j_bit.bit_length() - 1
+            
+            nxt2 = curr | low_bit | j_bit
+            if get_dp(curr) == get_dp(nxt2) + cost2[low][j]:
+                path.append(low + 1)
+                path.append(j + 1)
+                path.append(0)
+                curr = nxt2
+                break
+                
+            unpicked &= ~j_bit
+            
+    print(min_time)
+    print(" ".join(map(str, path)))
+ 
+if __name__ == '__main__':
+    solve()
