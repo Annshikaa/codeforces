@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 29 | 20 |
+| 30 | 21 |
 
 ---
 
@@ -25,8 +25,9 @@
 - [greedy](#greedy) (6)
 - [hashing](#hashing) (3)
 - [implementation](#implementation) (10)
-- [math](#math) (5)
+- [math](#math) (6)
 - [number theory](#number-theory) (1)
+- [probabilities](#probabilities) (1)
 - [shortest paths](#shortest-paths) (1)
 - [sortings](#sortings) (3)
 - [strings](#strings) (4)
@@ -152,6 +153,7 @@
 | 4A | [Watermelon](https://codeforces.com/contest/4/problem/A) | 800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/4/A%20-%20Watermelon/solution.txt) |
 | 5D | [Follow Traffic Rules](https://codeforces.com/contest/5/problem/D) | 2100 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/5/D%20-%20Follow%20Traffic%20Rules/solution.txt) |
 | 7C | [Line](https://codeforces.com/contest/7/problem/C) | 1800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/7/C%20-%20Line/solution.txt) |
+| 9A | [Die Roll](https://codeforces.com/contest/9/problem/A) | 800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/9/A%20-%20Die%20Roll/solution.txt) |
 | 2227A | [Koshary](https://codeforces.com/contest/2227/problem/A) | 800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/2227/A%20-%20Koshary/solution.txt) |
 
 ### number theory
@@ -159,6 +161,12 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 7C | [Line](https://codeforces.com/contest/7/problem/C) | 1800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/7/C%20-%20Line/solution.txt) |
+
+### probabilities
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 9A | [Die Roll](https://codeforces.com/contest/9/problem/A) | 800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/9/A%20-%20Die%20Roll/solution.txt) |
 
 ### shortest paths
 
