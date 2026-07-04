@@ -1,0 +1,31 @@
+import sys
+import math
+ 
+def main():
+    # Read Y and W from standard input
+    input_data = sys.stdin.read().split()
+    if not input_data:
+        return
+        
+    y = int(input_data[0])
+    w = int(input_data[1])
+    
+    # Dot needs to roll at least the maximum of Y and W
+    max_roll = max(y, w)
+    
+    # Number of winning outcomes for Dot
+    winning_outcomes = 6 - max_roll + 1
+    
+    # The total number of possible outcomes on a die is 6
+    total_outcomes = 6
+    
+    # Simplify the fraction using the Greatest Common Divisor (GCD)
+    common_divisor = math.gcd(winning_outcomes, total_outcomes)
+    
+    numerator = winning_outcomes // common_divisor
+    denominator = total_outcomes // common_divisor
+    
+    print(f"{numerator}/{denominator}")
+ 
+if __name__ == '__main__':
+    main()
