@@ -1,0 +1,30 @@
+import sys
+ 
+def solve():
+    # Read the input integer n
+    input_data = sys.stdin.read().split()
+    if not input_data:
+        return
+    n = int(input_data[0])
+    
+    count = 0
+    i = 1
+    
+    while True:
+        # Get the binary representation of i as a string (e.g., 2 -> '10')
+        binary_str = bin(i)[2:]
+        
+        # Interpret it as a decimal number (e.g., '10' -> 10)
+        decimal_val = int(binary_str)
+        
+        # If it exceeds n, we stop because subsequent numbers will be strictly larger
+        if decimal_val > n:
+            break
+            
+        count += 1
+        i += 1
+        
+    print(count)
+ 
+if __name__ == '__main__':
+    solve()
