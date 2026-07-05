@@ -1,0 +1,127 @@
+import sys
+ 
+class DSU:
+    def __init__(self, n):
+        self.parent = list(range(n + 1))
+        self.size = [1] * (n + 1)
+        
+    def find(self, i):
+        if self.parent[i] == i:
+            return i
+        self.parent[i] = self.find(self.parent[i])
+        return self.parent[i]
+        
+    def union(self, i, j):
+        root_i = self.find(i)
+        root_j = self.find(j)
+        if root_i != root_j:
+            if self.size[root_i] < self.size[root_j]:
+                root_i, root_j = root_j, root_i
+            self.parent[root_j] = root_i
+            self.size[root_i] += self.size[root_j]
+            return True
+        return False
+ 
+def solve():
+    input_data = sys.stdin.read().split()
+    if not input_data:
+        return
+        
+    n = int(input_data[0])
+    m = int(input_data[1])
+    
+    degree = [0] * (n + 1)
+    dsu = DSU(n)
+    
+    # Process initial edges
+    idx = 2
+    possible = True
+    for _ in range(m):
+        u = int(input_data[idx])
+        v = int(input_data[idx+1])
+        idx += 2
+        
+        degree[u] += 1
+        degree[v] += 1
+        
+        # In a valid configuration, no vertex can have degree > 2
+        if degree[u] > 2 or degree[v] > 2:
+            possible = False
+            
+        # Try joining components. If they are already in the same component,
+        # it forms a cycle prematurely (unless it's already a single valid cycle of size n).
+        if not dsu.union(u, v):
+            if dsu.size[dsu.find(u)] < n or m != n:
+                possible = False
+ 
+    # Check if a premature small cycle already exists
+    if not possible:
+        print("NO")
+        return
+ 
+    # Total edges needed for a single cycle of size n is n
+    edges_to_add = n - m
+    
+    # Handle edge case where graph is already completed correctly
+    if edges_to_add == 0:
+        # It's valid if all nodes are in one component
+        root = dsu.find(1)
+        if dsu.size[root] == n:
+            print("YES")
+            print(0)
+        else:
+            print("NO")
+        return
+        
+    # If we need to add more edges than possible or a negative amount
+    if edges_to_add < 0:
+        print("NO")
+        return
+ 
+    added_edges = []
+    
+    # Greedily add edges lexicographically
+    for _ in range(edges_to_add):
+        found = False
+        for i in range(1, n + 1):
+            if degree[i] >= 2:
+                continue
+            for j in range(1, n + 1):
+                if degree[j] >= 2:
+                    continue
+                
+                # Self loops are only valid if n = 1
+                if i == j and n > 1:
+                    continue
+                
+                # Check if adding this edge closes a cycle prematurely
+                if dsu.find(i) == dsu.find(j) and len(added_edges) < edges_to_add - 1:
+                    continue
+                    
+                # Add the edge
+                dsu.union(i, j)
+                degree[i] += 1
+                degree[j] += 1
+                added_edges.append((i, j))
+                found = True
+                break
+            if found:
+                break
+                
+        if not found:
+            print("NO")
+            return
+ 
+    # Verify if the final configuration forms exactly 1 component
+    final_root = dsu.find(1)
+    if dsu.size[final_root] != n:
+        print("NO")
+        return
+ 
+    print("YES")
+    print(len(added_edges))
+    for u, v in added_edges:
+        print(f"{u} {v}")
+ 
+if __name__ == '__main__':
+    solve()
