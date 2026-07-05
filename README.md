@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 32 | 21 |
+| 33 | 23 |
 
 ---
 
@@ -15,9 +15,11 @@
 - [binary search](#binary-search) (1)
 - [bitmasks](#bitmasks) (1)
 - [brute force](#brute-force) (7)
+- [combinatorics](#combinatorics) (1)
 - [constructive algorithms](#constructive-algorithms) (4)
 - [data structures](#data-structures) (4)
-- [dp](#dp) (5)
+- [divide and conquer](#divide-and-conquer) (1)
+- [dp](#dp) (6)
 - [dsu](#dsu) (1)
 - [games](#games) (1)
 - [geometry](#geometry) (3)
@@ -60,6 +62,12 @@
 | 9B | [Running Student](https://codeforces.com/contest/9/problem/B) | 1200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/9/B%20-%20Running%20Student/solution.txt) |
 | 9C | [Hexadecimal's Numbers](https://codeforces.com/contest/9/problem/C) | 1200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/9/C%20-%20Hexadecimal's%20Numbers/solution.txt) |
 
+### combinatorics
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 9D | [How many trees?](https://codeforces.com/contest/9/problem/D) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/9/D%20-%20How%20many%20trees%3F/solution.txt) |
+
 ### constructive algorithms
 
 | # | Problem | Difficulty | Solution |
@@ -78,6 +86,12 @@
 | 5E | [Bindian Signalizing](https://codeforces.com/contest/5/problem/E) | 2400 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/5/E%20-%20Bindian%20Signalizing/solution.txt) |
 | 6E | [Exposition](https://codeforces.com/contest/6/problem/E) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/6/E%20-%20Exposition/solution.txt) |
 
+### divide and conquer
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 9D | [How many trees?](https://codeforces.com/contest/9/problem/D) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/9/D%20-%20How%20many%20trees%3F/solution.txt) |
+
 ### dp
 
 | # | Problem | Difficulty | Solution |
@@ -87,6 +101,7 @@
 | 5C | [Longest Regular Bracket Sequence](https://codeforces.com/contest/5/problem/C) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/5/C%20-%20Longest%20Regular%20Bracket%20Sequence/solution.txt) |
 | 6D | [Lizards and Basements 2](https://codeforces.com/contest/6/problem/D) | 2600 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/6/D%20-%20Lizards%20and%20Basements%202/solution.txt) |
 | 8C | [Looking for Order](https://codeforces.com/contest/8/problem/C) | 2000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/8/C%20-%20Looking%20for%20Order/solution.txt) |
+| 9D | [How many trees?](https://codeforces.com/contest/9/problem/D) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/9/D%20-%20How%20many%20trees%3F/solution.txt) |
 
 ### dsu
 
