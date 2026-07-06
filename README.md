@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 34 | 24 |
+| 35 | 24 |
 
 ---
 
@@ -27,7 +27,7 @@
 - [graphs](#graphs) (2)
 - [greedy](#greedy) (6)
 - [hashing](#hashing) (3)
-- [implementation](#implementation) (12)
+- [implementation](#implementation) (13)
 - [math](#math) (7)
 - [number theory](#number-theory) (1)
 - [probabilities](#probabilities) (1)
@@ -172,6 +172,7 @@
 | 8B | [Obsession with Robots](https://codeforces.com/contest/8/problem/B) | 1400 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/8/B%20-%20Obsession%20with%20Robots/solution.txt) |
 | 9B | [Running Student](https://codeforces.com/contest/9/problem/B) | 1200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/9/B%20-%20Running%20Student/solution.txt) |
 | 9C | [Hexadecimal's Numbers](https://codeforces.com/contest/9/problem/C) | 1200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/9/C%20-%20Hexadecimal's%20Numbers/solution.txt) |
+| 10A | [Power Consumption Calculation](https://codeforces.com/contest/10/problem/A) | 900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/10/A%20-%20Power%20Consumption%20Calculation/solution.txt) |
 | 2227A | [Koshary](https://codeforces.com/contest/2227/problem/A) | 800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/2227/A%20-%20Koshary/solution.txt) |
 
 ### math
