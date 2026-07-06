@@ -1,0 +1,56 @@
+import sys
+ 
+def main():
+    # Read all inputs from standard input
+    input_data = sys.stdin.read().split()
+    if not input_data:
+        return
+    
+    # Parse the first line containing parameters
+    n = int(input_data[0])
+    P1 = int(input_data[1])
+    P2 = int(input_data[2])
+    P3 = int(input_data[3])
+    T1 = int(input_data[4])
+    T2 = int(input_data[5])
+    
+    # Parse the interval details
+    intervals = []
+    idx = 6
+    for _ in range(n):
+        l = int(input_data[idx])
+        r = int(input_data[idx+1])
+        intervals.append((l, r))
+        idx += 2
+        
+    total_power = 0
+    
+    # Add power consumed during the first work interval
+    total_power += (intervals[0][1] - intervals[0][0]) * P1
+    
+    # Process subsequent intervals and the gaps between them
+    for i in range(1, n):
+        # Calculate the duration of the idle gap
+        gap = intervals[i][0] - intervals[i-1][1]
+        
+        # 1. Normal mode consumption during the gap
+        t_normal = min(gap, T1)
+        total_power += t_normal * P1
+        gap -= t_normal
+        
+        # 2. Screensaver mode consumption during the gap
+        t_screensaver = min(gap, T2)
+        total_power += t_screensaver * P2
+        gap -= t_screensaver
+        
+        # 3. Sleep mode consumption for the remaining gap time
+        total_power += gap * P3
+        
+        # Add power consumed during the active work interval
+        total_power += (intervals[i][1] - intervals[i][0]) * P1
+        
+    # Output the total calculated power
+    print(total_power)
+ 
+if __name__ == '__main__':
+    main()
