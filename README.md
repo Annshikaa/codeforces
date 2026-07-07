@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 35 | 24 |
+| 36 | 24 |
 
 ---
 
@@ -20,14 +20,14 @@
 - [data structures](#data-structures) (4)
 - [dfs and similar](#dfs-and-similar) (1)
 - [divide and conquer](#divide-and-conquer) (1)
-- [dp](#dp) (6)
+- [dp](#dp) (7)
 - [dsu](#dsu) (2)
 - [games](#games) (1)
 - [geometry](#geometry) (3)
 - [graphs](#graphs) (2)
 - [greedy](#greedy) (6)
 - [hashing](#hashing) (3)
-- [implementation](#implementation) (13)
+- [implementation](#implementation) (14)
 - [math](#math) (7)
 - [number theory](#number-theory) (1)
 - [probabilities](#probabilities) (1)
@@ -109,6 +109,7 @@
 | 6D | [Lizards and Basements 2](https://codeforces.com/contest/6/problem/D) | 2600 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/6/D%20-%20Lizards%20and%20Basements%202/solution.txt) |
 | 8C | [Looking for Order](https://codeforces.com/contest/8/problem/C) | 2000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/8/C%20-%20Looking%20for%20Order/solution.txt) |
 | 9D | [How many trees?](https://codeforces.com/contest/9/problem/D) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/9/D%20-%20How%20many%20trees%3F/solution.txt) |
+| 10B | [Cinema Cashier](https://codeforces.com/contest/10/problem/B) | 1500 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/10/B%20-%20Cinema%20Cashier/solution.txt) |
 
 ### dsu
 
@@ -173,6 +174,7 @@
 | 9B | [Running Student](https://codeforces.com/contest/9/problem/B) | 1200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/9/B%20-%20Running%20Student/solution.txt) |
 | 9C | [Hexadecimal's Numbers](https://codeforces.com/contest/9/problem/C) | 1200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/9/C%20-%20Hexadecimal's%20Numbers/solution.txt) |
 | 10A | [Power Consumption Calculation](https://codeforces.com/contest/10/problem/A) | 900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/10/A%20-%20Power%20Consumption%20Calculation/solution.txt) |
+| 10B | [Cinema Cashier](https://codeforces.com/contest/10/problem/B) | 1500 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/10/B%20-%20Cinema%20Cashier/solution.txt) |
 | 2227A | [Koshary](https://codeforces.com/contest/2227/problem/A) | 800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/2227/A%20-%20Koshary/solution.txt) |
 
 ### math
