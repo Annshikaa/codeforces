@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 36 | 24 |
+| 37 | 24 |
 
 ---
 
@@ -29,7 +29,7 @@
 - [hashing](#hashing) (3)
 - [implementation](#implementation) (14)
 - [math](#math) (7)
-- [number theory](#number-theory) (1)
+- [number theory](#number-theory) (2)
 - [probabilities](#probabilities) (1)
 - [shortest paths](#shortest-paths) (1)
 - [sortings](#sortings) (3)
@@ -194,6 +194,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 7C | [Line](https://codeforces.com/contest/7/problem/C) | 1800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/7/C%20-%20Line/solution.txt) |
+| 10C | [Digital Root](https://codeforces.com/contest/10/problem/C) | 2000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/10/C%20-%20Digital%20Root/solution.txt) |
 
 ### probabilities
 
