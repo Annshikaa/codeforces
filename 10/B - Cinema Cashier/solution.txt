@@ -1,0 +1,70 @@
+import sys
+ 
+def main():
+    # Read all inputs from standard input
+    input_data = sys.stdin.read().split()
+    if not input_data:
+        return
+    
+    N = int(input_data[0])
+    K = int(input_data[1])
+    requests = [int(x) for x in input_data[2:]]
+    
+    # Coordinates of the center seat
+    cx = (K + 1) // 2
+    cy = (K + 1) // 2
+    
+    # Precompute costs and their prefix sums per row
+    pref_cost = [[0] * (K + 1) for _ in range(K + 1)]
+    for x in range(1, K + 1):
+        for y in range(1, K + 1):
+            cost = abs(x - cx) + abs(y - cy)
+            pref_cost[x][y] = pref_cost[x][y - 1] + cost
+            
+    # Track occupied seats: False means free, True means occupied
+    occupied = [[False] * (K + 1) for _ in range(K + 1)]
+    
+    out = []
+    
+    # Process each request
+    for M in requests:
+        best_cost = float('inf')
+        best_ans = None
+        
+        for x in range(1, K + 1):
+            free_count = 0
+            for y in range(1, K + 1):
+                if not occupied[x][y]:
+                    free_count += 1
+                    # If we found a block of M free seats
+                    if free_count >= M:
+                        yl = y - M + 1
+                        yr = y
+                        
+                        # O(1) cost calculation using prefix sums
+                        current_cost = pref_cost[x][yr] - pref_cost[x][yl - 1]
+                        
+                        # Update best option if strictly better
+                        if current_cost < best_cost:
+                            best_cost = current_cost
+                            best_ans = (x, yl, yr)
+                else:
+                    # Reset consecutive free counter if seat is taken
+                    free_count = 0
+        
+        # If a valid segment was found, mark it occupied and store result
+        if best_ans is not None:
+            x, yl, yr = best_ans
+            for y in range(yl, yr + 1):
+                occupied[x][y] = True
+            out.append(f"{x} {yl} {yr}")
+        else:
+            # If no segment of size M fits anywhere
+            out.append("-1")
+            
+    # Print results all at once separated by newlines
+    print('
+'.join(out))
+ 
+if __name__ == '__main__':
+    main()
