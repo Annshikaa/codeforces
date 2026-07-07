@@ -1,0 +1,63 @@
+import sys
+ 
+def main():
+    # Read all inputs from standard input
+    input_data = sys.stdin.read().split()
+    if not input_data:
+        return
+    
+    # Parse the input
+    n = int(input_data[0])
+    a = [int(x) for x in input_data[1 : n + 1]]
+    
+    m_idx = n + 1
+    m = int(input_data[m_idx])
+    b = [int(x) for x in input_data[m_idx + 1 : m_idx + 1 + m]]
+    
+    # dp[j] stores the length of LCIS ending at b[j]
+    dp = [0] * m
+    # parent[j] stores the index of the predecessor of b[j] in the LCIS
+    parent = [-1] * m
+    
+    # Fill DP table
+    for i in range(n):
+        current_max = 0
+        last_idx = -1
+        
+        for j in range(m):
+            # If we find a match, we can extend the longest increasing sequence found so far
+            if a[i] == b[j]:
+                if current_max + 1 > dp[j]:
+                    dp[j] = current_max + 1
+                    parent[j] = last_idx
+            
+            # If a[i] is greater, b[j] can act as a valid predecessor for future matches
+            elif a[i] > b[j]:
+                if dp[j] > current_max:
+                    current_max = dp[j]
+                    last_idx = j
+                    
+    # Find the maximum length and the endpoint of the sequence
+    max_len = 0
+    end_idx = -1
+    for j in range(m):
+        if dp[j] > max_len:
+            max_len = dp[j]
+            end_idx = j
+            
+    # Traceback to build the sequence
+    lcis = []
+    while end_idx != -1:
+        lcis.append(b[end_idx])
+        end_idx = parent[end_idx]
+        
+    # The traceback generates the sequence backwards, so we reverse it
+    lcis.reverse()
+    
+    # Output results
+    print(max_len)
+    if max_len > 0:
+        print(*(lcis))
+ 
+if __name__ == '__main__':
+    main()
