@@ -1,0 +1,38 @@
+import sys
+ 
+def main():
+    # Read the input
+    input_data = sys.stdin.read().split()
+    if not input_data:
+        return
+    n = int(input_data[0])
+    
+    # Step 1: Count frequency of each digital root from 1 to N
+    counts = [0] * 10
+    base = n // 9
+    rem = n % 9
+    
+    for i in range(1, 10):
+        # If the digital root 'i' falls within the remainder, it appears one extra time
+        counts[i] = base + (1 if i <= rem else 0)
+        
+    # Step 2: Calculate the number of triples that satisfy Billy's condition
+    billy_triples = 0
+    for i in range(1, 10):
+        for j in range(1, 10):
+            prod = (i * j) % 9
+            if prod == 0:
+                prod = 9
+            # Add the combinations of A, B, and C that yield these digital roots
+            billy_triples += counts[i] * counts[j] * counts[prod]
+            
+    # Step 3: Calculate the number of actual valid equations (A * B = C)
+    actual_triples = 0
+    for a in range(1, n + 1):
+        actual_triples += n // a
+        
+    # The answer is the false positives (Billy's matches minus the real matches)
+    print(billy_triples - actual_triples)
+ 
+if __name__ == '__main__':
+    main()
