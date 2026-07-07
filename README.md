@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 37 | 24 |
+| 38 | 24 |
 
 ---
 
@@ -20,7 +20,7 @@
 - [data structures](#data-structures) (4)
 - [dfs and similar](#dfs-and-similar) (1)
 - [divide and conquer](#divide-and-conquer) (1)
-- [dp](#dp) (7)
+- [dp](#dp) (8)
 - [dsu](#dsu) (2)
 - [games](#games) (1)
 - [geometry](#geometry) (3)
@@ -110,6 +110,7 @@
 | 8C | [Looking for Order](https://codeforces.com/contest/8/problem/C) | 2000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/8/C%20-%20Looking%20for%20Order/solution.txt) |
 | 9D | [How many trees?](https://codeforces.com/contest/9/problem/D) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/9/D%20-%20How%20many%20trees%3F/solution.txt) |
 | 10B | [Cinema Cashier](https://codeforces.com/contest/10/problem/B) | 1500 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/10/B%20-%20Cinema%20Cashier/solution.txt) |
+| 10D | [LCIS](https://codeforces.com/contest/10/problem/D) | 2800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/10/D%20-%20LCIS/solution.txt) |
 
 ### dsu
 
