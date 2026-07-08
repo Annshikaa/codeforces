@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 38 | 24 |
+| 39 | 24 |
 
 ---
 
@@ -16,7 +16,7 @@
 - [bitmasks](#bitmasks) (1)
 - [brute force](#brute-force) (7)
 - [combinatorics](#combinatorics) (1)
-- [constructive algorithms](#constructive-algorithms) (4)
+- [constructive algorithms](#constructive-algorithms) (5)
 - [data structures](#data-structures) (4)
 - [dfs and similar](#dfs-and-similar) (1)
 - [divide and conquer](#divide-and-conquer) (1)
@@ -27,8 +27,8 @@
 - [graphs](#graphs) (2)
 - [greedy](#greedy) (6)
 - [hashing](#hashing) (3)
-- [implementation](#implementation) (14)
-- [math](#math) (7)
+- [implementation](#implementation) (15)
+- [math](#math) (8)
 - [number theory](#number-theory) (2)
 - [probabilities](#probabilities) (1)
 - [shortest paths](#shortest-paths) (1)
@@ -77,6 +77,7 @@
 | 5C | [Longest Regular Bracket Sequence](https://codeforces.com/contest/5/problem/C) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/5/C%20-%20Longest%20Regular%20Bracket%20Sequence/solution.txt) |
 | 7A | [Kalevitch and Chess](https://codeforces.com/contest/7/problem/A) | 1100 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/7/A%20-%20Kalevitch%20and%20Chess/solution.txt) |
 | 8B | [Obsession with Robots](https://codeforces.com/contest/8/problem/B) | 1400 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/8/B%20-%20Obsession%20with%20Robots/solution.txt) |
+| 11A | [Increasing Sequence](https://codeforces.com/contest/11/problem/A) | 900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/11/A%20-%20Increasing%20Sequence/solution.txt) |
 
 ### data structures
 
@@ -176,6 +177,7 @@
 | 9C | [Hexadecimal's Numbers](https://codeforces.com/contest/9/problem/C) | 1200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/9/C%20-%20Hexadecimal's%20Numbers/solution.txt) |
 | 10A | [Power Consumption Calculation](https://codeforces.com/contest/10/problem/A) | 900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/10/A%20-%20Power%20Consumption%20Calculation/solution.txt) |
 | 10B | [Cinema Cashier](https://codeforces.com/contest/10/problem/B) | 1500 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/10/B%20-%20Cinema%20Cashier/solution.txt) |
+| 11A | [Increasing Sequence](https://codeforces.com/contest/11/problem/A) | 900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/11/A%20-%20Increasing%20Sequence/solution.txt) |
 | 2227A | [Koshary](https://codeforces.com/contest/2227/problem/A) | 800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/2227/A%20-%20Koshary/solution.txt) |
 
 ### math
@@ -188,6 +190,7 @@
 | 7C | [Line](https://codeforces.com/contest/7/problem/C) | 1800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/7/C%20-%20Line/solution.txt) |
 | 9A | [Die Roll](https://codeforces.com/contest/9/problem/A) | 800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/9/A%20-%20Die%20Roll/solution.txt) |
 | 9C | [Hexadecimal's Numbers](https://codeforces.com/contest/9/problem/C) | 1200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/9/C%20-%20Hexadecimal's%20Numbers/solution.txt) |
+| 11A | [Increasing Sequence](https://codeforces.com/contest/11/problem/A) | 900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/11/A%20-%20Increasing%20Sequence/solution.txt) |
 | 2227A | [Koshary](https://codeforces.com/contest/2227/problem/A) | 800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/2227/A%20-%20Koshary/solution.txt) |
 
 ### number theory
