@@ -1,0 +1,17 @@
+<h2><a href="https://codeforces.com/contest/11/problem/B" target="_blank" rel="noopener noreferrer">11B — Jumping Jack</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 1600 |
+| **Language** | PyPy 3-64 |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 11B](https://codeforces.com/contest/11/problem/B) |
+
+## Topics
+`math`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">B. Jumping Jack</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>64 megabytes</div><div class="input-file input-standard" style="font-weight: bold"><div class="property-title">input</div>stdin</div><div class="output-file output-standard" style="font-weight: bold"><div class="property-title">output</div>stdout</div></div><div><p>Jack is working on his jumping skills recently. Currently he's located at point zero of the number line. He would like to get to the point <span class="tex-span"><i>x</i></span>. In order to train, he has decided that he'll first jump by only one unit, and each subsequent jump will be exactly one longer than the previous one. He can go either left or right with each jump. He wonders how many jumps he needs to reach <span class="tex-span"><i>x</i></span>.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The input data consists of only one integer <span class="tex-span"><i>x</i></span> (<span class="tex-span"> - 10<sup class="upper-index">9</sup> ≤ <i>x</i> ≤ 10<sup class="upper-index">9</sup></span>).</p></div><div class="output-specification"><div class="section-title">Output</div><p>Output the minimal number of jumps that Jack requires to reach <span class="tex-span"><i>x</i></span>.</p></div><div class="sample-tests"><div class="section-title">Examples</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id003878867765819244" id="id0018416352449188655" class="input-output-copier">Copy</div></div><pre id="id003878867765819244">2<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id009331934578880228" id="id003639694622778492" class="input-output-copier">Copy</div></div><pre id="id009331934578880228">3<br></pre></div><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id005306796569321688" id="id006343662106516508" class="input-output-copier">Copy</div></div><pre id="id005306796569321688">6<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id00015507210691807938" id="id0012629714665900738" class="input-output-copier">Copy</div></div><pre id="id00015507210691807938">3<br></pre></div><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id004470592630874043" id="id0028150749669848296" class="input-output-copier">Copy</div></div><pre id="id004470592630874043">0<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id003615141543300533" id="id004295455080223398" class="input-output-copier">Copy</div></div><pre id="id003615141543300533">0<br></pre></div></div></div>
