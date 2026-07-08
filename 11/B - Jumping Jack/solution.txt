@@ -1,0 +1,24 @@
+import sys
+ 
+def solve():
+    # Read the input integer x
+    try:
+        x = int(sys.stdin.read().strip())
+    except Exception:
+        return
+ 
+    # Symmetry: going to x is the same as going to -x
+    x = abs(x)
+    
+    k = 0
+    current_sum = 0
+    
+    # Keep jumping until we reach or pass x, AND the difference is even
+    while current_sum < x or (current_sum - x) % 2 != 0:
+        k += 1
+        current_sum += k
+        
+    print(k)
+ 
+if __name__ == '__main__':
+    solve()
