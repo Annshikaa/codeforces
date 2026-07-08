@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 39 | 24 |
+| 40 | 24 |
 
 ---
 
@@ -28,7 +28,7 @@
 - [greedy](#greedy) (6)
 - [hashing](#hashing) (3)
 - [implementation](#implementation) (15)
-- [math](#math) (8)
+- [math](#math) (9)
 - [number theory](#number-theory) (2)
 - [probabilities](#probabilities) (1)
 - [shortest paths](#shortest-paths) (1)
@@ -191,6 +191,7 @@
 | 9A | [Die Roll](https://codeforces.com/contest/9/problem/A) | 800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/9/A%20-%20Die%20Roll/solution.txt) |
 | 9C | [Hexadecimal's Numbers](https://codeforces.com/contest/9/problem/C) | 1200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/9/C%20-%20Hexadecimal's%20Numbers/solution.txt) |
 | 11A | [Increasing Sequence](https://codeforces.com/contest/11/problem/A) | 900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/11/A%20-%20Increasing%20Sequence/solution.txt) |
+| 11B | [Jumping Jack](https://codeforces.com/contest/11/problem/B) | 1600 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/11/B%20-%20Jumping%20Jack/solution.txt) |
 | 2227A | [Koshary](https://codeforces.com/contest/2227/problem/A) | 800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/2227/A%20-%20Koshary/solution.txt) |
 
 ### number theory
