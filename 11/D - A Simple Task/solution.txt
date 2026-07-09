@@ -1,0 +1,74 @@
+import sys
+ 
+def solve():
+    # Read all tokens from standard input quickly
+    input_data = sys.stdin.read().split()
+    if not input_data:
+        return
+    
+    n = int(input_data[0])
+    m = int(input_data[1])
+    
+    # Store adjacency as bitmasks for blazing fast bitwise AND operations
+    # adj[u] will have the v-th bit set if there is an edge between u and v
+    adj = [0] * n
+    idx = 2
+    for _ in range(m):
+        u = int(input_data[idx]) - 1
+        v = int(input_data[idx+1]) - 1
+        adj[u] |= (1 << v)
+        adj[v] |= (1 << u)
+        idx += 2
+ 
+    total_cycles = 0
+    num_states = 1 << n
+    
+    # dp[mask][u] -> flattened into a single-dimensional list for better cache locality
+    # Size is (2^n) * n. Accessing dp[mask * n + u] is faster than dp[mask][u]
+    dp = [0] * (num_states * n)
+    
+    # Base case: every single vertex can start its own path
+    for i in range(n):
+        dp[(1 << i) * n + i] = 1
+ 
+    # Iterate through every subset mask
+    for mask in range(1, num_states):
+        # Find the starting vertex (the lowest set bit in the mask)
+        v_start = (mask & -mask).bit_length() - 1
+        mask_n = mask * n
+        
+        # Iterate over all possible ending vertices `u` in the current mask
+        for u in range(v_start, n):
+            count = dp[mask_n + u]
+            if not count:
+                continue
+            
+            # Find all valid neighbors of `u` using bitwise AND
+            # We only look at neighbors that are connected to `u`
+            neighbors = adj[u]
+            
+            # 1. Check if we can close a valid cycle back to v_start
+            if neighbors & (1 << v_start):
+                # A valid simple cycle must contain at least 3 vertices
+                if mask.bit_count() >= 3:
+                    total_cycles += count
+            
+            # 2. Try to extend the path to unvisited neighbors greater than v_start
+            # Create a mask of valid next vertices: greater than v_start and not visited yet
+            valid_next = neighbors & ~mask & ~((1 << (v_start + 1)) - 1)
+            
+            while valid_next:
+                # Extract the lowest set bit from valid_next
+                v = (valid_next & -valid_next).bit_length() - 1
+                
+                # Move to the next state
+                dp[(mask | (1 << v)) * n + v] += count
+                
+                # Clear the lowest set bit to continue the loop
+                valid_next &= valid_next - 1
+ 
+    # Divide by 2 because each undirected cycle is encountered twice (both directions)
+    print(total_cycles // 2)
+ 
+if __name__ == '__main__':
+    solve()
