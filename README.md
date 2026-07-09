@@ -6,25 +6,25 @@
 
 | Total Problems | Topics |
 |---|---|
-| 41 | 24 |
+| 42 | 24 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [binary search](#binary-search) (1)
-- [bitmasks](#bitmasks) (1)
+- [bitmasks](#bitmasks) (2)
 - [brute force](#brute-force) (7)
 - [combinatorics](#combinatorics) (1)
 - [constructive algorithms](#constructive-algorithms) (5)
 - [data structures](#data-structures) (4)
 - [dfs and similar](#dfs-and-similar) (1)
 - [divide and conquer](#divide-and-conquer) (1)
-- [dp](#dp) (8)
+- [dp](#dp) (9)
 - [dsu](#dsu) (2)
 - [games](#games) (1)
 - [geometry](#geometry) (3)
-- [graphs](#graphs) (2)
+- [graphs](#graphs) (3)
 - [greedy](#greedy) (6)
 - [hashing](#hashing) (3)
 - [implementation](#implementation) (16)
@@ -50,6 +50,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 8C | [Looking for Order](https://codeforces.com/contest/8/problem/C) | 2000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/8/C%20-%20Looking%20for%20Order/solution.txt) |
+| 11D | [A Simple Task](https://codeforces.com/contest/11/problem/D) | 2200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/11/D%20-%20A%20Simple%20Task/solution.txt) |
 
 ### brute force
 
@@ -112,6 +113,7 @@
 | 9D | [How many trees?](https://codeforces.com/contest/9/problem/D) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/9/D%20-%20How%20many%20trees%3F/solution.txt) |
 | 10B | [Cinema Cashier](https://codeforces.com/contest/10/problem/B) | 1500 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/10/B%20-%20Cinema%20Cashier/solution.txt) |
 | 10D | [LCIS](https://codeforces.com/contest/10/problem/D) | 2800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/10/D%20-%20LCIS/solution.txt) |
+| 11D | [A Simple Task](https://codeforces.com/contest/11/problem/D) | 2200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/11/D%20-%20A%20Simple%20Task/solution.txt) |
 
 ### dsu
 
@@ -140,6 +142,7 @@
 |---|---------|------------|----------|
 | 8B | [Obsession with Robots](https://codeforces.com/contest/8/problem/B) | 1400 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/8/B%20-%20Obsession%20with%20Robots/solution.txt) |
 | 9E | [Interestring graph and Apples](https://codeforces.com/contest/9/problem/E) | 2300 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/9/E%20-%20Interestring%20graph%20and%20Apples/solution.txt) |
+| 11D | [A Simple Task](https://codeforces.com/contest/11/problem/D) | 2200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/11/D%20-%20A%20Simple%20Task/solution.txt) |
 
 ### greedy
 
