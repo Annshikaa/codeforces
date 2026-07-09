@@ -1,0 +1,19 @@
+import sys
+ 
+def solve():
+    # Read all 3 lines of the grid and combine them into a single string
+    grid = sys.stdin.read().split()
+    
+    if not grid:
+        return
+        
+    full_string = "".join(grid)
+    
+    # Check if the string is identical to its reverse
+    if full_string == full_string[::-1]:
+        print("YES")
+    else:
+        print("NO")
+ 
+if __name__ == '__main__':
+    solve()
