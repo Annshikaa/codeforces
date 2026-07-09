@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 42 | 24 |
+| 43 | 24 |
 
 ---
 
@@ -27,7 +27,7 @@
 - [graphs](#graphs) (3)
 - [greedy](#greedy) (6)
 - [hashing](#hashing) (3)
-- [implementation](#implementation) (16)
+- [implementation](#implementation) (17)
 - [math](#math) (9)
 - [number theory](#number-theory) (2)
 - [probabilities](#probabilities) (1)
@@ -182,6 +182,7 @@
 | 10B | [Cinema Cashier](https://codeforces.com/contest/10/problem/B) | 1500 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/10/B%20-%20Cinema%20Cashier/solution.txt) |
 | 11A | [Increasing Sequence](https://codeforces.com/contest/11/problem/A) | 900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/11/A%20-%20Increasing%20Sequence/solution.txt) |
 | 11C | [How Many Squares?](https://codeforces.com/contest/11/problem/C) | 2200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/11/C%20-%20How%20Many%20Squares%3F/solution.txt) |
+| 12A | [Super Agent](https://codeforces.com/contest/12/problem/A) | 800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/12/A%20-%20Super%20Agent/solution.txt) |
 | 2227A | [Koshary](https://codeforces.com/contest/2227/problem/A) | 800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/2227/A%20-%20Koshary/solution.txt) |
 
 ### math
