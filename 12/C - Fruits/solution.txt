@@ -1,0 +1,47 @@
+import sys
+from collections import Counter
+ 
+def solve():
+    # Read all input from standard input
+    input = sys.stdin.read
+    data = input().split()
+    
+    if not data:
+        return
+ 
+    # Parse n (number of prices) and m (number of fruits in the list)
+    n = int(data[0])
+    m = int(data[1])
+    
+    # Parse the list of available prices
+    prices = [int(x) for x in data[2:2+n]]
+    
+    # Parse the m fruit names
+    fruit_list = data[2+n:2+n+m]
+    
+    # Count the frequency of each fruit in Valera's list
+    fruit_counts = Counter(fruit_list)
+    
+    # Sort frequencies in descending order (highest demand first)
+    frequencies = sorted(fruit_counts.values(), reverse=True)
+    
+    # Sort prices in ascending order
+    prices.sort()
+    
+    # Calculate Minimum Total Price
+    # Pair highest frequencies with the cheapest prices from the front
+    min_price = 0
+    for i in range(len(frequencies)):
+        min_price += frequencies[i] * prices[i]
+        
+    # Calculate Maximum Total Price
+    # Pair highest frequencies with the most expensive prices from the back
+    max_price = 0
+    for i in range(len(frequencies)):
+        max_price += frequencies[i] * prices[n - 1 - i]
+        
+    # Print the result
+    print(min_price, max_price)
+ 
+if __name__ == '__main__':
+    solve()
