@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 45 | 24 |
+| 46 | 24 |
 
 ---
 
@@ -17,7 +17,7 @@
 - [brute force](#brute-force) (7)
 - [combinatorics](#combinatorics) (1)
 - [constructive algorithms](#constructive-algorithms) (5)
-- [data structures](#data-structures) (4)
+- [data structures](#data-structures) (5)
 - [dfs and similar](#dfs-and-similar) (1)
 - [divide and conquer](#divide-and-conquer) (1)
 - [dp](#dp) (9)
@@ -32,7 +32,7 @@
 - [number theory](#number-theory) (2)
 - [probabilities](#probabilities) (1)
 - [shortest paths](#shortest-paths) (1)
-- [sortings](#sortings) (5)
+- [sortings](#sortings) (6)
 - [strings](#strings) (4)
 - [trees](#trees) (1)
 - [two pointers](#two-pointers) (2)
@@ -88,6 +88,7 @@
 | 5C | [Longest Regular Bracket Sequence](https://codeforces.com/contest/5/problem/C) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/5/C%20-%20Longest%20Regular%20Bracket%20Sequence/solution.txt) |
 | 5E | [Bindian Signalizing](https://codeforces.com/contest/5/problem/E) | 2400 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/5/E%20-%20Bindian%20Signalizing/solution.txt) |
 | 6E | [Exposition](https://codeforces.com/contest/6/problem/E) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/6/E%20-%20Exposition/solution.txt) |
+| 12D | [Ball](https://codeforces.com/contest/12/problem/D) | 2400 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/12/D%20-%20Ball/solution.txt) |
 
 ### dfs and similar
 
@@ -230,6 +231,7 @@
 | 5C | [Longest Regular Bracket Sequence](https://codeforces.com/contest/5/problem/C) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/5/C%20-%20Longest%20Regular%20Bracket%20Sequence/solution.txt) |
 | 12B | [Correct Solution?](https://codeforces.com/contest/12/problem/B) | 1100 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/12/B%20-%20Correct%20Solution%3F/solution.txt) |
 | 12C | [Fruits](https://codeforces.com/contest/12/problem/C) | 1100 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/12/C%20-%20Fruits/solution.txt) |
+| 12D | [Ball](https://codeforces.com/contest/12/problem/D) | 2400 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/12/D%20-%20Ball/solution.txt) |
 
 ### strings
 
