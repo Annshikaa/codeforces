@@ -1,0 +1,59 @@
+import sys
+ 
+input = sys.stdin.readline
+ 
+n = int(input())
+B = list(map(int, input().split()))
+I = list(map(int, input().split()))
+R = list(map(int, input().split()))
+ 
+# Coordinate compression for intellect
+vals = sorted(set(I))
+rank = {v: i + 1 for i, v in enumerate(vals)}
+m = len(vals)
+ 
+# Fenwick Tree for prefix maximum
+bit = [-1] * (m + 2)
+ 
+def update(idx, val):
+    while idx <= m:
+        if val > bit[idx]:
+            bit[idx] = val
+        idx += idx & -idx
+ 
+def query(idx):
+    res = -1
+    while idx > 0:
+        if bit[idx] > res:
+            res = bit[idx]
+        idx -= idx & -idx
+    return res
+ 
+order = sorted(range(n), key=lambda x: -B[x])
+ 
+ans = 0
+p = 0
+ 
+while p < n:
+    q = p
+    while q < n and B[order[q]] == B[order[p]]:
+        q += 1
+ 
+    # Query using only ladies with strictly greater beauty
+    for k in range(p, q):
+        i = order[k]
+        idx = rank[I[i]]
+        rev = m - idx + 1
+        if query(rev - 1) > R[i]:
+            ans += 1
+ 
+    # Insert current beauty group
+    for k in range(p, q):
+        i = order[k]
+        idx = rank[I[i]]
+        rev = m - idx + 1
+        update(rev, R[i])
+ 
+    p = q
+ 
+print(ans)
