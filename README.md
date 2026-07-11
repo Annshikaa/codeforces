@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 46 | 24 |
+| 47 | 24 |
 
 ---
 
@@ -16,7 +16,7 @@
 - [bitmasks](#bitmasks) (2)
 - [brute force](#brute-force) (7)
 - [combinatorics](#combinatorics) (1)
-- [constructive algorithms](#constructive-algorithms) (5)
+- [constructive algorithms](#constructive-algorithms) (6)
 - [data structures](#data-structures) (5)
 - [dfs and similar](#dfs-and-similar) (1)
 - [divide and conquer](#divide-and-conquer) (1)
@@ -79,6 +79,7 @@
 | 7A | [Kalevitch and Chess](https://codeforces.com/contest/7/problem/A) | 1100 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/7/A%20-%20Kalevitch%20and%20Chess/solution.txt) |
 | 8B | [Obsession with Robots](https://codeforces.com/contest/8/problem/B) | 1400 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/8/B%20-%20Obsession%20with%20Robots/solution.txt) |
 | 11A | [Increasing Sequence](https://codeforces.com/contest/11/problem/A) | 900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/11/A%20-%20Increasing%20Sequence/solution.txt) |
+| 12E | [Start of the session](https://codeforces.com/contest/12/problem/E) | 2100 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/12/E%20-%20Start%20of%20the%20session/solution.txt) |
 
 ### data structures
 
