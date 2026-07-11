@@ -1,0 +1,20 @@
+n = int(input())
+ 
+m = n - 1
+a = [[0] * n for _ in range(n)]
+ 
+# (n-1) x (n-1) cyclic Latin square
+for i in range(m):
+    for j in range(m):
+        a[i][j] = (i + j) % m + 1
+ 
+# Put 0 on the diagonal and move the old diagonal value
+for i in range(m):
+    a[i][m] = a[i][i]
+    a[m][i] = a[i][i]
+    a[i][i] = 0
+ 
+a[m][m] = 0
+ 
+for row in a:
+    print(*row)
