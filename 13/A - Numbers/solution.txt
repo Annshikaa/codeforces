@@ -1,0 +1,18 @@
+import math
+ 
+A = int(input())
+ 
+total = 0
+ 
+for base in range(2, A):
+    x = A
+    s = 0
+    while x:
+        s += x % base
+        x //= base
+    total += s
+ 
+den = A - 2
+g = math.gcd(total, den)
+ 
+print(f"{total // g}/{den // g}")
