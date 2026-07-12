@@ -1,0 +1,33 @@
+import sys
+import heapq
+ 
+def solve():
+    # Read all tokens from standard input
+    input_data = sys.stdin.read().split()
+    if not input_data:
+        return
+    
+    n = int(input_data[0])
+    sequence = [int(x) for x in input_data[1:n+1]]
+    
+    max_heap = []
+    min_steps = 0
+    
+    for val in sequence:
+        # Push the element onto the max-heap
+        # Python's heapq is a min-heap, so invert signs to get a max-heap
+        heapq.heappush(max_heap, -val)
+        
+        # If the current value is less than the maximum value seen so far
+        if -max_heap[0] > val:
+            # Add the difference to total operations
+            min_steps += (-max_heap[0]) - val
+            
+            # Pop the old maximum and replace it with the new smaller boundary
+            heapq.heappop(max_heap)
+            heapq.heappush(max_heap, -val)
+            
+    print(min_steps)
+ 
+if __name__ == '__main__':
+    solve()
