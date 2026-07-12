@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 48 | 24 |
+| 49 | 24 |
 
 ---
 
@@ -23,11 +23,11 @@
 - [dp](#dp) (9)
 - [dsu](#dsu) (2)
 - [games](#games) (1)
-- [geometry](#geometry) (3)
+- [geometry](#geometry) (4)
 - [graphs](#graphs) (3)
 - [greedy](#greedy) (7)
 - [hashing](#hashing) (3)
-- [implementation](#implementation) (20)
+- [implementation](#implementation) (21)
 - [math](#math) (10)
 - [number theory](#number-theory) (2)
 - [probabilities](#probabilities) (1)
@@ -137,6 +137,7 @@
 | 2C | [Commentator problem](https://codeforces.com/contest/2/problem/C) | 2600 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/2/C%20-%20Commentator%20problem/solution.txt) |
 | 6A | [Triangle](https://codeforces.com/contest/6/problem/A) | 900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/6/A%20-%20Triangle/solution.txt) |
 | 9B | [Running Student](https://codeforces.com/contest/9/problem/B) | 1200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/9/B%20-%20Running%20Student/solution.txt) |
+| 13B | [Letter A](https://codeforces.com/contest/13/problem/B) | 2000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/13/B%20-%20Letter%20A/solution.txt) |
 
 ### graphs
 
@@ -189,6 +190,7 @@
 | 12B | [Correct Solution?](https://codeforces.com/contest/12/problem/B) | 1100 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/12/B%20-%20Correct%20Solution%3F/solution.txt) |
 | 12C | [Fruits](https://codeforces.com/contest/12/problem/C) | 1100 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/12/C%20-%20Fruits/solution.txt) |
 | 13A | [Numbers](https://codeforces.com/contest/13/problem/A) | 1000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/13/A%20-%20Numbers/solution.txt) |
+| 13B | [Letter A](https://codeforces.com/contest/13/problem/B) | 2000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/13/B%20-%20Letter%20A/solution.txt) |
 | 2227A | [Koshary](https://codeforces.com/contest/2227/problem/A) | 800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/2227/A%20-%20Koshary/solution.txt) |
 
 ### math
