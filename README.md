@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 49 | 24 |
+| 50 | 24 |
 
 ---
 
@@ -20,7 +20,7 @@
 - [data structures](#data-structures) (5)
 - [dfs and similar](#dfs-and-similar) (1)
 - [divide and conquer](#divide-and-conquer) (1)
-- [dp](#dp) (9)
+- [dp](#dp) (10)
 - [dsu](#dsu) (2)
 - [games](#games) (1)
 - [geometry](#geometry) (4)
@@ -32,7 +32,7 @@
 - [number theory](#number-theory) (2)
 - [probabilities](#probabilities) (1)
 - [shortest paths](#shortest-paths) (1)
-- [sortings](#sortings) (6)
+- [sortings](#sortings) (7)
 - [strings](#strings) (4)
 - [trees](#trees) (1)
 - [two pointers](#two-pointers) (2)
@@ -116,6 +116,7 @@
 | 10B | [Cinema Cashier](https://codeforces.com/contest/10/problem/B) | 1500 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/10/B%20-%20Cinema%20Cashier/solution.txt) |
 | 10D | [LCIS](https://codeforces.com/contest/10/problem/D) | 2800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/10/D%20-%20LCIS/solution.txt) |
 | 11D | [A Simple Task](https://codeforces.com/contest/11/problem/D) | 2200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/11/D%20-%20A%20Simple%20Task/solution.txt) |
+| 13C | [Sequence](https://codeforces.com/contest/13/problem/C) | 2200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/13/C%20-%20Sequence/solution.txt) |
 
 ### dsu
 
@@ -237,6 +238,7 @@
 | 12B | [Correct Solution?](https://codeforces.com/contest/12/problem/B) | 1100 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/12/B%20-%20Correct%20Solution%3F/solution.txt) |
 | 12C | [Fruits](https://codeforces.com/contest/12/problem/C) | 1100 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/12/C%20-%20Fruits/solution.txt) |
 | 12D | [Ball](https://codeforces.com/contest/12/problem/D) | 2400 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/12/D%20-%20Ball/solution.txt) |
+| 13C | [Sequence](https://codeforces.com/contest/13/problem/C) | 2200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/13/C%20-%20Sequence/solution.txt) |
 
 ### strings
 
