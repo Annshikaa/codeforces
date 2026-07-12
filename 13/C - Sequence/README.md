@@ -1,0 +1,17 @@
+<h2><a href="https://codeforces.com/contest/13/problem/C" target="_blank" rel="noopener noreferrer">13C — Sequence</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 2200 |
+| **Language** | PyPy 3-64 |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 13C](https://codeforces.com/contest/13/problem/C) |
+
+## Topics
+`dp` `sortings`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">C. Sequence</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>64 megabytes</div><div class="input-file input-standard" style="font-weight: bold"><div class="property-title">input</div>stdin</div><div class="output-file output-standard" style="font-weight: bold"><div class="property-title">output</div>stdout</div></div><div><p>Little Petya likes to play very much. And most of all he likes to play the following game:</p><p>He is given a sequence of <span class="tex-span"><i>N</i></span> integer numbers. At each step it is allowed to increase the value of any number by <span class="tex-span">1</span> or to decrease it by <span class="tex-span">1</span>. The goal of the game is to make the sequence non-decreasing with the smallest number of steps. Petya is not good at math, so he asks for your help.</p><p>The sequence <span class="tex-span"><i>a</i></span> is called non-decreasing if <span class="tex-span"><i>a</i><sub class="lower-index">1</sub> ≤ <i>a</i><sub class="lower-index">2</sub> ≤ ... ≤ <i>a</i><sub class="lower-index"><i>N</i></sub></span> holds, where <span class="tex-span"><i>N</i></span> is the length of the sequence.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line of the input contains single integer <span class="tex-span"><i>N</i></span> (<span class="tex-span">1 ≤ <i>N</i> ≤ 5000</span>) — the length of the initial sequence. The following <span class="tex-span"><i>N</i></span> lines contain one integer each — elements of the sequence. These numbers do not exceed <span class="tex-span">10<sup class="upper-index">9</sup></span> by absolute value.</p></div><div class="output-specification"><div class="section-title">Output</div><p>Output one integer — minimum number of steps required to achieve the goal.</p></div><div class="sample-tests"><div class="section-title">Examples</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id009850400235240304" id="id0010820420512941231" class="input-output-copier">Copy</div></div><pre id="id009850400235240304">5<br>3 2 -1 2 11<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id001754264734281601" id="id007012973513241942" class="input-output-copier">Copy</div></div><pre id="id001754264734281601">4<br></pre></div><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id006034140675736499" id="id005060235738459407" class="input-output-copier">Copy</div></div><pre id="id006034140675736499">5<br>2 1 1 1 1<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id008919525136246244" id="id009417310554581352" class="input-output-copier">Copy</div></div><pre id="id008919525136246244">1<br></pre></div></div></div>
