@@ -1,0 +1,17 @@
+<h2><a href="https://codeforces.com/contest/13/problem/D" target="_blank" rel="noopener noreferrer">13D — Triangles</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 2600 |
+| **Language** | PyPy 3-64 |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 13D](https://codeforces.com/contest/13/problem/D) |
+
+## Topics
+`dp` `geometry`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">D. Triangles</div><div class="time-limit"><div class="property-title">time limit per test</div>2 seconds</div><div class="memory-limit"><div class="property-title">memory limit per test</div>64 megabytes</div><div class="input-file input-standard" style="font-weight: bold"><div class="property-title">input</div>stdin</div><div class="output-file output-standard" style="font-weight: bold"><div class="property-title">output</div>stdout</div></div><div><p>Little Petya likes to draw. He drew <span class="tex-span"><i>N</i></span> red and <span class="tex-span"><i>M</i></span> blue points on the plane in such a way that no three points lie on the same line. Now he wonders what is the number of distinct triangles with vertices in red points which do not contain any blue point inside.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains two non-negative integer numbers <span class="tex-span"><i>N</i></span> and <span class="tex-span"><i>M</i></span> (<span class="tex-span">0 ≤ <i>N</i> ≤ 500</span>, <span class="tex-span">0 ≤ <i>M</i> ≤ 500</span>) — the number of red and blue points respectively. The following <span class="tex-span"><i>N</i></span> lines contain two integer numbers each — coordinates of red points. The following <span class="tex-span"><i>M</i></span> lines contain two integer numbers each — coordinates of blue points. All coordinates do not exceed <span class="tex-span">10<sup class="upper-index">9</sup></span> by absolute value.</p></div><div class="output-specification"><div class="section-title">Output</div><p>Output one integer — the number of distinct triangles with vertices in red points which do not contain any blue point inside.</p></div><div class="sample-tests"><div class="section-title">Examples</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id006433222531954235" id="id006651016985874622" class="input-output-copier">Copy</div></div><pre id="id006433222531954235">4 1<br>0 0<br>10 0<br>10 10<br>5 4<br>2 1<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id009542677336148078" id="id008663611955581053" class="input-output-copier">Copy</div></div><pre id="id009542677336148078">2<br></pre></div><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id009297587855134676" id="id004337956165803496" class="input-output-copier">Copy</div></div><pre id="id009297587855134676">5 5<br>5 10<br>6 1<br>8 6<br>-6 -7<br>7 -1<br>5 -1<br>10 -4<br>-10 -8<br>-10 5<br>-2 -8<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id003822581259448147" id="id004215664628137962" class="input-output-copier">Copy</div></div><pre id="id003822581259448147">7<br></pre></div></div></div>
