@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 51 | 24 |
+| 52 | 24 |
 
 ---
 
@@ -17,11 +17,11 @@
 - [brute force](#brute-force) (7)
 - [combinatorics](#combinatorics) (1)
 - [constructive algorithms](#constructive-algorithms) (6)
-- [data structures](#data-structures) (5)
+- [data structures](#data-structures) (6)
 - [dfs and similar](#dfs-and-similar) (1)
 - [divide and conquer](#divide-and-conquer) (1)
 - [dp](#dp) (11)
-- [dsu](#dsu) (2)
+- [dsu](#dsu) (3)
 - [games](#games) (1)
 - [geometry](#geometry) (5)
 - [graphs](#graphs) (3)
@@ -90,6 +90,7 @@
 | 5E | [Bindian Signalizing](https://codeforces.com/contest/5/problem/E) | 2400 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/5/E%20-%20Bindian%20Signalizing/solution.txt) |
 | 6E | [Exposition](https://codeforces.com/contest/6/problem/E) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/6/E%20-%20Exposition/solution.txt) |
 | 12D | [Ball](https://codeforces.com/contest/12/problem/D) | 2400 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/12/D%20-%20Ball/solution.txt) |
+| 13E | [Holes](https://codeforces.com/contest/13/problem/E) | 2700 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/13/E%20-%20Holes/solution.txt) |
 
 ### dfs and similar
 
@@ -125,6 +126,7 @@
 |---|---------|------------|----------|
 | 6E | [Exposition](https://codeforces.com/contest/6/problem/E) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/6/E%20-%20Exposition/solution.txt) |
 | 9E | [Interestring graph and Apples](https://codeforces.com/contest/9/problem/E) | 2300 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/9/E%20-%20Interestring%20graph%20and%20Apples/solution.txt) |
+| 13E | [Holes](https://codeforces.com/contest/13/problem/E) | 2700 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/13/E%20-%20Holes/solution.txt) |
 
 ### games
 
