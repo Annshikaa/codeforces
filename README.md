@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 50 | 24 |
+| 51 | 24 |
 
 ---
 
@@ -20,10 +20,10 @@
 - [data structures](#data-structures) (5)
 - [dfs and similar](#dfs-and-similar) (1)
 - [divide and conquer](#divide-and-conquer) (1)
-- [dp](#dp) (10)
+- [dp](#dp) (11)
 - [dsu](#dsu) (2)
 - [games](#games) (1)
-- [geometry](#geometry) (4)
+- [geometry](#geometry) (5)
 - [graphs](#graphs) (3)
 - [greedy](#greedy) (7)
 - [hashing](#hashing) (3)
@@ -117,6 +117,7 @@
 | 10D | [LCIS](https://codeforces.com/contest/10/problem/D) | 2800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/10/D%20-%20LCIS/solution.txt) |
 | 11D | [A Simple Task](https://codeforces.com/contest/11/problem/D) | 2200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/11/D%20-%20A%20Simple%20Task/solution.txt) |
 | 13C | [Sequence](https://codeforces.com/contest/13/problem/C) | 2200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/13/C%20-%20Sequence/solution.txt) |
+| 13D | [Triangles](https://codeforces.com/contest/13/problem/D) | 2600 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/13/D%20-%20Triangles/solution.txt) |
 
 ### dsu
 
@@ -139,6 +140,7 @@
 | 6A | [Triangle](https://codeforces.com/contest/6/problem/A) | 900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/6/A%20-%20Triangle/solution.txt) |
 | 9B | [Running Student](https://codeforces.com/contest/9/problem/B) | 1200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/9/B%20-%20Running%20Student/solution.txt) |
 | 13B | [Letter A](https://codeforces.com/contest/13/problem/B) | 2000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/13/B%20-%20Letter%20A/solution.txt) |
+| 13D | [Triangles](https://codeforces.com/contest/13/problem/D) | 2600 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/13/D%20-%20Triangles/solution.txt) |
 
 ### graphs
 
