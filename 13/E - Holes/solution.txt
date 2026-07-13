@@ -1,0 +1,58 @@
+import sys
+input = sys.stdin.readline
+ 
+n, m = map(int, input().split())
+a = [0] + list(map(int, input().split()))
+ 
+B = 320
+ 
+cnt = [0] * (n + 2)
+nxt = [0] * (n + 2)
+last = [0] * (n + 2)
+ 
+for i in range(n, 0, -1):
+    j = i + a[i]
+    if j > n:
+        cnt[i] = 1
+        nxt[i] = n + 1
+        last[i] = i
+    elif j // B != i // B:
+        cnt[i] = 1
+        nxt[i] = j
+        last[i] = i
+    else:
+        cnt[i] = cnt[j] + 1
+        nxt[i] = nxt[j]
+        last[i] = last[j]
+ 
+for _ in range(m):
+    q = list(map(int, input().split()))
+    if q[0] == 0:
+        _, x, v = q
+        a[x] = v
+        l = (x // B) * B
+        if l == 0:
+            l = 1
+        for i in range(x, l - 1, -1):
+            j = i + a[i]
+            if j > n:
+                cnt[i] = 1
+                nxt[i] = n + 1
+                last[i] = i
+            elif j // B != i // B:
+                cnt[i] = 1
+                nxt[i] = j
+                last[i] = i
+            else:
+                cnt[i] = cnt[j] + 1
+                nxt[i] = nxt[j]
+                last[i] = last[j]
+    else:
+        _, x = q
+        jumps = 0
+        res = x
+        while x <= n:
+            jumps += cnt[x]
+            res = last[x]
+            x = nxt[x]
+        print(res, jumps)
