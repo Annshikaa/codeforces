@@ -1,0 +1,46 @@
+import sys
+ 
+def solve():
+    # Read all inputs from standard input
+    input = sys.stdin.read
+    data = input().split()
+    
+    if not data:
+        return
+ 
+    n = int(data[0])
+    x0 = int(data[1])
+    
+    # Initialize the intersection bounds to the widest possible range
+    max_left = 0
+    min_right = 1000
+    
+    idx = 2
+    for _ in range(n):
+        a = int(data[idx])
+        b = int(data[idx+1])
+        idx += 2
+        
+        # Ensure standard segment format where left <= right
+        left = min(a, b)
+        right = max(a, b)
+        
+        # Intersect with the existing global range
+        max_left = max(max_left, left)
+        min_right = min(min_right, right)
+        
+    # If the intersection is invalid, there is no common point
+    if max_left > min_right:
+        print(-1)
+    # If x0 is within the intersection, no movement is needed
+    elif max_left <= x0 <= min_right:
+        print(0)
+    # If x0 is to the left of the intersection
+    elif x0 < max_left:
+        print(max_left - x0)
+    # If x0 is to the right of the intersection
+    else:
+        print(x0 - min_right)
+ 
+if __name__ == '__main__':
+    solve()
