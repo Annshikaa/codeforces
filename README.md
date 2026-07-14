@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 53 | 24 |
+| 54 | 24 |
 
 ---
 
@@ -27,7 +27,7 @@
 - [graphs](#graphs) (3)
 - [greedy](#greedy) (7)
 - [hashing](#hashing) (3)
-- [implementation](#implementation) (22)
+- [implementation](#implementation) (23)
 - [math](#math) (10)
 - [number theory](#number-theory) (2)
 - [probabilities](#probabilities) (1)
@@ -196,6 +196,7 @@
 | 12C | [Fruits](https://codeforces.com/contest/12/problem/C) | 1100 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/12/C%20-%20Fruits/solution.txt) |
 | 13A | [Numbers](https://codeforces.com/contest/13/problem/A) | 1000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/13/A%20-%20Numbers/solution.txt) |
 | 13B | [Letter A](https://codeforces.com/contest/13/problem/B) | 2000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/13/B%20-%20Letter%20A/solution.txt) |
+| 14A | [Letter](https://codeforces.com/contest/14/problem/A) | 800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/14/A%20-%20Letter/solution.txt) |
 | 14B | [Young Photographer](https://codeforces.com/contest/14/problem/B) | 1000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/14/B%20-%20Young%20Photographer/solution.txt) |
 | 2227A | [Koshary](https://codeforces.com/contest/2227/problem/A) | 800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/2227/A%20-%20Koshary/solution.txt) |
 
