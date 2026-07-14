@@ -1,0 +1,33 @@
+import sys
+ 
+def solve():
+    # Read all inputs from standard input
+    input_data = sys.stdin.read().splitlines()
+    if not input_data:
+        return
+ 
+    # Parse dimensions n and m
+    n, m = map(int, input_data[0].split())
+    
+    # Read the grid
+    grid = input_data[1:n+1]
+    
+    # Initialize boundaries
+    min_row, max_row = n, -1
+    min_col, max_col = m, -1
+    
+    # Traverse the grid to find the bounding box of '*'
+    for r in range(n):
+        for c in range(m):
+            if grid[r][c] == '*':
+                if r < min_row: min_row = r
+                if r > max_row: max_row = r
+                if c < min_col: min_col = c
+                if c > max_col: max_col = c
+                
+    # Output the subgrid defined by the boundaries
+    for r in range(min_row, max_row + 1):
+        print(grid[r][min_col:max_col + 1])
+ 
+if __name__ == '__main__':
+    solve()
