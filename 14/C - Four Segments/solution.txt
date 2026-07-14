@@ -1,0 +1,64 @@
+import sys
+ 
+def solve():
+    # Read all inputs from standard input
+    input_data = sys.stdin.read().split()
+    if not input_data:
+        return
+ 
+    # Parse segments into pairs of endpoints: ((x1, y1), (x2, y2))
+    segments = []
+    idx = 0
+    for _ in range(4):
+        x1, y1 = int(input_data[idx]), int(input_data[idx+1])
+        x2, y2 = int(input_data[idx+2]), int(input_data[idx+3])
+        idx += 4
+        segments.append(((x1, y1), (x2, y2)))
+ 
+    horiz = []
+    vert = []
+    endpoints = []
+ 
+    # 1. Classify segments into horizontal and vertical
+    for p1, p2 in segments:
+        if p1[1] == p2[1] and p1[0] != p2[0]:  # Horizontal
+            horiz.append((p1, p2))
+        elif p1[0] == p2[0] and p1[1] != p2[1]:  # Vertical
+            vert.append((p1, p2))
+        else:
+            # Degenerate points or diagonal lines are invalid
+            print("NO")
+            return
+        
+        # Track all endpoints
+        endpoints.append(p1)
+        endpoints.append(p2)
+ 
+    # Must have exactly 2 horizontal and 2 vertical segments
+    if len(horiz) != 2 or len(vert) != 2:
+        print("NO")
+        return
+ 
+    # 2. Verify connection properties (4 unique corners, each appearing exactly twice)
+    unique_points = set(endpoints)
+    if len(unique_points) != 4:
+        print("NO")
+        return
+ 
+    for pt in unique_points:
+        if endpoints.count(pt) != 2:
+            print("NO")
+            return
+ 
+    # 3. Verify it forms a valid non-zero area rectangle
+    # Extract coordinates to check boundaries
+    x_coords = sorted(list({pt[0] for pt in unique_points}))
+    y_coords = sorted(list({pt[1] for pt in unique_points}))
+ 
+    if len(x_coords) == 2 and len(y_coords) == 2:
+        print("YES")
+    else:
+        print("NO")
+ 
+if __name__ == '__main__':
+    solve()
