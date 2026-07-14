@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 54 | 24 |
+| 55 | 24 |
 
 ---
 
@@ -14,21 +14,21 @@
 
 - [binary search](#binary-search) (1)
 - [bitmasks](#bitmasks) (2)
-- [brute force](#brute-force) (7)
+- [brute force](#brute-force) (8)
 - [combinatorics](#combinatorics) (1)
-- [constructive algorithms](#constructive-algorithms) (6)
+- [constructive algorithms](#constructive-algorithms) (7)
 - [data structures](#data-structures) (6)
 - [dfs and similar](#dfs-and-similar) (1)
 - [divide and conquer](#divide-and-conquer) (1)
 - [dp](#dp) (11)
 - [dsu](#dsu) (3)
 - [games](#games) (1)
-- [geometry](#geometry) (5)
+- [geometry](#geometry) (6)
 - [graphs](#graphs) (3)
 - [greedy](#greedy) (7)
 - [hashing](#hashing) (3)
-- [implementation](#implementation) (23)
-- [math](#math) (10)
+- [implementation](#implementation) (24)
+- [math](#math) (11)
 - [number theory](#number-theory) (2)
 - [probabilities](#probabilities) (1)
 - [shortest paths](#shortest-paths) (1)
@@ -63,6 +63,7 @@
 | 7A | [Kalevitch and Chess](https://codeforces.com/contest/7/problem/A) | 1100 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/7/A%20-%20Kalevitch%20and%20Chess/solution.txt) |
 | 9B | [Running Student](https://codeforces.com/contest/9/problem/B) | 1200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/9/B%20-%20Running%20Student/solution.txt) |
 | 9C | [Hexadecimal's Numbers](https://codeforces.com/contest/9/problem/C) | 1200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/9/C%20-%20Hexadecimal's%20Numbers/solution.txt) |
+| 14C | [Four Segments](https://codeforces.com/contest/14/problem/C) | 1700 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/14/C%20-%20Four%20Segments/solution.txt) |
 
 ### combinatorics
 
@@ -80,6 +81,7 @@
 | 8B | [Obsession with Robots](https://codeforces.com/contest/8/problem/B) | 1400 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/8/B%20-%20Obsession%20with%20Robots/solution.txt) |
 | 11A | [Increasing Sequence](https://codeforces.com/contest/11/problem/A) | 900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/11/A%20-%20Increasing%20Sequence/solution.txt) |
 | 12E | [Start of the session](https://codeforces.com/contest/12/problem/E) | 2100 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/12/E%20-%20Start%20of%20the%20session/solution.txt) |
+| 14C | [Four Segments](https://codeforces.com/contest/14/problem/C) | 1700 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/14/C%20-%20Four%20Segments/solution.txt) |
 
 ### data structures
 
@@ -143,6 +145,7 @@
 | 9B | [Running Student](https://codeforces.com/contest/9/problem/B) | 1200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/9/B%20-%20Running%20Student/solution.txt) |
 | 13B | [Letter A](https://codeforces.com/contest/13/problem/B) | 2000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/13/B%20-%20Letter%20A/solution.txt) |
 | 13D | [Triangles](https://codeforces.com/contest/13/problem/D) | 2600 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/13/D%20-%20Triangles/solution.txt) |
+| 14C | [Four Segments](https://codeforces.com/contest/14/problem/C) | 1700 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/14/C%20-%20Four%20Segments/solution.txt) |
 
 ### graphs
 
@@ -198,6 +201,7 @@
 | 13B | [Letter A](https://codeforces.com/contest/13/problem/B) | 2000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/13/B%20-%20Letter%20A/solution.txt) |
 | 14A | [Letter](https://codeforces.com/contest/14/problem/A) | 800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/14/A%20-%20Letter/solution.txt) |
 | 14B | [Young Photographer](https://codeforces.com/contest/14/problem/B) | 1000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/14/B%20-%20Young%20Photographer/solution.txt) |
+| 14C | [Four Segments](https://codeforces.com/contest/14/problem/C) | 1700 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/14/C%20-%20Four%20Segments/solution.txt) |
 | 2227A | [Koshary](https://codeforces.com/contest/2227/problem/A) | 800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/2227/A%20-%20Koshary/solution.txt) |
 
 ### math
@@ -213,6 +217,7 @@
 | 11A | [Increasing Sequence](https://codeforces.com/contest/11/problem/A) | 900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/11/A%20-%20Increasing%20Sequence/solution.txt) |
 | 11B | [Jumping Jack](https://codeforces.com/contest/11/problem/B) | 1600 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/11/B%20-%20Jumping%20Jack/solution.txt) |
 | 13A | [Numbers](https://codeforces.com/contest/13/problem/A) | 1000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/13/A%20-%20Numbers/solution.txt) |
+| 14C | [Four Segments](https://codeforces.com/contest/14/problem/C) | 1700 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/14/C%20-%20Four%20Segments/solution.txt) |
 | 2227A | [Koshary](https://codeforces.com/contest/2227/problem/A) | 800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/2227/A%20-%20Koshary/solution.txt) |
 
 ### number theory
