@@ -1,0 +1,70 @@
+import sys
+from collections import deque
+ 
+def solve():
+    # Fast I/O
+    input = sys.stdin.read
+    data = input().split()
+    if not data:
+        return
+    
+    n = int(data[0])
+    edges = []
+    adj = [[] for _ in range(n + 1)]
+    
+    idx = 1
+    for _ in range(n - 1):
+        u = int(data[idx])
+        v = int(data[idx+1])
+        edges.append((u, v))
+        adj[u].append(v)
+        adj[v].append(u)
+        idx += 2
+ 
+    # Helper function to find the diameter of a component
+    def get_diameter(start, forbidden_u, forbidden_v):
+        # BFS to find the farthest node and its distance
+        def bfs(s):
+            dist = {s: 0}
+            queue = deque([s])
+            farthest_node = s
+            max_dist = 0
+            
+            while queue:
+                curr = queue.popleft()
+                for neighbor in adj[curr]:
+                    # Skip the deleted edge
+                    if (curr == forbidden_u and neighbor == forbidden_v) or (curr == forbidden_v and neighbor == forbidden_u):
+                        continue
+                    if neighbor not in dist:
+                        dist[neighbor] = dist[curr] + 1
+                        queue.append(neighbor)
+                        if dist[neighbor] > max_dist:
+                            max_dist = dist[neighbor]
+                            farthest_node = neighbor
+            return farthest_node, max_dist
+ 
+        # 1. BFS from start to find farthest node A
+        node_a, _ = bfs(start)
+        # 2. BFS from A to find the diameter
+        _, diameter = bfs(node_a)
+        return diameter
+ 
+    max_profit = 0
+ 
+    # Try removing each edge
+    for u, v in edges:
+        # Find diameter of the component containing 'u'
+        diameter_u = get_diameter(u, u, v)
+        # Find diameter of the component containing 'v'
+        diameter_v = get_diameter(v, u, v)
+        
+        # Calculate profit
+        profit = diameter_u * diameter_v
+        if profit > max_profit:
+            max_profit = profit
+ 
+    print(max_profit)
+ 
+if __name__ == '__main__':
+    solve()
