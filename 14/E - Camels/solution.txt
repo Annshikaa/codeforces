@@ -1,0 +1,70 @@
+import sys
+ 
+def solve():
+    # Read all inputs from standard input
+    input_data = sys.stdin.read().split()
+    if not input_data:
+        return
+    
+    n = int(input_data[0])
+    t = int(input_data[1])
+    
+    # DP table initialized to 0
+    # Dimensions: dp[i][last_y][humps][valleys][dir]
+    # i: 1 to n (size n+1)
+    # last_y: 1 to 4 (size 5)
+    # humps: 0 to t (size t+2)
+    # valleys: 0 to t (size t+2)
+    # dir: 0 (up), 1 (down)
+    dp = [[[[[0] * 2 for _ in range(t + 2)] for _ in range(t + 2)] for _ in range(5)] for _ in range(n + 1)]
+    
+    # Base cases: For the second vertex (i=2), we choose any pair of distinct heights (y1, y2)
+    for y1 in range(1, 5):
+        for y2 in range(1, 5):
+            if y1 < y2:
+                # Going up: initial direction is 0, 0 humps, 0 valleys
+                dp[2][y2][0][0][0] += 1
+            elif y1 > y2:
+                # Going down: initial direction is 1, 0 humps, 0 valleys
+                dp[2][y2][0][0][1] += 1
+                
+    # Fill the DP table from vertex 3 to n
+    for i in range(3, n + 1):
+        for last_y in range(1, 5):
+            for humps in range(t + 1):
+                for valleys in range(t + 1):
+                    # Case 1: The step into vertex i-1 was an upward step (dir = 0)
+                    if dp[i-1][last_y][humps][valleys][0] > 0:
+                        ways = dp[i-1][last_y][humps][valleys][0]
+                        for curr_y in range(1, 5):
+                            if curr_y > last_y:
+                                # Continuing up: no new humps or valleys, direction remains 0
+                                dp[i][curr_y][humps][valleys][0] += ways
+                            elif curr_y < last_y:
+                                # Turning down: last_y becomes a hump!
+                                if humps + 1 <= t:
+                                    dp[i][curr_y][humps + 1][valleys][1] += ways
+                                    
+                    # Case 2: The step into vertex i-1 was a downward step (dir = 1)
+                    if dp[i-1][last_y][humps][valleys][1] > 0:
+                        ways = dp[i-1][last_y][humps][valleys][1]
+                        for curr_y in range(1, 5):
+                            if curr_y > last_y:
+                                # Turning up: last_y becomes a valley!
+                                if valleys + 1 <= t:
+                                    dp[i][curr_y][humps][valleys + 1][0] += ways
+                            elif curr_y < last_y:
+                                # Continuing down: no new humps or valleys, direction remains 1
+                                dp[i][curr_y][humps][valleys][1] += ways
+ 
+    # Sum up all valid combinations at the nth vertex
+    ans = 0
+    for last_y in range(1, 5):
+        # We need exactly t humps and t-1 valleys
+        ans += dp[n][last_y][t][t-1][0]
+        ans += dp[n][last_y][t][t-1][1]
+        
+    print(ans)
+ 
+if __name__ == '__main__':
+    solve()
