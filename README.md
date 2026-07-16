@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 56 | 24 |
+| 58 | 24 |
 
 ---
 
@@ -20,19 +20,19 @@
 - [data structures](#data-structures) (6)
 - [dfs and similar](#dfs-and-similar) (2)
 - [divide and conquer](#divide-and-conquer) (1)
-- [dp](#dp) (12)
+- [dp](#dp) (13)
 - [dsu](#dsu) (3)
 - [games](#games) (1)
 - [geometry](#geometry) (6)
 - [graphs](#graphs) (4)
 - [greedy](#greedy) (7)
 - [hashing](#hashing) (3)
-- [implementation](#implementation) (24)
+- [implementation](#implementation) (25)
 - [math](#math) (11)
 - [number theory](#number-theory) (2)
 - [probabilities](#probabilities) (1)
 - [shortest paths](#shortest-paths) (2)
-- [sortings](#sortings) (7)
+- [sortings](#sortings) (8)
 - [strings](#strings) (4)
 - [trees](#trees) (2)
 - [two pointers](#two-pointers) (3)
@@ -123,6 +123,7 @@
 | 13C | [Sequence](https://codeforces.com/contest/13/problem/C) | 2200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/13/C%20-%20Sequence/solution.txt) |
 | 13D | [Triangles](https://codeforces.com/contest/13/problem/D) | 2600 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/13/D%20-%20Triangles/solution.txt) |
 | 14D | [Two Paths](https://codeforces.com/contest/14/problem/D) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/14/D%20-%20Two%20Paths/solution.txt) |
+| 14E | [Camels](https://codeforces.com/contest/14/problem/E) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/14/E%20-%20Camels/solution.txt) |
 
 ### dsu
 
@@ -205,6 +206,7 @@
 | 14A | [Letter](https://codeforces.com/contest/14/problem/A) | 800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/14/A%20-%20Letter/solution.txt) |
 | 14B | [Young Photographer](https://codeforces.com/contest/14/problem/B) | 1000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/14/B%20-%20Young%20Photographer/solution.txt) |
 | 14C | [Four Segments](https://codeforces.com/contest/14/problem/C) | 1700 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/14/C%20-%20Four%20Segments/solution.txt) |
+| 15A | [Cottage Village](https://codeforces.com/contest/15/problem/A) | 1200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/15/A%20-%20Cottage%20Village/solution.txt) |
 | 2227A | [Koshary](https://codeforces.com/contest/2227/problem/A) | 800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/2227/A%20-%20Koshary/solution.txt) |
 
 ### math
@@ -254,6 +256,7 @@
 | 12C | [Fruits](https://codeforces.com/contest/12/problem/C) | 1100 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/12/C%20-%20Fruits/solution.txt) |
 | 12D | [Ball](https://codeforces.com/contest/12/problem/D) | 2400 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/12/D%20-%20Ball/solution.txt) |
 | 13C | [Sequence](https://codeforces.com/contest/13/problem/C) | 2200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/13/C%20-%20Sequence/solution.txt) |
+| 15A | [Cottage Village](https://codeforces.com/contest/15/problem/A) | 1200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/15/A%20-%20Cottage%20Village/solution.txt) |
 
 ### strings
 
