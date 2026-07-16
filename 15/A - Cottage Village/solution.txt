@@ -1,0 +1,42 @@
+import sys
+ 
+def solve():
+    input_data = sys.stdin.read().split()
+    if not input_data:
+        return
+    
+    n = int(input_data[0])
+    t = int(input_data[1])
+    
+    houses = []
+    idx = 2
+    for _ in range(n):
+        x = int(input_data[idx])
+        a = int(input_data[idx+1])
+        houses.append((x, a))
+        idx += 2
+        
+    # Sort houses by their center x-coordinate
+    houses.sort(key=lambda h: h[0])
+    
+    # We always have at least 2 spots on the extreme left and extreme right
+    ans = 2
+    
+    # Check the spaces between consecutive houses
+    for i in range(n - 1):
+        # Right boundary of the current house
+        right_curr = houses[i][0] + houses[i][1] / 2.0
+        # Left boundary of the next house
+        left_next = houses[i+1][0] - houses[i+1][1] / 2.0
+        
+        gap = left_next - right_curr
+        
+        if gap > t:
+            ans += 2  # Can touch the left house OR the right house
+        elif abs(gap - t) < 1e-9:  # Using epsilon for floating-point comparison
+            ans += 1  # Fits perfectly and touches both
+            
+    print(ans)
+ 
+if __name__ == '__main__':
+    solve()
