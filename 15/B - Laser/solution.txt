@@ -1,0 +1,46 @@
+import sys
+ 
+def solve():
+    # Fast I/O for large number of test cases
+    input_data = sys.stdin.read().split()
+    if not input_data:
+        return
+    
+    t = int(input_data[0])
+    idx = 1
+    
+    results = []
+    for _ in range(t):
+        n = int(input_data[idx])
+        m = int(input_data[idx+1])
+        x1 = int(input_data[idx+2])
+        y1 = int(input_data[idx+3])
+        x2 = int(input_data[idx+4])
+        y2 = int(input_data[idx+5])
+        idx += 6
+        
+        # Calculate the absolute difference between the lasers
+        dx = abs(x1 - x2)
+        dy = abs(y1 - y2)
+        
+        # Number of cells meltable by laser 1
+        s1 = max(0, n - dx) * max(0, m - dy)
+        
+        # Number of cells meltable by laser 2 is the same as laser 1
+        s2 = s1
+        
+        # Number of cells meltable by BOTH lasers
+        intersection = max(0, n - 2 * dx) * max(0, m - 2 * dy)
+        
+        # Total uniquely meltable cells
+        total_melted = s1 + s2 - intersection
+        
+        # Unmelted cells
+        unmelted = (n * m) - total_melted
+        results.append(str(unmelted))
+        
+    print('
+'.join(results))
+ 
+if __name__ == '__main__':
+    solve()
