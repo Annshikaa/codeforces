@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 58 | 24 |
+| 59 | 24 |
 
 ---
 
@@ -28,7 +28,7 @@
 - [greedy](#greedy) (7)
 - [hashing](#hashing) (3)
 - [implementation](#implementation) (25)
-- [math](#math) (11)
+- [math](#math) (12)
 - [number theory](#number-theory) (2)
 - [probabilities](#probabilities) (1)
 - [shortest paths](#shortest-paths) (2)
@@ -223,6 +223,7 @@
 | 11B | [Jumping Jack](https://codeforces.com/contest/11/problem/B) | 1600 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/11/B%20-%20Jumping%20Jack/solution.txt) |
 | 13A | [Numbers](https://codeforces.com/contest/13/problem/A) | 1000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/13/A%20-%20Numbers/solution.txt) |
 | 14C | [Four Segments](https://codeforces.com/contest/14/problem/C) | 1700 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/14/C%20-%20Four%20Segments/solution.txt) |
+| 15B | [Laser](https://codeforces.com/contest/15/problem/B) | 1800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/15/B%20-%20Laser/solution.txt) |
 | 2227A | [Koshary](https://codeforces.com/contest/2227/problem/A) | 800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/2227/A%20-%20Koshary/solution.txt) |
 
 ### number theory
