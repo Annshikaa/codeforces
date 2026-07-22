@@ -1,0 +1,36 @@
+import sys
+ 
+def solve():
+    input_data = sys.stdin.read().split()
+    if not input_data:
+        return
+    
+    n = int(input_data[0])
+    m = int(input_data[1])
+    
+    containers = []
+    idx = 2
+    for _ in range(m):
+        a = int(input_data[idx])
+        b = int(input_data[idx+1])
+        containers.append((a, b))
+        idx += 2
+        
+    # Sort containers descending by matches_per_box (b_i)
+    containers.sort(key=lambda x: x[1], reverse=True)
+    
+    total_matches = 0
+    
+    for a, b in containers:
+        if n == 0:
+            break
+        
+        # Take as many matchboxes as possible from the current container
+        take = min(n, a)
+        total_matches += take * b
+        n -= take
+        
+    print(total_matches)
+ 
+if __name__ == '__main__':
+    solve()
