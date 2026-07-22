@@ -1,0 +1,30 @@
+import sys
+ 
+def solve():
+    # Read all input from standard input
+    input_data = sys.stdin.read().split()
+    if not input_data:
+        return
+    
+    n = int(input_data[0])
+    m = int(input_data[1])
+    grid = input_data[2:]
+    
+    for i in range(n):
+        row = grid[i]
+        
+        # 1. Check if all characters in the current row are the same
+        if len(set(row)) != 1:
+            print("NO")
+            return
+        
+        # 2. Check if the current row has a different color from the previous row
+        if i > 0 and row[0] == grid[i-1][0]:
+            print("NO")
+            return
+ 
+    # If all conditions are met
+    print("YES")
+ 
+if __name__ == '__main__':
+    solve()
