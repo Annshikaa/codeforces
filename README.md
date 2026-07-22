@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 59 | 24 |
+| 60 | 24 |
 
 ---
 
@@ -22,7 +22,7 @@
 - [divide and conquer](#divide-and-conquer) (1)
 - [dp](#dp) (13)
 - [dsu](#dsu) (3)
-- [games](#games) (1)
+- [games](#games) (2)
 - [geometry](#geometry) (6)
 - [graphs](#graphs) (4)
 - [greedy](#greedy) (7)
@@ -138,6 +138,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 3C | [Tic-tac-toe](https://codeforces.com/contest/3/problem/C) | 1800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/3/C%20-%20Tic-tac-toe/solution.txt) |
+| 15C | [Industrial Nim](https://codeforces.com/contest/15/problem/C) | 2000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/15/C%20-%20Industrial%20Nim/solution.txt) |
 
 ### geometry
 
