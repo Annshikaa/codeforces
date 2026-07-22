@@ -1,0 +1,47 @@
+import sys
+ 
+def prefix_xor(k):
+    """Computes 0 ^ 1 ^ 2 ^ ... ^ k in O(1) time."""
+    remainder = k % 4
+    if remainder == 0:
+        return k
+    elif remainder == 1:
+        return 1
+    elif remainder == 2:
+        return k + 1
+    else:  # remainder == 3
+        return 0
+ 
+def range_xor(l, r):
+    """Computes l ^ (l+1) ^ ... ^ r in O(1) time."""
+    return prefix_xor(r) ^ prefix_xor(l - 1)
+ 
+def solve():
+    # Fast I/O for large input sizes
+    input_data = sys.stdin.read().split()
+    if not input_data:
+        return
+    
+    n = int(input_data[0])
+    total_xor = 0
+    idx = 1
+    
+    for _ in range(n):
+        x = int(input_data[idx])
+        m = int(input_data[idx+1])
+        idx += 2
+        
+        # Quarries have dumpers with stone counts in [x, x + m - 1]
+        l = x
+        r = x + m - 1
+        
+        total_xor ^= range_xor(l, r)
+        
+    # First player (tolik) wins if total_xor != 0
+    if total_xor != 0:
+        print("tolik")
+    else:
+        print("bolik")
+ 
+if __name__ == '__main__':
+    solve()
