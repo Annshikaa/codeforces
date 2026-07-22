@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 60 | 24 |
+| 61 | 24 |
 
 ---
 
@@ -27,7 +27,7 @@
 - [graphs](#graphs) (4)
 - [greedy](#greedy) (7)
 - [hashing](#hashing) (3)
-- [implementation](#implementation) (25)
+- [implementation](#implementation) (26)
 - [math](#math) (12)
 - [number theory](#number-theory) (2)
 - [probabilities](#probabilities) (1)
@@ -208,6 +208,7 @@
 | 14B | [Young Photographer](https://codeforces.com/contest/14/problem/B) | 1000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/14/B%20-%20Young%20Photographer/solution.txt) |
 | 14C | [Four Segments](https://codeforces.com/contest/14/problem/C) | 1700 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/14/C%20-%20Four%20Segments/solution.txt) |
 | 15A | [Cottage Village](https://codeforces.com/contest/15/problem/A) | 1200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/15/A%20-%20Cottage%20Village/solution.txt) |
+| 16A | [Flag](https://codeforces.com/contest/16/problem/A) | 800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/16/A%20-%20Flag/solution.txt) |
 | 2227A | [Koshary](https://codeforces.com/contest/2227/problem/A) | 800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/2227/A%20-%20Koshary/solution.txt) |
 
 ### math
