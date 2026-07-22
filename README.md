@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 61 | 24 |
+| 62 | 24 |
 
 ---
 
@@ -25,14 +25,14 @@
 - [games](#games) (2)
 - [geometry](#geometry) (6)
 - [graphs](#graphs) (4)
-- [greedy](#greedy) (7)
+- [greedy](#greedy) (8)
 - [hashing](#hashing) (3)
-- [implementation](#implementation) (26)
+- [implementation](#implementation) (27)
 - [math](#math) (12)
 - [number theory](#number-theory) (2)
 - [probabilities](#probabilities) (1)
 - [shortest paths](#shortest-paths) (2)
-- [sortings](#sortings) (8)
+- [sortings](#sortings) (9)
 - [strings](#strings) (4)
 - [trees](#trees) (2)
 - [two pointers](#two-pointers) (3)
@@ -171,6 +171,7 @@
 | 5C | [Longest Regular Bracket Sequence](https://codeforces.com/contest/5/problem/C) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/5/C%20-%20Longest%20Regular%20Bracket%20Sequence/solution.txt) |
 | 6C | [Alice, Bob and Chocolate](https://codeforces.com/contest/6/problem/C) | 1200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/6/C%20-%20Alice%2C%20Bob%20and%20Chocolate/solution.txt) |
 | 12C | [Fruits](https://codeforces.com/contest/12/problem/C) | 1100 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/12/C%20-%20Fruits/solution.txt) |
+| 16B | [Burglar and Matches](https://codeforces.com/contest/16/problem/B) | 900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/16/B%20-%20Burglar%20and%20Matches/solution.txt) |
 
 ### hashing
 
@@ -209,6 +210,7 @@
 | 14C | [Four Segments](https://codeforces.com/contest/14/problem/C) | 1700 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/14/C%20-%20Four%20Segments/solution.txt) |
 | 15A | [Cottage Village](https://codeforces.com/contest/15/problem/A) | 1200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/15/A%20-%20Cottage%20Village/solution.txt) |
 | 16A | [Flag](https://codeforces.com/contest/16/problem/A) | 800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/16/A%20-%20Flag/solution.txt) |
+| 16B | [Burglar and Matches](https://codeforces.com/contest/16/problem/B) | 900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/16/B%20-%20Burglar%20and%20Matches/solution.txt) |
 | 2227A | [Koshary](https://codeforces.com/contest/2227/problem/A) | 800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/2227/A%20-%20Koshary/solution.txt) |
 
 ### math
@@ -260,6 +262,7 @@
 | 12D | [Ball](https://codeforces.com/contest/12/problem/D) | 2400 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/12/D%20-%20Ball/solution.txt) |
 | 13C | [Sequence](https://codeforces.com/contest/13/problem/C) | 2200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/13/C%20-%20Sequence/solution.txt) |
 | 15A | [Cottage Village](https://codeforces.com/contest/15/problem/A) | 1200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/15/A%20-%20Cottage%20Village/solution.txt) |
+| 16B | [Burglar and Matches](https://codeforces.com/contest/16/problem/B) | 900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/16/B%20-%20Burglar%20and%20Matches/solution.txt) |
 
 ### strings
 
