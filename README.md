@@ -6,13 +6,13 @@
 
 | Total Problems | Topics |
 |---|---|
-| 62 | 24 |
+| 63 | 24 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [binary search](#binary-search) (1)
+- [binary search](#binary-search) (2)
 - [bitmasks](#bitmasks) (2)
 - [brute force](#brute-force) (8)
 - [combinatorics](#combinatorics) (1)
@@ -29,7 +29,7 @@
 - [hashing](#hashing) (3)
 - [implementation](#implementation) (27)
 - [math](#math) (12)
-- [number theory](#number-theory) (2)
+- [number theory](#number-theory) (3)
 - [probabilities](#probabilities) (1)
 - [shortest paths](#shortest-paths) (2)
 - [sortings](#sortings) (9)
@@ -44,6 +44,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 6E | [Exposition](https://codeforces.com/contest/6/problem/E) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/6/E%20-%20Exposition/solution.txt) |
+| 16C | [Monitor](https://codeforces.com/contest/16/problem/C) | 1800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/16/C%20-%20Monitor/solution.txt) |
 
 ### bitmasks
 
@@ -236,6 +237,7 @@
 |---|---------|------------|----------|
 | 7C | [Line](https://codeforces.com/contest/7/problem/C) | 1800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/7/C%20-%20Line/solution.txt) |
 | 10C | [Digital Root](https://codeforces.com/contest/10/problem/C) | 2000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/10/C%20-%20Digital%20Root/solution.txt) |
+| 16C | [Monitor](https://codeforces.com/contest/16/problem/C) | 1800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/16/C%20-%20Monitor/solution.txt) |
 
 ### probabilities
 
