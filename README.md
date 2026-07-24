@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 63 | 24 |
+| 64 | 24 |
 
 ---
 
@@ -27,13 +27,13 @@
 - [graphs](#graphs) (4)
 - [greedy](#greedy) (8)
 - [hashing](#hashing) (3)
-- [implementation](#implementation) (27)
+- [implementation](#implementation) (28)
 - [math](#math) (12)
 - [number theory](#number-theory) (3)
 - [probabilities](#probabilities) (1)
 - [shortest paths](#shortest-paths) (2)
 - [sortings](#sortings) (9)
-- [strings](#strings) (4)
+- [strings](#strings) (5)
 - [trees](#trees) (2)
 - [two pointers](#two-pointers) (3)
 
@@ -212,6 +212,7 @@
 | 15A | [Cottage Village](https://codeforces.com/contest/15/problem/A) | 1200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/15/A%20-%20Cottage%20Village/solution.txt) |
 | 16A | [Flag](https://codeforces.com/contest/16/problem/A) | 800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/16/A%20-%20Flag/solution.txt) |
 | 16B | [Burglar and Matches](https://codeforces.com/contest/16/problem/B) | 900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/16/B%20-%20Burglar%20and%20Matches/solution.txt) |
+| 16D | [Logging](https://codeforces.com/contest/16/problem/D) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/16/D%20-%20Logging/solution.txt) |
 | 2227A | [Koshary](https://codeforces.com/contest/2227/problem/A) | 800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/2227/A%20-%20Koshary/solution.txt) |
 
 ### math
@@ -274,6 +275,7 @@
 | 5C | [Longest Regular Bracket Sequence](https://codeforces.com/contest/5/problem/C) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/5/C%20-%20Longest%20Regular%20Bracket%20Sequence/solution.txt) |
 | 7D | [Palindrome Degree](https://codeforces.com/contest/7/problem/D) | 2200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/7/D%20-%20Palindrome%20Degree/solution.txt) |
 | 8A | [Train and Peter](https://codeforces.com/contest/8/problem/A) | 1200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/8/A%20-%20Train%20and%20Peter/solution.txt) |
+| 16D | [Logging](https://codeforces.com/contest/16/problem/D) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/16/D%20-%20Logging/solution.txt) |
 
 ### trees
 
