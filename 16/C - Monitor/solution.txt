@@ -1,0 +1,28 @@
+import sys
+import math
+ 
+def solve():
+    input_data = sys.stdin.read().split()
+    if not input_data:
+        return
+    
+    a = int(input_data[0])
+    b = int(input_data[1])
+    x = int(input_data[2])
+    y = int(input_data[3])
+    
+    # Simplify the ratio x:y to lowest terms using GCD
+    g = math.gcd(x, y)
+    x_prime = x // g
+    y_prime = y // g
+    
+    # Calculate the maximum multiplier k such that k*x_prime <= a and k*y_prime <= b
+    k = min(a // x_prime, b // y_prime)
+    
+    if k == 0:
+        print("0 0")
+    else:
+        print(k * x_prime, k * y_prime)
+ 
+if __name__ == '__main__':
+    solve()
