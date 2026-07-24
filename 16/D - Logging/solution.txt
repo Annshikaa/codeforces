@@ -1,0 +1,56 @@
+import sys
+ 
+def convert_to_minutes(time_str):
+    # Format: "hh:mm x.m."
+    time_part, period = time_str.split()
+    hh, mm = map(int, time_part.split(':'))
+    
+    # 12-hour clock conversion
+    if period == 'a.m.':
+        if hh == 12:
+            hh = 0
+    else:  # 'p.m.'
+        if hh != 12:
+            hh += 12
+            
+    return hh * 60 + mm
+ 
+def solve():
+    lines = sys.stdin.read().splitlines()
+    if not lines:
+        return
+    
+    n = int(lines[0].strip())
+    
+    days = 1
+    prev_time = -1
+    same_minute_count = 0
+    
+    for i in range(1, n + 1):
+        line = lines[i]
+        
+        # Safely extract time string inside the brackets "[hh:mm x.m.]"
+        closing_bracket = line.find(']')
+        time_str = line[1:closing_bracket]
+        
+        curr_time = convert_to_minutes(time_str)
+        
+        if curr_time > prev_time:
+            same_minute_count = 1
+            prev_time = curr_time
+        elif curr_time == prev_time:
+            # At most 10 logs permitted per minute within the same day
+            if same_minute_count < 10:
+                same_minute_count += 1
+            else:
+                days += 1
+                same_minute_count = 1
+        else:  # curr_time < prev_time
+            days += 1
+            same_minute_count = 1
+            prev_time = curr_time
+ 
+    print(days)
+ 
+if __name__ == '__main__':
+    solve()
