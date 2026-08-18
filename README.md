@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 64 | 24 |
+| 65 | 24 |
 
 ---
 
@@ -15,12 +15,12 @@
 - [binary search](#binary-search) (2)
 - [bitmasks](#bitmasks) (2)
 - [brute force](#brute-force) (8)
-- [combinatorics](#combinatorics) (1)
+- [combinatorics](#combinatorics) (2)
 - [constructive algorithms](#constructive-algorithms) (7)
 - [data structures](#data-structures) (6)
 - [dfs and similar](#dfs-and-similar) (2)
 - [divide and conquer](#divide-and-conquer) (1)
-- [dp](#dp) (13)
+- [dp](#dp) (14)
 - [dsu](#dsu) (3)
 - [games](#games) (2)
 - [geometry](#geometry) (6)
@@ -71,6 +71,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 9D | [How many trees?](https://codeforces.com/contest/9/problem/D) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/9/D%20-%20How%20many%20trees%3F/solution.txt) |
+| 15E | [Triangles](https://codeforces.com/contest/15/problem/E) | 2600 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/15/E%20-%20Triangles/solution.txt) |
 
 ### constructive algorithms
 
@@ -125,6 +126,7 @@
 | 13D | [Triangles](https://codeforces.com/contest/13/problem/D) | 2600 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/13/D%20-%20Triangles/solution.txt) |
 | 14D | [Two Paths](https://codeforces.com/contest/14/problem/D) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/14/D%20-%20Two%20Paths/solution.txt) |
 | 14E | [Camels](https://codeforces.com/contest/14/problem/E) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/14/E%20-%20Camels/solution.txt) |
+| 15E | [Triangles](https://codeforces.com/contest/15/problem/E) | 2600 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/15/E%20-%20Triangles/solution.txt) |
 
 ### dsu
 
