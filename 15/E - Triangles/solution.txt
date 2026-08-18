@@ -1,0 +1,20 @@
+import sys
+ 
+def main():
+    n = int(sys.stdin.read().strip())
+    MOD = 1000000009
+    
+    a = 2
+    b = 2
+    c = 4
+    
+    for _ in range((n - 2) // 2):
+        a = (a * 2) % MOD
+        c = (c * (a - 3)) % MOD
+        b = (b + c) % MOD
+        
+    ans = (b * b + 1) * 2 % MOD
+    print(ans)
+ 
+if __name__ == '__main__':
+    main()
