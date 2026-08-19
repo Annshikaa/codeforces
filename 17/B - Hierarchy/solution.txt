@@ -1,0 +1,40 @@
+import sys
+ 
+ 
+def solve():
+    input = sys.stdin.read
+    data = input().split()
+    if not data:
+        return
+ 
+    n = int(data[0])
+    # q is given from index 1 to n (not strictly needed for the greedy incoming edge approach)
+    idx = 1 + n
+ 
+    m = int(data[idx])
+    idx += 1
+ 
+    min_in_cost = [-1] * (n + 1)
+ 
+    for _ in range(m):
+        u = int(data[idx])
+        v = int(data[idx + 1])
+        c = int(data[idx + 2])
+        idx += 3
+ 
+        if min_in_cost[v] == -1 or c < min_in_cost[v]:
+            min_in_cost[v] = c
+ 
+    # Count nodes that have no incoming edge available
+    no_incoming = [i for i in range(1, n + 1) if min_in_cost[i] == -1]
+ 
+    # Exactly one employee (the root) must not have a supervisor
+    if len(no_incoming) > 1:
+        print(-1)
+    else:
+        total_cost = sum(min_in_cost[i] for i in range(1, n + 1) if min_in_cost[i] != -1)
+        print(total_cost)
+ 
+ 
+if __name__ == "__main__":
+    solve()
