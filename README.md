@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 67 | 24 |
+| 68 | 24 |
 
 ---
 
@@ -18,20 +18,20 @@
 - [combinatorics](#combinatorics) (2)
 - [constructive algorithms](#constructive-algorithms) (7)
 - [data structures](#data-structures) (6)
-- [dfs and similar](#dfs-and-similar) (2)
+- [dfs and similar](#dfs-and-similar) (3)
 - [divide and conquer](#divide-and-conquer) (1)
 - [dp](#dp) (15)
-- [dsu](#dsu) (3)
+- [dsu](#dsu) (4)
 - [games](#games) (2)
 - [geometry](#geometry) (6)
 - [graphs](#graphs) (4)
-- [greedy](#greedy) (8)
+- [greedy](#greedy) (9)
 - [hashing](#hashing) (3)
 - [implementation](#implementation) (28)
 - [math](#math) (13)
 - [number theory](#number-theory) (4)
 - [probabilities](#probabilities) (2)
-- [shortest paths](#shortest-paths) (2)
+- [shortest paths](#shortest-paths) (3)
 - [sortings](#sortings) (9)
 - [strings](#strings) (5)
 - [trees](#trees) (2)
@@ -104,6 +104,7 @@
 |---|---------|------------|----------|
 | 9E | [Interestring graph and Apples](https://codeforces.com/contest/9/problem/E) | 2300 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/9/E%20-%20Interestring%20graph%20and%20Apples/solution.txt) |
 | 14D | [Two Paths](https://codeforces.com/contest/14/problem/D) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/14/D%20-%20Two%20Paths/solution.txt) |
+| 17B | [Hierarchy](https://codeforces.com/contest/17/problem/B) | 1500 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/17/B%20-%20Hierarchy/solution.txt) |
 
 ### divide and conquer
 
@@ -138,6 +139,7 @@
 | 6E | [Exposition](https://codeforces.com/contest/6/problem/E) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/6/E%20-%20Exposition/solution.txt) |
 | 9E | [Interestring graph and Apples](https://codeforces.com/contest/9/problem/E) | 2300 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/9/E%20-%20Interestring%20graph%20and%20Apples/solution.txt) |
 | 13E | [Holes](https://codeforces.com/contest/13/problem/E) | 2700 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/13/E%20-%20Holes/solution.txt) |
+| 17B | [Hierarchy](https://codeforces.com/contest/17/problem/B) | 1500 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/17/B%20-%20Hierarchy/solution.txt) |
 
 ### games
 
@@ -178,6 +180,7 @@
 | 6C | [Alice, Bob and Chocolate](https://codeforces.com/contest/6/problem/C) | 1200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/6/C%20-%20Alice%2C%20Bob%20and%20Chocolate/solution.txt) |
 | 12C | [Fruits](https://codeforces.com/contest/12/problem/C) | 1100 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/12/C%20-%20Fruits/solution.txt) |
 | 16B | [Burglar and Matches](https://codeforces.com/contest/16/problem/B) | 900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/16/B%20-%20Burglar%20and%20Matches/solution.txt) |
+| 17B | [Hierarchy](https://codeforces.com/contest/17/problem/B) | 1500 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/17/B%20-%20Hierarchy/solution.txt) |
 
 ### hashing
 
@@ -260,6 +263,7 @@
 |---|---------|------------|----------|
 | 3A | [Shortest path of the king](https://codeforces.com/contest/3/problem/A) | 1000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/3/A%20-%20Shortest%20path%20of%20the%20king/solution.txt) |
 | 14D | [Two Paths](https://codeforces.com/contest/14/problem/D) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/14/D%20-%20Two%20Paths/solution.txt) |
+| 17B | [Hierarchy](https://codeforces.com/contest/17/problem/B) | 1500 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/17/B%20-%20Hierarchy/solution.txt) |
 
 ### sortings
 
