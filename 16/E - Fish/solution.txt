@@ -1,0 +1,54 @@
+import sys
+ 
+ 
+def solve():
+    input = sys.stdin.read
+    data = input().split()
+    if not data:
+        return
+ 
+    n = int(data[0])
+    a = []
+    idx = 1
+    for i in range(n):
+        row = [float(x) for x in data[idx : idx + n]]
+        idx += n
+        a.append(row)
+ 
+    total_masks = 1 << n
+    dp = [0.0] * total_masks
+    dp[total_masks - 1] = 1.0
+ 
+    # Group masks by the number of set bits (alive fish)
+    masks_by_count = [[] for _ in range(n + 1)]
+    for mask in range(total_masks):
+        masks_by_count[bin(mask).count("1")].append(mask)
+ 
+    # Process from n alive fish down to 2
+    for k in range(n, 1, -1):
+        pairs_count = k * (k - 1) / 2.0
+ 
+        for mask in masks_by_count[k]:
+            prob_mask = dp[mask]
+            if prob_mask == 0.0:
+                continue
+ 
+            # Extract alive fish indices
+            alive = []
+            for i in range(n):
+                if (mask >> i) & 1:
+                    alive.append(i)
+ 
+            # Calculate probability of each fish j getting eaten
+            for j in alive:
+                sum_eaten_by = sum(a[i][j] for i in alive if i != j)
+                trans_prob = sum_eaten_by / pairs_count
+                dp[mask ^ (1 << j)] += prob_mask * trans_prob
+ 
+    # The probability of fish i surviving is dp[1 << i]
+    ans = [f"{dp[1 << i]:.6f}" for i in range(n)]
+    print(" ".join(ans))
+ 
+ 
+if __name__ == "__main__":
+    solve()
