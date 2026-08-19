@@ -6,21 +6,21 @@
 
 | Total Problems | Topics |
 |---|---|
-| 65 | 24 |
+| 66 | 24 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [binary search](#binary-search) (2)
-- [bitmasks](#bitmasks) (2)
+- [bitmasks](#bitmasks) (3)
 - [brute force](#brute-force) (8)
 - [combinatorics](#combinatorics) (2)
 - [constructive algorithms](#constructive-algorithms) (7)
 - [data structures](#data-structures) (6)
 - [dfs and similar](#dfs-and-similar) (2)
 - [divide and conquer](#divide-and-conquer) (1)
-- [dp](#dp) (14)
+- [dp](#dp) (15)
 - [dsu](#dsu) (3)
 - [games](#games) (2)
 - [geometry](#geometry) (6)
@@ -30,7 +30,7 @@
 - [implementation](#implementation) (28)
 - [math](#math) (12)
 - [number theory](#number-theory) (3)
-- [probabilities](#probabilities) (1)
+- [probabilities](#probabilities) (2)
 - [shortest paths](#shortest-paths) (2)
 - [sortings](#sortings) (9)
 - [strings](#strings) (5)
@@ -52,6 +52,7 @@
 |---|---------|------------|----------|
 | 8C | [Looking for Order](https://codeforces.com/contest/8/problem/C) | 2000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/8/C%20-%20Looking%20for%20Order/solution.txt) |
 | 11D | [A Simple Task](https://codeforces.com/contest/11/problem/D) | 2200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/11/D%20-%20A%20Simple%20Task/solution.txt) |
+| 16E | [Fish](https://codeforces.com/contest/16/problem/E) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/16/E%20-%20Fish/solution.txt) |
 
 ### brute force
 
@@ -127,6 +128,7 @@
 | 14D | [Two Paths](https://codeforces.com/contest/14/problem/D) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/14/D%20-%20Two%20Paths/solution.txt) |
 | 14E | [Camels](https://codeforces.com/contest/14/problem/E) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/14/E%20-%20Camels/solution.txt) |
 | 15E | [Triangles](https://codeforces.com/contest/15/problem/E) | 2600 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/15/E%20-%20Triangles/solution.txt) |
+| 16E | [Fish](https://codeforces.com/contest/16/problem/E) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/16/E%20-%20Fish/solution.txt) |
 
 ### dsu
 
@@ -247,6 +249,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 9A | [Die Roll](https://codeforces.com/contest/9/problem/A) | 800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/9/A%20-%20Die%20Roll/solution.txt) |
+| 16E | [Fish](https://codeforces.com/contest/16/problem/E) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/16/E%20-%20Fish/solution.txt) |
 
 ### shortest paths
 
