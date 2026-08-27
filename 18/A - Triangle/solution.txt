@@ -1,0 +1,47 @@
+import sys
+ 
+def dist_sq(p1, p2):
+    return (p1[0] - p2[0]) ** 2 + (p1[1] - p2[1]) ** 2
+ 
+def is_right(p1, p2, p3):
+    # Distinct points check
+    if p1 == p2 or p2 == p3 or p1 == p3:
+        return False
+    
+    # Non-degenerate check via cross product (area != 0)
+    cross_product = (p2[0] - p1[0]) * (p3[1] - p1[1]) - (p2[1] - p1[1]) * (p3[0] - p1[0])
+    if cross_product == 0:
+        return False
+    
+    # Pythagorean check
+    d = sorted([dist_sq(p1, p2), dist_sq(p2, p3), dist_sq(p3, p1)])
+    return d[0] + d[1] == d[2]
+ 
+def solve():
+    data = list(map(int, sys.stdin.read().split()))
+    if not data:
+        return
+ 
+    p = [(data[0], data[1]), (data[2], data[3]), (data[4], data[5])]
+ 
+    # 1. Check if originally right-angled
+    if is_right(p[0], p[1], p[2]):
+        print("RIGHT")
+        return
+ 
+    # 2. Check if almost right-angled (move one vertex by distance 1)
+    moves = [(1, 0), (-1, 0), (0, 1), (0, -1)]
+    for i in range(3):
+        ox, oy = p[i]
+        for dx, dy in moves:
+            p_mod = list(p)
+            p_mod[i] = (ox + dx, oy + dy)
+            if is_right(p_mod[0], p_mod[1], p_mod[2]):
+                print("ALMOST")
+                return
+ 
+    # 3. Neither
+    print("NEITHER")
+ 
+if __name__ == '__main__':
+    solve()
