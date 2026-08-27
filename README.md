@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 69 | 24 |
+| 70 | 24 |
 
 ---
 
@@ -14,7 +14,7 @@
 
 - [binary search](#binary-search) (2)
 - [bitmasks](#bitmasks) (3)
-- [brute force](#brute-force) (10)
+- [brute force](#brute-force) (11)
 - [combinatorics](#combinatorics) (2)
 - [constructive algorithms](#constructive-algorithms) (7)
 - [data structures](#data-structures) (6)
@@ -28,7 +28,7 @@
 - [greedy](#greedy) (9)
 - [hashing](#hashing) (3)
 - [implementation](#implementation) (28)
-- [math](#math) (13)
+- [math](#math) (14)
 - [number theory](#number-theory) (4)
 - [probabilities](#probabilities) (2)
 - [shortest paths](#shortest-paths) (3)
@@ -68,6 +68,7 @@
 | 14C | [Four Segments](https://codeforces.com/contest/14/problem/C) | 1700 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/14/C%20-%20Four%20Segments/solution.txt) |
 | 17A | [Noldbach problem](https://codeforces.com/contest/17/problem/A) | 1000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/17/A%20-%20Noldbach%20problem/solution.txt) |
 | 18A | [Triangle](https://codeforces.com/contest/18/problem/A) | 1500 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/18/A%20-%20Triangle/solution.txt) |
+| 18B | [Platforms](https://codeforces.com/contest/18/problem/B) | 1700 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/18/B%20-%20Platforms/solution.txt) |
 
 ### combinatorics
 
@@ -241,6 +242,7 @@
 | 14C | [Four Segments](https://codeforces.com/contest/14/problem/C) | 1700 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/14/C%20-%20Four%20Segments/solution.txt) |
 | 15B | [Laser](https://codeforces.com/contest/15/problem/B) | 1800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/15/B%20-%20Laser/solution.txt) |
 | 17A | [Noldbach problem](https://codeforces.com/contest/17/problem/A) | 1000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/17/A%20-%20Noldbach%20problem/solution.txt) |
+| 18B | [Platforms](https://codeforces.com/contest/18/problem/B) | 1700 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/18/B%20-%20Platforms/solution.txt) |
 | 2227A | [Koshary](https://codeforces.com/contest/2227/problem/A) | 800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/2227/A%20-%20Koshary/solution.txt) |
 
 ### number theory
