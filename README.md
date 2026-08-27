@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 68 | 24 |
+| 69 | 24 |
 
 ---
 
@@ -14,7 +14,7 @@
 
 - [binary search](#binary-search) (2)
 - [bitmasks](#bitmasks) (3)
-- [brute force](#brute-force) (9)
+- [brute force](#brute-force) (10)
 - [combinatorics](#combinatorics) (2)
 - [constructive algorithms](#constructive-algorithms) (7)
 - [data structures](#data-structures) (6)
@@ -23,7 +23,7 @@
 - [dp](#dp) (15)
 - [dsu](#dsu) (4)
 - [games](#games) (2)
-- [geometry](#geometry) (6)
+- [geometry](#geometry) (7)
 - [graphs](#graphs) (4)
 - [greedy](#greedy) (9)
 - [hashing](#hashing) (3)
@@ -67,6 +67,7 @@
 | 9C | [Hexadecimal's Numbers](https://codeforces.com/contest/9/problem/C) | 1200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/9/C%20-%20Hexadecimal's%20Numbers/solution.txt) |
 | 14C | [Four Segments](https://codeforces.com/contest/14/problem/C) | 1700 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/14/C%20-%20Four%20Segments/solution.txt) |
 | 17A | [Noldbach problem](https://codeforces.com/contest/17/problem/A) | 1000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/17/A%20-%20Noldbach%20problem/solution.txt) |
+| 18A | [Triangle](https://codeforces.com/contest/18/problem/A) | 1500 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/18/A%20-%20Triangle/solution.txt) |
 
 ### combinatorics
 
@@ -158,6 +159,7 @@
 | 13B | [Letter A](https://codeforces.com/contest/13/problem/B) | 2000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/13/B%20-%20Letter%20A/solution.txt) |
 | 13D | [Triangles](https://codeforces.com/contest/13/problem/D) | 2600 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/13/D%20-%20Triangles/solution.txt) |
 | 14C | [Four Segments](https://codeforces.com/contest/14/problem/C) | 1700 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/14/C%20-%20Four%20Segments/solution.txt) |
+| 18A | [Triangle](https://codeforces.com/contest/18/problem/A) | 1500 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/18/A%20-%20Triangle/solution.txt) |
 
 ### graphs
 
