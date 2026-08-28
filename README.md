@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 70 | 24 |
+| 71 | 24 |
 
 ---
 
@@ -17,7 +17,7 @@
 - [brute force](#brute-force) (11)
 - [combinatorics](#combinatorics) (2)
 - [constructive algorithms](#constructive-algorithms) (7)
-- [data structures](#data-structures) (6)
+- [data structures](#data-structures) (7)
 - [dfs and similar](#dfs-and-similar) (3)
 - [divide and conquer](#divide-and-conquer) (1)
 - [dp](#dp) (15)
@@ -27,7 +27,7 @@
 - [graphs](#graphs) (4)
 - [greedy](#greedy) (9)
 - [hashing](#hashing) (3)
-- [implementation](#implementation) (28)
+- [implementation](#implementation) (29)
 - [math](#math) (14)
 - [number theory](#number-theory) (4)
 - [probabilities](#probabilities) (2)
@@ -99,6 +99,7 @@
 | 6E | [Exposition](https://codeforces.com/contest/6/problem/E) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/6/E%20-%20Exposition/solution.txt) |
 | 12D | [Ball](https://codeforces.com/contest/12/problem/D) | 2400 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/12/D%20-%20Ball/solution.txt) |
 | 13E | [Holes](https://codeforces.com/contest/13/problem/E) | 2700 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/13/E%20-%20Holes/solution.txt) |
+| 18C | [Stripe](https://codeforces.com/contest/18/problem/C) | 1200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/18/C%20-%20Stripe/solution.txt) |
 
 ### dfs and similar
 
@@ -224,6 +225,7 @@
 | 16A | [Flag](https://codeforces.com/contest/16/problem/A) | 800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/16/A%20-%20Flag/solution.txt) |
 | 16B | [Burglar and Matches](https://codeforces.com/contest/16/problem/B) | 900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/16/B%20-%20Burglar%20and%20Matches/solution.txt) |
 | 16D | [Logging](https://codeforces.com/contest/16/problem/D) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/16/D%20-%20Logging/solution.txt) |
+| 18C | [Stripe](https://codeforces.com/contest/18/problem/C) | 1200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/18/C%20-%20Stripe/solution.txt) |
 | 2227A | [Koshary](https://codeforces.com/contest/2227/problem/A) | 800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/2227/A%20-%20Koshary/solution.txt) |
 
 ### math
