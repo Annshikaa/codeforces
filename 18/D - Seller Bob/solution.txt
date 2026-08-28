@@ -1,0 +1,40 @@
+import sys
+ 
+def solve():
+    input_data = sys.stdin.read().split()
+    if not input_data:
+        return
+ 
+    n = int(input_data[0])
+    
+    # Store the most recent day a prize of capacity 2^x was won
+    # x ranges from 0 to 2000
+    last_win = {}
+    
+    # dp[i] = max earnings through day i (1-indexed)
+    dp = [0] * (n + 1)
+    
+    idx = 1
+    for day in range(1, n + 1):
+        event_type = input_data[idx]
+        x = int(input_data[idx + 1])
+        idx += 2
+        
+        # Default option: carry over best earnings from previous day
+        dp[day] = dp[day - 1]
+        
+        if event_type == 'win':
+            last_win[x] = day
+        elif event_type == 'sell':
+            if x in last_win:
+                win_day = last_win[x]
+                # If we pair this sell with the latest matching win on win_day:
+                # We gain 1 << x and can include the profit earned up to win_day (dp[win_day])
+                profit = dp[win_day] + (1 << x)
+                if profit > dp[day]:
+                    dp[day] = profit
+ 
+    print(dp[n])
+ 
+if __name__ == '__main__':
+    solve()
