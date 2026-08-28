@@ -1,0 +1,32 @@
+import sys
+ 
+def solve():
+    input_data = sys.stdin.read().split()
+    if not input_data:
+        return
+    
+    n = int(input_data[0])
+    a = list(map(int, input_data[1:n + 1]))
+ 
+    total_sum = sum(a)
+ 
+    # If the total sum is odd, it cannot be divided into two equal integer sums
+    if total_sum % 2 != 0:
+        print(0)
+        return
+ 
+    target = total_sum // 2
+    prefix_sum = 0
+    ans = 0
+ 
+    # Cut after index i (0-indexed), where the left piece has length i + 1.
+    # The right piece must be non-empty, so we iterate up to n - 2 (i.e., range(n - 1)).
+    for i in range(n - 1):
+        prefix_sum += a[i]
+        if prefix_sum == target:
+            ans += 1
+ 
+    print(ans)
+ 
+if __name__ == '__main__':
+    solve()
