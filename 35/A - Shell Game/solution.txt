@@ -1,0 +1,29 @@
+import sys
+ 
+def solve():
+    # File I/O redirection required by the problem
+    sys.stdin = open('input.txt', 'r')
+    sys.stdout = open('output.txt', 'w')
+ 
+    input_data = sys.stdin.read().split()
+    if not input_data:
+        return
+ 
+    pos = int(input_data[0])
+ 
+    # Exactly 3 shuffles are performed
+    idx = 1
+    for _ in range(3):
+        a = int(input_data[idx])
+        b = int(input_data[idx + 1])
+        idx += 2
+ 
+        if pos == a:
+            pos = b
+        elif pos == b:
+            pos = a
+ 
+    print(pos)
+ 
+if __name__ == '__main__':
+    solve()
