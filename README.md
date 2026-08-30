@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 73 | 24 |
+| 74 | 24 |
 
 ---
 
@@ -20,7 +20,7 @@
 - [data structures](#data-structures) (7)
 - [dfs and similar](#dfs-and-similar) (3)
 - [divide and conquer](#divide-and-conquer) (1)
-- [dp](#dp) (16)
+- [dp](#dp) (17)
 - [dsu](#dsu) (4)
 - [games](#games) (2)
 - [geometry](#geometry) (7)
@@ -136,6 +136,7 @@
 | 15E | [Triangles](https://codeforces.com/contest/15/problem/E) | 2600 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/15/E%20-%20Triangles/solution.txt) |
 | 16E | [Fish](https://codeforces.com/contest/16/problem/E) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/16/E%20-%20Fish/solution.txt) |
 | 18D | [Seller Bob](https://codeforces.com/contest/18/problem/D) | 2000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/18/D%20-%20Seller%20Bob/solution.txt) |
+| 19B | [Checkout Assistant](https://codeforces.com/contest/19/problem/B) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/19/B%20-%20Checkout%20Assistant/solution.txt) |
 
 ### dsu
 
