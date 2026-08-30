@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 74 | 24 |
+| 75 | 25 |
 
 ---
 
@@ -25,14 +25,15 @@
 - [games](#games) (2)
 - [geometry](#geometry) (7)
 - [graphs](#graphs) (4)
-- [greedy](#greedy) (10)
-- [hashing](#hashing) (3)
+- [greedy](#greedy) (11)
+- [hashing](#hashing) (4)
 - [implementation](#implementation) (30)
 - [math](#math) (14)
 - [number theory](#number-theory) (4)
 - [probabilities](#probabilities) (2)
 - [shortest paths](#shortest-paths) (3)
 - [sortings](#sortings) (9)
+- [string suffix structures](#string-suffix-structures) (1)
 - [strings](#strings) (5)
 - [trees](#trees) (2)
 - [two pointers](#two-pointers) (3)
@@ -189,6 +190,7 @@
 | 16B | [Burglar and Matches](https://codeforces.com/contest/16/problem/B) | 900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/16/B%20-%20Burglar%20and%20Matches/solution.txt) |
 | 17B | [Hierarchy](https://codeforces.com/contest/17/problem/B) | 1500 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/17/B%20-%20Hierarchy/solution.txt) |
 | 18D | [Seller Bob](https://codeforces.com/contest/18/problem/D) | 2000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/18/D%20-%20Seller%20Bob/solution.txt) |
+| 19C | [Deletion of Repeats](https://codeforces.com/contest/19/problem/C) | 2200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/19/C%20-%20Deletion%20of%20Repeats/solution.txt) |
 
 ### hashing
 
@@ -197,6 +199,7 @@
 | 2A | [Winner](https://codeforces.com/contest/2/problem/A) | 1500 | [Python 3](https://github.com/Annshikaa/codeforces/blob/HEAD/2/A%20-%20Winner/solution.py) |
 | 4C | [Registration System](https://codeforces.com/contest/4/problem/C) | 1300 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/4/C%20-%20Registration%20System/solution.txt) |
 | 7D | [Palindrome Degree](https://codeforces.com/contest/7/problem/D) | 2200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/7/D%20-%20Palindrome%20Degree/solution.txt) |
+| 19C | [Deletion of Repeats](https://codeforces.com/contest/19/problem/C) | 2200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/19/C%20-%20Deletion%20of%20Repeats/solution.txt) |
 
 ### implementation
 
@@ -289,6 +292,12 @@
 | 13C | [Sequence](https://codeforces.com/contest/13/problem/C) | 2200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/13/C%20-%20Sequence/solution.txt) |
 | 15A | [Cottage Village](https://codeforces.com/contest/15/problem/A) | 1200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/15/A%20-%20Cottage%20Village/solution.txt) |
 | 16B | [Burglar and Matches](https://codeforces.com/contest/16/problem/B) | 900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/16/B%20-%20Burglar%20and%20Matches/solution.txt) |
+
+### string suffix structures
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 19C | [Deletion of Repeats](https://codeforces.com/contest/19/problem/C) | 2200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/19/C%20-%20Deletion%20of%20Repeats/solution.txt) |
 
 ### strings
 
