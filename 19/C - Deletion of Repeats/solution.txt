@@ -1,0 +1,67 @@
+import sys
+from collections import defaultdict
+ 
+def solve():
+    input_data = sys.stdin.read().split()
+    if not input_data:
+        return
+ 
+    n = int(input_data[0])
+    a = [int(x) for x in input_data[1:n + 1]]
+ 
+    # Rolling hash setup (double hash for safety)
+    BASE1, MOD1 = 1000003, 1000000007
+    BASE2, MOD2 = 1000033, 1000000009
+ 
+    p1 = [1] * (n + 1)
+    p2 = [1] * (n + 1)
+    h1 = [0] * (n + 1)
+    h2 = [0] * (n + 1)
+ 
+    for i in range(n):
+        p1[i + 1] = (p1[i] * BASE1) % MOD1
+        p2[i + 1] = (p2[i] * BASE2) % MOD2
+        h1[i + 1] = (h1[i] * BASE1 + a[i] + 1) % MOD1
+        h2[i + 1] = (h2[i] * BASE2 + a[i] + 1) % MOD2
+ 
+    def get_hash(l, r):
+        # 0-indexed [l, r)
+        v1 = (h1[r] - h1[l] * p1[r - l]) % MOD1
+        v2 = (h2[r] - h2[l] * p2[r - l]) % MOD2
+        return (v1, v2)
+ 
+    # Group indices by value
+    pos_map = defaultdict(list)
+    for i, val in enumerate(a):
+        pos_map[val].append(i)
+ 
+    # Collect all valid repeats: (length, start_pos, end_of_first_half)
+    repeats = []
+    for indices in pos_map.values():
+        k = len(indices)
+        for u in range(k):
+            i = indices[u]
+            for v in range(u + 1, k):
+                j = indices[v]
+                length = j - i
+                if j + length <= n:
+                    if get_hash(i, i + length) == get_hash(j, j + length):
+                        repeats.append((length, i, j))
+ 
+    # Sort repeats: shortest length first, then leftmost first
+    repeats.sort(key=lambda x: (x[0], x[1]))
+ 
+    # Greedily apply deletions
+    cur_pos = 0
+    for length, i, j in repeats:
+        if i >= cur_pos:
+            cur_pos = j
+ 
+    # Output remaining suffix
+    remaining = a[cur_pos:]
+    print(len(remaining))
+    if remaining:
+        print(*(remaining))
+ 
+if __name__ == '__main__':
+    solve()
