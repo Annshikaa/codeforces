@@ -1,0 +1,33 @@
+import sys
+ 
+def solve():
+    input_data = sys.stdin.read().split()
+    if not input_data:
+        return
+ 
+    n = int(input_data[0])
+    
+    # dp[w] = minimum cost to cover at least w items
+    INF = float('inf')
+    dp = [INF] * (n + 1)
+    dp[0] = 0
+ 
+    idx = 1
+    for _ in range(n):
+        t = int(input_data[idx])
+        c = int(input_data[idx + 1])
+        idx += 2
+        
+        weight = t + 1
+        
+        # Iterate backwards to prevent using the same item multiple times
+        for w in range(n, -1, -1):
+            if dp[w] != INF:
+                nxt_w = min(n, w + weight)
+                if dp[w] + c < dp[nxt_w]:
+                    dp[nxt_w] = dp[w] + c
+ 
+    print(dp[n])
+ 
+if __name__ == '__main__':
+    solve()
