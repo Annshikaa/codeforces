@@ -1,0 +1,49 @@
+import sys
+import math
+ 
+def solve():
+    input_data = sys.stdin.read().split()
+    if not input_data:
+        return
+    
+    a, b, c = map(int, input_data)
+    
+    # Case 1: A == 0 (Linear or constant equation)
+    if a == 0:
+        if b == 0:
+            if c == 0:
+                # 0x^2 + 0x + 0 = 0 -> Infinite solutions
+                print(-1)
+            else:
+                # 0x^2 + 0x + C = 0 (C != 0) -> No solution
+                print(0)
+        else:
+            # Linear equation: Bx + C = 0 -> x = -C / B
+            root = -c / b
+            print(1)
+            print(f"{root:.10f}")
+        return
+ 
+    # Case 2: A != 0 (Quadratic equation)
+    d = b * b - 4 * a * c
+    
+    if d < 0:
+        print(0)
+    elif d == 0:
+        root = -b / (2 * a)
+        print(1)
+        print(f"{root:.10f}")
+    else:
+        sqrt_d = math.isqrt(d) if d >= 0 else 0
+        sqrt_d = math.sqrt(d)
+        
+        r1 = (-b - sqrt_d) / (2 * a)
+        r2 = (-b + sqrt_d) / (2 * a)
+        
+        roots = sorted([r1, r2])
+        print(2)
+        print(f"{roots[0]:.10f}")
+        print(f"{roots[1]:.10f}")
+ 
+if __name__ == '__main__':
+    solve()
