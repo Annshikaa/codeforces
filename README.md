@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 76 | 25 |
+| 77 | 25 |
 
 ---
 
@@ -28,7 +28,7 @@
 - [greedy](#greedy) (11)
 - [hashing](#hashing) (4)
 - [implementation](#implementation) (31)
-- [math](#math) (14)
+- [math](#math) (15)
 - [number theory](#number-theory) (4)
 - [probabilities](#probabilities) (2)
 - [shortest paths](#shortest-paths) (3)
@@ -254,6 +254,7 @@
 | 15B | [Laser](https://codeforces.com/contest/15/problem/B) | 1800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/15/B%20-%20Laser/solution.txt) |
 | 17A | [Noldbach problem](https://codeforces.com/contest/17/problem/A) | 1000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/17/A%20-%20Noldbach%20problem/solution.txt) |
 | 18B | [Platforms](https://codeforces.com/contest/18/problem/B) | 1700 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/18/B%20-%20Platforms/solution.txt) |
+| 20B | [Equation](https://codeforces.com/contest/20/problem/B) | 2000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/20/B%20-%20Equation/solution.txt) |
 | 2227A | [Koshary](https://codeforces.com/contest/2227/problem/A) | 800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/2227/A%20-%20Koshary/solution.txt) |
 
 ### number theory
