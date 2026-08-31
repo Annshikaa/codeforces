@@ -1,0 +1,15 @@
+import sys
+ 
+def solve():
+    s = sys.stdin.read().strip()
+    # Split by '/' and filter out empty string segments caused by consecutive '/'
+    parts = [p for p in s.split('/') if p]
+    
+    # If there are no directories, it's just the root directory '/'
+    if not parts:
+        print('/')
+    else:
+        print('/' + '/'.join(parts))
+ 
+if __name__ == '__main__':
+    solve()
