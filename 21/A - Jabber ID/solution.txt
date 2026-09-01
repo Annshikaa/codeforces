@@ -1,0 +1,50 @@
+import sys
+import re
+ 
+def solve():
+    s = sys.stdin.read().strip()
+    
+    # Define valid character pattern: Latin letters (a-z, A-Z), digits (0-9), and underscore (_)
+    word_pattern = r'[a-zA-Z0-9_]{1,16}'
+    
+    # 1. Check for single '@' separator
+    if s.count('@') != 1:
+        print("NO")
+        return
+    
+    username, rest = s.split('@', 1)
+    
+    # Validate <username>: 1 to 16 valid characters
+    if not re.fullmatch(word_pattern, username):
+        print("NO")
+        return
+    
+    # Split hostname and optional resource
+    if '/' in rest:
+        # Cannot have more than one '/' separating hostname and resource
+        parts = rest.split('/', 1)
+        hostname, resource = parts[0], parts[1]
+        
+        # Validate <resource>: 1 to 16 valid characters
+        if not re.fullmatch(word_pattern, resource):
+            print("NO")
+            return
+    else:
+        hostname = rest
+    
+    # Validate <hostname> total length: 1 to 32 characters
+    if not (1 <= len(hostname) <= 32):
+        print("NO")
+        return
+    
+    # Validate each dot-separated word in <hostname>
+    words = hostname.split('.')
+    for word in words:
+        if not re.fullmatch(word_pattern, word):
+            print("NO")
+            return
+            
+    print("YES")
+ 
+if __name__ == '__main__':
+    solve()
