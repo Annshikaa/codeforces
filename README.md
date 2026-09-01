@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 77 | 25 |
+| 78 | 25 |
 
 ---
 
@@ -24,14 +24,14 @@
 - [dsu](#dsu) (4)
 - [games](#games) (2)
 - [geometry](#geometry) (7)
-- [graphs](#graphs) (4)
+- [graphs](#graphs) (5)
 - [greedy](#greedy) (11)
 - [hashing](#hashing) (4)
 - [implementation](#implementation) (31)
 - [math](#math) (15)
 - [number theory](#number-theory) (4)
 - [probabilities](#probabilities) (2)
-- [shortest paths](#shortest-paths) (3)
+- [shortest paths](#shortest-paths) (4)
 - [sortings](#sortings) (9)
 - [string suffix structures](#string-suffix-structures) (1)
 - [strings](#strings) (5)
@@ -175,6 +175,7 @@
 | 9E | [Interestring graph and Apples](https://codeforces.com/contest/9/problem/E) | 2300 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/9/E%20-%20Interestring%20graph%20and%20Apples/solution.txt) |
 | 11D | [A Simple Task](https://codeforces.com/contest/11/problem/D) | 2200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/11/D%20-%20A%20Simple%20Task/solution.txt) |
 | 14D | [Two Paths](https://codeforces.com/contest/14/problem/D) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/14/D%20-%20Two%20Paths/solution.txt) |
+| 20C | [Dijkstra?](https://codeforces.com/contest/20/problem/C) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/20/C%20-%20Dijkstra%3F/solution.txt) |
 
 ### greedy
 
@@ -280,6 +281,7 @@
 | 3A | [Shortest path of the king](https://codeforces.com/contest/3/problem/A) | 1000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/3/A%20-%20Shortest%20path%20of%20the%20king/solution.txt) |
 | 14D | [Two Paths](https://codeforces.com/contest/14/problem/D) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/14/D%20-%20Two%20Paths/solution.txt) |
 | 17B | [Hierarchy](https://codeforces.com/contest/17/problem/B) | 1500 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/17/B%20-%20Hierarchy/solution.txt) |
+| 20C | [Dijkstra?](https://codeforces.com/contest/20/problem/C) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/20/C%20-%20Dijkstra%3F/solution.txt) |
 
 ### sortings
 
