@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 78 | 25 |
+| 79 | 25 |
 
 ---
 
@@ -27,14 +27,14 @@
 - [graphs](#graphs) (5)
 - [greedy](#greedy) (11)
 - [hashing](#hashing) (4)
-- [implementation](#implementation) (31)
+- [implementation](#implementation) (32)
 - [math](#math) (15)
 - [number theory](#number-theory) (4)
 - [probabilities](#probabilities) (2)
 - [shortest paths](#shortest-paths) (4)
 - [sortings](#sortings) (9)
 - [string suffix structures](#string-suffix-structures) (1)
-- [strings](#strings) (5)
+- [strings](#strings) (6)
 - [trees](#trees) (2)
 - [two pointers](#two-pointers) (3)
 
@@ -235,6 +235,7 @@
 | 16D | [Logging](https://codeforces.com/contest/16/problem/D) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/16/D%20-%20Logging/solution.txt) |
 | 18C | [Stripe](https://codeforces.com/contest/18/problem/C) | 1200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/18/C%20-%20Stripe/solution.txt) |
 | 20A | [BerOS file system](https://codeforces.com/contest/20/problem/A) | 1700 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/20/A%20-%20BerOS%20file%20system/solution.txt) |
+| 21A | [Jabber ID](https://codeforces.com/contest/21/problem/A) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/21/A%20-%20Jabber%20ID/solution.txt) |
 | 35A | [Shell Game](https://codeforces.com/contest/35/problem/A) | 1000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/35/A%20-%20Shell%20Game/solution.txt) |
 | 2227A | [Koshary](https://codeforces.com/contest/2227/problem/A) | 800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/2227/A%20-%20Koshary/solution.txt) |
 
@@ -312,6 +313,7 @@
 | 7D | [Palindrome Degree](https://codeforces.com/contest/7/problem/D) | 2200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/7/D%20-%20Palindrome%20Degree/solution.txt) |
 | 8A | [Train and Peter](https://codeforces.com/contest/8/problem/A) | 1200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/8/A%20-%20Train%20and%20Peter/solution.txt) |
 | 16D | [Logging](https://codeforces.com/contest/16/problem/D) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/16/D%20-%20Logging/solution.txt) |
+| 21A | [Jabber ID](https://codeforces.com/contest/21/problem/A) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/21/A%20-%20Jabber%20ID/solution.txt) |
 
 ### trees
 
