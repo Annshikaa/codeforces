@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 82 | 26 |
+| 83 | 26 |
 
 ---
 
@@ -14,7 +14,7 @@
 
 - [binary search](#binary-search) (3)
 - [bitmasks](#bitmasks) (4)
-- [brute force](#brute-force) (12)
+- [brute force](#brute-force) (13)
 - [combinatorics](#combinatorics) (2)
 - [constructive algorithms](#constructive-algorithms) (7)
 - [data structures](#data-structures) (7)
@@ -74,6 +74,7 @@
 | 18A | [Triangle](https://codeforces.com/contest/18/problem/A) | 1500 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/18/A%20-%20Triangle/solution.txt) |
 | 18B | [Platforms](https://codeforces.com/contest/18/problem/B) | 1700 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/18/B%20-%20Platforms/solution.txt) |
 | 18D | [Seller Bob](https://codeforces.com/contest/18/problem/D) | 2000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/18/D%20-%20Seller%20Bob/solution.txt) |
+| 22A | [Second Order Statistics](https://codeforces.com/contest/22/problem/A) | 800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/22/A%20-%20Second%20Order%20Statistics/solution.txt) |
 
 ### combinatorics
 
