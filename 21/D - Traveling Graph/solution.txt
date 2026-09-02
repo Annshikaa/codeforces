@@ -1,0 +1,92 @@
+import sys
+ 
+def solve():
+    input_data = sys.stdin.read().split()
+    if not input_data:
+        return
+ 
+    n = int(input_data[0])
+    m = int(input_data[1])
+ 
+    # If there are no edges, starting at 1 and traversing all edges takes cost 0
+    if m == 0:
+        print(0)
+        return
+ 
+    INF = float('inf')
+    dist = [[INF] * n for _ in range(n)]
+    for i in range(n):
+        dist[i][i] = 0
+ 
+    degree = [0] * n
+    has_edges = [False] * n
+    total_edge_weight = 0
+ 
+    idx = 2
+    for _ in range(m):
+        u = int(input_data[idx]) - 1
+        v = int(input_data[idx + 1]) - 1
+        w = int(input_data[idx + 2])
+        idx += 3
+ 
+        total_edge_weight += w
+        has_edges[u] = True
+        has_edges[v] = True
+        degree[u] += 1
+        degree[v] += 1
+ 
+        if w < dist[u][v]:
+            dist[u][v] = w
+            dist[v][u] = w
+ 
+    # Floyd-Warshall to compute all-pairs shortest paths
+    for k in range(n):
+        for i in range(n):
+            for j in range(n):
+                if dist[i][k] + dist[k][j] < dist[i][j]:
+                    dist[i][j] = dist[i][k] + dist[k][j]
+ 
+    # Check connectivity:
+    # All vertices with edges must be reachable from vertex 0 (vertex 1 in 1-based indexing)
+    for i in range(n):
+        if has_edges[i] and dist[0][i] == INF:
+            print(-1)
+            return
+ 
+    # Collect vertices with odd degrees
+    odd_vertices = [i for i in range(n) if degree[i] % 2 != 0]
+    k = len(odd_vertices)
+ 
+    # Minimum weight perfect matching on odd vertices using Bitmask DP
+    # dp[mask] = min cost to pair up the odd vertices represented by mask
+    dp = [INF] * (1 << k)
+    dp[0] = 0
+ 
+    for mask in range(1 << k):
+        if dp[mask] == INF:
+            continue
+ 
+        # Find the first unmatched vertex
+        first = -1
+        for i in range(k):
+            if not (mask & (1 << i)):
+                first = i
+                break
+ 
+        if first == -1:
+            continue
+ 
+        # Pair `first` with another unmatched vertex `second`
+        for second in range(first + 1, k):
+            if not (mask & (1 << second)):
+                next_mask = mask | (1 << first) | (1 << second)
+                u = odd_vertices[first]
+                v = odd_vertices[second]
+                cost = dp[mask] + dist[u][v]
+                if cost < dp[next_mask]:
+                    dp[next_mask] = cost
+ 
+    print(total_edge_weight + dp[(1 << k) - 1])
+ 
+if __name__ == '__main__':
+    solve()
