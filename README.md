@@ -6,14 +6,14 @@
 
 | Total Problems | Topics |
 |---|---|
-| 81 | 25 |
+| 82 | 26 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [binary search](#binary-search) (3)
-- [bitmasks](#bitmasks) (3)
+- [bitmasks](#bitmasks) (4)
 - [brute force](#brute-force) (12)
 - [combinatorics](#combinatorics) (2)
 - [constructive algorithms](#constructive-algorithms) (7)
@@ -24,7 +24,8 @@
 - [dsu](#dsu) (4)
 - [games](#games) (2)
 - [geometry](#geometry) (7)
-- [graphs](#graphs) (5)
+- [graph matchings](#graph-matchings) (1)
+- [graphs](#graphs) (6)
 - [greedy](#greedy) (11)
 - [hashing](#hashing) (4)
 - [implementation](#implementation) (33)
@@ -55,6 +56,7 @@
 | 8C | [Looking for Order](https://codeforces.com/contest/8/problem/C) | 2000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/8/C%20-%20Looking%20for%20Order/solution.txt) |
 | 11D | [A Simple Task](https://codeforces.com/contest/11/problem/D) | 2200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/11/D%20-%20A%20Simple%20Task/solution.txt) |
 | 16E | [Fish](https://codeforces.com/contest/16/problem/E) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/16/E%20-%20Fish/solution.txt) |
+| 21D | [Traveling Graph](https://codeforces.com/contest/21/problem/D) | 2400 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/21/D%20-%20Traveling%20Graph/solution.txt) |
 
 ### brute force
 
@@ -169,6 +171,12 @@
 | 14C | [Four Segments](https://codeforces.com/contest/14/problem/C) | 1700 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/14/C%20-%20Four%20Segments/solution.txt) |
 | 18A | [Triangle](https://codeforces.com/contest/18/problem/A) | 1500 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/18/A%20-%20Triangle/solution.txt) |
 
+### graph matchings
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 21D | [Traveling Graph](https://codeforces.com/contest/21/problem/D) | 2400 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/21/D%20-%20Traveling%20Graph/solution.txt) |
+
 ### graphs
 
 | # | Problem | Difficulty | Solution |
@@ -178,6 +186,7 @@
 | 11D | [A Simple Task](https://codeforces.com/contest/11/problem/D) | 2200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/11/D%20-%20A%20Simple%20Task/solution.txt) |
 | 14D | [Two Paths](https://codeforces.com/contest/14/problem/D) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/14/D%20-%20Two%20Paths/solution.txt) |
 | 20C | [Dijkstra?](https://codeforces.com/contest/20/problem/C) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/20/C%20-%20Dijkstra%3F/solution.txt) |
+| 21D | [Traveling Graph](https://codeforces.com/contest/21/problem/D) | 2400 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/21/D%20-%20Traveling%20Graph/solution.txt) |
 
 ### greedy
 
