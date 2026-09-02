@@ -1,0 +1,53 @@
+import sys
+ 
+def solve():
+    input_data = sys.stdin.read().split()
+    if not input_data:
+        return
+        
+    a1, b1, c1 = map(int, input_data[:3])
+    a2, b2, c2 = map(int, input_data[3:6])
+    
+    # Check degenerate cases (when A = 0 and B = 0)
+    # If A = 0, B = 0:
+    # - If C == 0, the equation 0 = 0 holds for the entire plane R^2.
+    # - If C != 0, the equation C = 0 has no solutions (empty set).
+    set1_empty = (a1 == 0 and b1 == 0 and c1 != 0)
+    set1_plane = (a1 == 0 and b1 == 0 and c1 == 0)
+    
+    set2_empty = (a2 == 0 and b2 == 0 and c2 != 0)
+    set2_plane = (a2 == 0 and b2 == 0 and c2 == 0)
+    
+    # 1. If either set is empty, intersection is empty (0 points)
+    if set1_empty or set2_empty:
+        print(0)
+        return
+        
+    # 2. If both sets are the entire plane, intersection is the entire plane (infinite points)
+    if set1_plane and set2_plane:
+        print(-1)
+        return
+        
+    # 3. If one set is the entire plane and the other is a valid line,
+    # the intersection is that line (infinite points)
+    if set1_plane or set2_plane:
+        print(-1)
+        return
+        
+    # 4. Both equations represent valid straight lines:
+    # Using 2x2 determinant: D = A1*B2 - A2*B1
+    det = a1 * b2 - a2 * b1
+    
+    if det != 0:
+        # Non-parallel lines intersect at exactly one point
+        print(1)
+    else:
+        # Parallel lines: check if they are collinear / coincident
+        # A1*C2 == A2*C1 and B1*C2 == B2*C1
+        if a1 * c2 == a2 * c1 and b1 * c2 == b2 * c1:
+            print(-1)
+        else:
+            print(0)
+ 
+if __name__ == '__main__':
+    solve()
