@@ -6,13 +6,13 @@
 
 | Total Problems | Topics |
 |---|---|
-| 80 | 25 |
+| 81 | 25 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [binary search](#binary-search) (2)
+- [binary search](#binary-search) (3)
 - [bitmasks](#bitmasks) (3)
 - [brute force](#brute-force) (12)
 - [combinatorics](#combinatorics) (2)
@@ -20,7 +20,7 @@
 - [data structures](#data-structures) (7)
 - [dfs and similar](#dfs-and-similar) (3)
 - [divide and conquer](#divide-and-conquer) (1)
-- [dp](#dp) (17)
+- [dp](#dp) (18)
 - [dsu](#dsu) (4)
 - [games](#games) (2)
 - [geometry](#geometry) (7)
@@ -32,7 +32,7 @@
 - [number theory](#number-theory) (4)
 - [probabilities](#probabilities) (2)
 - [shortest paths](#shortest-paths) (4)
-- [sortings](#sortings) (9)
+- [sortings](#sortings) (10)
 - [string suffix structures](#string-suffix-structures) (1)
 - [strings](#strings) (6)
 - [trees](#trees) (2)
@@ -46,6 +46,7 @@
 |---|---------|------------|----------|
 | 6E | [Exposition](https://codeforces.com/contest/6/problem/E) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/6/E%20-%20Exposition/solution.txt) |
 | 16C | [Monitor](https://codeforces.com/contest/16/problem/C) | 1800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/16/C%20-%20Monitor/solution.txt) |
+| 21C | [Stripe 2](https://codeforces.com/contest/21/problem/C) | 2000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/21/C%20-%20Stripe%202/solution.txt) |
 
 ### bitmasks
 
@@ -138,6 +139,7 @@
 | 16E | [Fish](https://codeforces.com/contest/16/problem/E) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/16/E%20-%20Fish/solution.txt) |
 | 18D | [Seller Bob](https://codeforces.com/contest/18/problem/D) | 2000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/18/D%20-%20Seller%20Bob/solution.txt) |
 | 19B | [Checkout Assistant](https://codeforces.com/contest/19/problem/B) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/19/B%20-%20Checkout%20Assistant/solution.txt) |
+| 21C | [Stripe 2](https://codeforces.com/contest/21/problem/C) | 2000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/21/C%20-%20Stripe%202/solution.txt) |
 
 ### dsu
 
@@ -299,6 +301,7 @@
 | 13C | [Sequence](https://codeforces.com/contest/13/problem/C) | 2200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/13/C%20-%20Sequence/solution.txt) |
 | 15A | [Cottage Village](https://codeforces.com/contest/15/problem/A) | 1200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/15/A%20-%20Cottage%20Village/solution.txt) |
 | 16B | [Burglar and Matches](https://codeforces.com/contest/16/problem/B) | 900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/16/B%20-%20Burglar%20and%20Matches/solution.txt) |
+| 21C | [Stripe 2](https://codeforces.com/contest/21/problem/C) | 2000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/21/C%20-%20Stripe%202/solution.txt) |
 
 ### string suffix structures
 
