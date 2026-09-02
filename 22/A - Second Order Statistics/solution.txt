@@ -1,0 +1,21 @@
+import sys
+ 
+def solve():
+    input_data = sys.stdin.read().split()
+    if not input_data:
+        return
+    
+    n = int(input_data[0])
+    elements = list(map(int, input_data[1:n + 1]))
+    
+    # Remove duplicates and sort the unique elements
+    unique_elements = sorted(set(elements))
+    
+    # Check if a second distinct element exists
+    if len(unique_elements) >= 2:
+        print(unique_elements[1])
+    else:
+        print("NO")
+ 
+if __name__ == '__main__':
+    solve()
