@@ -1,0 +1,44 @@
+import sys
+ 
+def solve():
+    input_data = sys.stdin.read().split()
+    if not input_data:
+        return
+ 
+    n = int(input_data[0])
+    a = [int(x) for x in input_data[1:n + 1]]
+ 
+    # A stripe must have at least 3 elements to cut into 3 non-empty pieces
+    if n < 3:
+        print(0)
+        return
+ 
+    total_sum = sum(a)
+ 
+    # If the total sum cannot be divided into 3 equal integer parts, impossible
+    if total_sum % 3 != 0:
+        print(0)
+        return
+ 
+    target = total_sum // 3
+    count_first_cut = 0
+    ways = 0
+    current_prefix_sum = 0
+ 
+    # Iterate up to n - 1 because the 3rd piece must be non-empty (cut 2 cannot be at n)
+    for i in range(n - 1):
+        current_prefix_sum += a[i]
+ 
+        # Check if this index can serve as the second cut point
+        # (needs prefix sum to be 2 * target, and must occur at index >= 1)
+        if i >= 1 and current_prefix_sum == 2 * target:
+            ways += count_first_cut
+ 
+        # Check if this index can serve as the first cut point
+        if current_prefix_sum == target:
+            count_first_cut += 1
+ 
+    print(ways)
+ 
+if __name__ == '__main__':
+    solve()
