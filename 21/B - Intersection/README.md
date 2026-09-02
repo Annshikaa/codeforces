@@ -1,0 +1,17 @@
+<h2><a href="https://codeforces.com/contest/21/problem/B" target="_blank" rel="noopener noreferrer">21B — Intersection</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 2000 |
+| **Language** | PyPy 3-64 |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 21B](https://codeforces.com/contest/21/problem/B) |
+
+## Topics
+`implementation` `math`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">B. Intersection</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard" style="font-weight: bold"><div class="property-title">input</div>stdin</div><div class="output-file output-standard" style="font-weight: bold"><div class="property-title">output</div>stdout</div></div><div><p>You are given two set of points. The first set is determined by the equation <span class="tex-span"><i>A</i><sub class="lower-index">1</sub><i>x</i> + <i>B</i><sub class="lower-index">1</sub><i>y</i> + <i>C</i><sub class="lower-index">1</sub> = 0</span>, and the second one is determined by the equation <span class="tex-span"><i>A</i><sub class="lower-index">2</sub><i>x</i> + <i>B</i><sub class="lower-index">2</sub><i>y</i> + <i>C</i><sub class="lower-index">2</sub> = 0</span>.</p><p>Write the program which finds the number of points in the intersection of two given sets.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line of the input contains three integer numbers <span class="tex-span"><i>A</i><sub class="lower-index">1</sub>, <i>B</i><sub class="lower-index">1</sub>, <i>C</i><sub class="lower-index">1</sub></span> separated by space. The second line contains three integer numbers <span class="tex-span"><i>A</i><sub class="lower-index">2</sub>, <i>B</i><sub class="lower-index">2</sub>, <i>C</i><sub class="lower-index">2</sub></span> separated by space. All the numbers are between -100 and 100, inclusive.</p></div><div class="output-specification"><div class="section-title">Output</div><p>Print the number of points in the intersection or <span class="tex-font-style-tt">-1</span> if there are infinite number of points.</p></div><div class="sample-tests"><div class="section-title">Examples</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id005090552101848431" id="id008026490512237883" class="input-output-copier">Copy</div></div><pre id="id005090552101848431">1 1 0<br>2 2 0<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id0008676285856059807" id="id00035434550084836536" class="input-output-copier">Copy</div></div><pre id="id0008676285856059807">-1<br></pre></div><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id005581230759292888" id="id0007295876452886285" class="input-output-copier">Copy</div></div><pre id="id005581230759292888">1 1 0<br>2 -2 0<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id007145598601661549" id="id0010379205973702754" class="input-output-copier">Copy</div></div><pre id="id007145598601661549">1<br></pre></div></div></div>
