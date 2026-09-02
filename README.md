@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 79 | 25 |
+| 80 | 25 |
 
 ---
 
@@ -27,8 +27,8 @@
 - [graphs](#graphs) (5)
 - [greedy](#greedy) (11)
 - [hashing](#hashing) (4)
-- [implementation](#implementation) (32)
-- [math](#math) (15)
+- [implementation](#implementation) (33)
+- [math](#math) (16)
 - [number theory](#number-theory) (4)
 - [probabilities](#probabilities) (2)
 - [shortest paths](#shortest-paths) (4)
@@ -236,6 +236,7 @@
 | 18C | [Stripe](https://codeforces.com/contest/18/problem/C) | 1200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/18/C%20-%20Stripe/solution.txt) |
 | 20A | [BerOS file system](https://codeforces.com/contest/20/problem/A) | 1700 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/20/A%20-%20BerOS%20file%20system/solution.txt) |
 | 21A | [Jabber ID](https://codeforces.com/contest/21/problem/A) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/21/A%20-%20Jabber%20ID/solution.txt) |
+| 21B | [Intersection](https://codeforces.com/contest/21/problem/B) | 2000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/21/B%20-%20Intersection/solution.txt) |
 | 35A | [Shell Game](https://codeforces.com/contest/35/problem/A) | 1000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/35/A%20-%20Shell%20Game/solution.txt) |
 | 2227A | [Koshary](https://codeforces.com/contest/2227/problem/A) | 800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/2227/A%20-%20Koshary/solution.txt) |
 
@@ -257,6 +258,7 @@
 | 17A | [Noldbach problem](https://codeforces.com/contest/17/problem/A) | 1000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/17/A%20-%20Noldbach%20problem/solution.txt) |
 | 18B | [Platforms](https://codeforces.com/contest/18/problem/B) | 1700 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/18/B%20-%20Platforms/solution.txt) |
 | 20B | [Equation](https://codeforces.com/contest/20/problem/B) | 2000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/20/B%20-%20Equation/solution.txt) |
+| 21B | [Intersection](https://codeforces.com/contest/21/problem/B) | 2000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/21/B%20-%20Intersection/solution.txt) |
 | 2227A | [Koshary](https://codeforces.com/contest/2227/problem/A) | 800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/2227/A%20-%20Koshary/solution.txt) |
 
 ### number theory
