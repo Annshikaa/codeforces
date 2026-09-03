@@ -1,0 +1,42 @@
+import sys
+ 
+def solve():
+    input = sys.stdin.read
+    data = input().split()
+    if not data:
+        return
+ 
+    n, m = int(data[0]), int(data[1])
+    grid = data[2:]
+ 
+    # Build 2D prefix sum of occupied squares ('1')
+    pref = [[0] * (m + 1) for _ in range(n + 1)]
+    for i in range(n):
+        for j in range(m):
+            pref[i + 1][j + 1] = (int(grid[i][j]) 
+                                  + pref[i][j + 1] 
+                                  + pref[i + 1][j] 
+                                  - pref[i][j])
+ 
+    max_p = 0
+ 
+    # Test all possible subrectangles [r1..r2] x [c1..c2]
+    for r1 in range(n):
+        for r2 in range(r1, n):
+            h = r2 - r1 + 1
+            for c1 in range(m):
+                for c2 in range(c1, m):
+                    w = c2 - c1 + 1
+                    occupied = (pref[r2 + 1][c2 + 1] 
+                                - pref[r1][c2 + 1] 
+                                - pref[r2 + 1][c1] 
+                                + pref[r1][c1])
+                    if occupied == 0:
+                        perimeter = 2 * (h + w)
+                        if perimeter > max_p:
+                            max_p = perimeter
+ 
+    print(max_p)
+ 
+if __name__ == '__main__':
+    solve()
