@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 83 | 26 |
+| 84 | 26 |
 
 ---
 
@@ -14,13 +14,13 @@
 
 - [binary search](#binary-search) (3)
 - [bitmasks](#bitmasks) (4)
-- [brute force](#brute-force) (13)
+- [brute force](#brute-force) (14)
 - [combinatorics](#combinatorics) (2)
 - [constructive algorithms](#constructive-algorithms) (7)
 - [data structures](#data-structures) (7)
 - [dfs and similar](#dfs-and-similar) (3)
 - [divide and conquer](#divide-and-conquer) (1)
-- [dp](#dp) (18)
+- [dp](#dp) (19)
 - [dsu](#dsu) (4)
 - [games](#games) (2)
 - [geometry](#geometry) (7)
@@ -75,6 +75,7 @@
 | 18B | [Platforms](https://codeforces.com/contest/18/problem/B) | 1700 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/18/B%20-%20Platforms/solution.txt) |
 | 18D | [Seller Bob](https://codeforces.com/contest/18/problem/D) | 2000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/18/D%20-%20Seller%20Bob/solution.txt) |
 | 22A | [Second Order Statistics](https://codeforces.com/contest/22/problem/A) | 800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/22/A%20-%20Second%20Order%20Statistics/solution.txt) |
+| 22B | [Bargaining Table](https://codeforces.com/contest/22/problem/B) | 1500 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/22/B%20-%20Bargaining%20Table/solution.txt) |
 
 ### combinatorics
 
@@ -143,6 +144,7 @@
 | 18D | [Seller Bob](https://codeforces.com/contest/18/problem/D) | 2000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/18/D%20-%20Seller%20Bob/solution.txt) |
 | 19B | [Checkout Assistant](https://codeforces.com/contest/19/problem/B) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/19/B%20-%20Checkout%20Assistant/solution.txt) |
 | 21C | [Stripe 2](https://codeforces.com/contest/21/problem/C) | 2000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/21/C%20-%20Stripe%202/solution.txt) |
+| 22B | [Bargaining Table](https://codeforces.com/contest/22/problem/B) | 1500 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/22/B%20-%20Bargaining%20Table/solution.txt) |
 
 ### dsu
 
