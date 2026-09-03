@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 84 | 26 |
+| 85 | 26 |
 
 ---
 
@@ -25,7 +25,7 @@
 - [games](#games) (2)
 - [geometry](#geometry) (7)
 - [graph matchings](#graph-matchings) (1)
-- [graphs](#graphs) (6)
+- [graphs](#graphs) (7)
 - [greedy](#greedy) (11)
 - [hashing](#hashing) (4)
 - [implementation](#implementation) (33)
@@ -190,6 +190,7 @@
 | 14D | [Two Paths](https://codeforces.com/contest/14/problem/D) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/14/D%20-%20Two%20Paths/solution.txt) |
 | 20C | [Dijkstra?](https://codeforces.com/contest/20/problem/C) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/20/C%20-%20Dijkstra%3F/solution.txt) |
 | 21D | [Traveling Graph](https://codeforces.com/contest/21/problem/D) | 2400 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/21/D%20-%20Traveling%20Graph/solution.txt) |
+| 22C | [System Administrator](https://codeforces.com/contest/22/problem/C) | 1700 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/22/C%20-%20System%20Administrator/solution.txt) |
 
 ### greedy
 
