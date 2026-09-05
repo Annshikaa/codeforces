@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 87 | 26 |
+| 88 | 26 |
 
 ---
 
@@ -16,7 +16,7 @@
 - [bitmasks](#bitmasks) (4)
 - [brute force](#brute-force) (15)
 - [combinatorics](#combinatorics) (2)
-- [constructive algorithms](#constructive-algorithms) (7)
+- [constructive algorithms](#constructive-algorithms) (8)
 - [data structures](#data-structures) (7)
 - [dfs and similar](#dfs-and-similar) (3)
 - [divide and conquer](#divide-and-conquer) (1)
@@ -25,11 +25,11 @@
 - [games](#games) (2)
 - [geometry](#geometry) (7)
 - [graph matchings](#graph-matchings) (1)
-- [graphs](#graphs) (7)
+- [graphs](#graphs) (8)
 - [greedy](#greedy) (13)
 - [hashing](#hashing) (4)
 - [implementation](#implementation) (33)
-- [math](#math) (16)
+- [math](#math) (17)
 - [number theory](#number-theory) (4)
 - [probabilities](#probabilities) (2)
 - [shortest paths](#shortest-paths) (4)
@@ -96,6 +96,7 @@
 | 11A | [Increasing Sequence](https://codeforces.com/contest/11/problem/A) | 900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/11/A%20-%20Increasing%20Sequence/solution.txt) |
 | 12E | [Start of the session](https://codeforces.com/contest/12/problem/E) | 2100 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/12/E%20-%20Start%20of%20the%20session/solution.txt) |
 | 14C | [Four Segments](https://codeforces.com/contest/14/problem/C) | 1700 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/14/C%20-%20Four%20Segments/solution.txt) |
+| 23B | [Party](https://codeforces.com/contest/23/problem/B) | 1600 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/23/B%20-%20Party/solution.txt) |
 
 ### data structures
 
@@ -192,6 +193,7 @@
 | 20C | [Dijkstra?](https://codeforces.com/contest/20/problem/C) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/20/C%20-%20Dijkstra%3F/solution.txt) |
 | 21D | [Traveling Graph](https://codeforces.com/contest/21/problem/D) | 2400 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/21/D%20-%20Traveling%20Graph/solution.txt) |
 | 22C | [System Administrator](https://codeforces.com/contest/22/problem/C) | 1700 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/22/C%20-%20System%20Administrator/solution.txt) |
+| 23B | [Party](https://codeforces.com/contest/23/problem/B) | 1600 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/23/B%20-%20Party/solution.txt) |
 
 ### greedy
 
@@ -277,6 +279,7 @@
 | 18B | [Platforms](https://codeforces.com/contest/18/problem/B) | 1700 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/18/B%20-%20Platforms/solution.txt) |
 | 20B | [Equation](https://codeforces.com/contest/20/problem/B) | 2000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/20/B%20-%20Equation/solution.txt) |
 | 21B | [Intersection](https://codeforces.com/contest/21/problem/B) | 2000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/21/B%20-%20Intersection/solution.txt) |
+| 23B | [Party](https://codeforces.com/contest/23/problem/B) | 1600 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/23/B%20-%20Party/solution.txt) |
 | 2227A | [Koshary](https://codeforces.com/contest/2227/problem/A) | 800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/2227/A%20-%20Koshary/solution.txt) |
 
 ### number theory
