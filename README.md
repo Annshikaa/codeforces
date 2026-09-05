@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 86 | 26 |
+| 87 | 26 |
 
 ---
 
@@ -14,7 +14,7 @@
 
 - [binary search](#binary-search) (3)
 - [bitmasks](#bitmasks) (4)
-- [brute force](#brute-force) (14)
+- [brute force](#brute-force) (15)
 - [combinatorics](#combinatorics) (2)
 - [constructive algorithms](#constructive-algorithms) (7)
 - [data structures](#data-structures) (7)
@@ -26,7 +26,7 @@
 - [geometry](#geometry) (7)
 - [graph matchings](#graph-matchings) (1)
 - [graphs](#graphs) (7)
-- [greedy](#greedy) (12)
+- [greedy](#greedy) (13)
 - [hashing](#hashing) (4)
 - [implementation](#implementation) (33)
 - [math](#math) (16)
@@ -76,6 +76,7 @@
 | 18D | [Seller Bob](https://codeforces.com/contest/18/problem/D) | 2000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/18/D%20-%20Seller%20Bob/solution.txt) |
 | 22A | [Second Order Statistics](https://codeforces.com/contest/22/problem/A) | 800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/22/A%20-%20Second%20Order%20Statistics/solution.txt) |
 | 22B | [Bargaining Table](https://codeforces.com/contest/22/problem/B) | 1500 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/22/B%20-%20Bargaining%20Table/solution.txt) |
+| 23A | [You're Given a String...](https://codeforces.com/contest/23/problem/A) | 1200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/23/A%20-%20You're%20Given%20a%20String.../solution.txt) |
 
 ### combinatorics
 
@@ -208,6 +209,7 @@
 | 18D | [Seller Bob](https://codeforces.com/contest/18/problem/D) | 2000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/18/D%20-%20Seller%20Bob/solution.txt) |
 | 19C | [Deletion of Repeats](https://codeforces.com/contest/19/problem/C) | 2200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/19/C%20-%20Deletion%20of%20Repeats/solution.txt) |
 | 22D | [Segments](https://codeforces.com/contest/22/problem/D) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/22/D%20-%20Segments/solution.txt) |
+| 23A | [You're Given a String...](https://codeforces.com/contest/23/problem/A) | 1200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/23/A%20-%20You're%20Given%20a%20String.../solution.txt) |
 
 ### hashing
 
