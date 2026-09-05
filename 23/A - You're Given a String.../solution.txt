@@ -1,0 +1,19 @@
+import sys
+ 
+def main():
+    s = sys.stdin.read().strip()
+    n = len(s)
+ 
+    for length in range(n - 1, 0, -1):
+        seen = set()
+        for i in range(n - length + 1):
+            sub = s[i:i + length]
+            if sub in seen:
+                print(length)
+                return
+            seen.add(sub)
+ 
+    print(0)
+ 
+if __name__ == "__main__":
+    main()
