@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 88 | 26 |
+| 89 | 26 |
 
 ---
 
@@ -16,7 +16,7 @@
 - [bitmasks](#bitmasks) (4)
 - [brute force](#brute-force) (15)
 - [combinatorics](#combinatorics) (2)
-- [constructive algorithms](#constructive-algorithms) (8)
+- [constructive algorithms](#constructive-algorithms) (9)
 - [data structures](#data-structures) (7)
 - [dfs and similar](#dfs-and-similar) (3)
 - [divide and conquer](#divide-and-conquer) (1)
@@ -33,7 +33,7 @@
 - [number theory](#number-theory) (4)
 - [probabilities](#probabilities) (2)
 - [shortest paths](#shortest-paths) (4)
-- [sortings](#sortings) (11)
+- [sortings](#sortings) (12)
 - [string suffix structures](#string-suffix-structures) (1)
 - [strings](#strings) (6)
 - [trees](#trees) (2)
@@ -97,6 +97,7 @@
 | 12E | [Start of the session](https://codeforces.com/contest/12/problem/E) | 2100 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/12/E%20-%20Start%20of%20the%20session/solution.txt) |
 | 14C | [Four Segments](https://codeforces.com/contest/14/problem/C) | 1700 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/14/C%20-%20Four%20Segments/solution.txt) |
 | 23B | [Party](https://codeforces.com/contest/23/problem/B) | 1600 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/23/B%20-%20Party/solution.txt) |
+| 23C | [Oranges and Apples](https://codeforces.com/contest/23/problem/C) | 2500 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/23/C%20-%20Oranges%20and%20Apples/solution.txt) |
 
 ### data structures
 
@@ -322,6 +323,7 @@
 | 16B | [Burglar and Matches](https://codeforces.com/contest/16/problem/B) | 900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/16/B%20-%20Burglar%20and%20Matches/solution.txt) |
 | 21C | [Stripe 2](https://codeforces.com/contest/21/problem/C) | 2000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/21/C%20-%20Stripe%202/solution.txt) |
 | 22D | [Segments](https://codeforces.com/contest/22/problem/D) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/22/D%20-%20Segments/solution.txt) |
+| 23C | [Oranges and Apples](https://codeforces.com/contest/23/problem/C) | 2500 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/23/C%20-%20Oranges%20and%20Apples/solution.txt) |
 
 ### string suffix structures
 
