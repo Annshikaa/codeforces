@@ -1,0 +1,81 @@
+import sys
+ 
+EPS = 1e-9
+ 
+def solve():
+    input_data = sys.stdin.read().split()
+    if not input_data:
+        return
+ 
+    it = iter(input_data)
+    t = int(next(it))
+    out = []
+ 
+    def cross(x1, y1, x2, y2):
+        return x1 * y2 - y1 * x2
+ 
+    def is_convex(poly):
+        sign = 0
+        for i in range(4):
+            x1, y1 = poly[i]
+            x2, y2 = poly[(i + 1) % 4]
+            x3, y3 = poly[(i + 2) % 4]
+            cp = cross(x2 - x1, y2 - y1, x3 - x2, y3 - y2)
+            if abs(cp) < EPS:
+                return False
+            if sign == 0:
+                sign = 1 if cp > 0 else -1
+            elif (cp > 0 and sign < 0) or (cp < 0 and sign > 0):
+                return False
+        return True
+ 
+    def check(m1, m2, m3):
+        d1x, d1y = m2[0] - m1[0], m2[1] - m1[1]
+        d2x, d2y = m3[0] - m2[0], m3[1] - m2[1]
+ 
+        ax, ay = (m1[0] + m2[0]) / 2.0, (m1[1] + m2[1]) / 2.0
+        bx, by = (m2[0] + m3[0]) / 2.0, (m2[1] + m3[1]) / 2.0
+ 
+        c1 = d1x * ax + d1y * ay
+        c2 = d2x * (2 * m2[0] - bx) + d2y * (2 * m2[1] - by)
+ 
+        det = d1x * d2y - d1y * d2x
+        if abs(det) < EPS:
+            return None
+ 
+        v2x = (c1 * d2y - c2 * d1y) / det
+        v2y = (d1x * c2 - d2x * c1) / det
+ 
+        v1 = (2 * m1[0] - v2x, 2 * m1[1] - v2y)
+        v2 = (v2x, v2y)
+        v3 = (2 * m2[0] - v2x, 2 * m2[1] - v2y)
+        v4 = (2 * m3[0] - v3[0], 2 * m3[1] - v3[1])
+ 
+        poly = [v1, v2, v3, v4]
+        if is_convex(poly):
+            return poly
+        return None
+ 
+    for _ in range(t):
+        pts = []
+        for _ in range(3):
+            pts.append((float(next(it)), float(next(it))))
+ 
+        res = check(pts[0], pts[1], pts[2]) or \
+              check(pts[1], pts[0], pts[2]) or \
+              check(pts[0], pts[2], pts[1])
+ 
+        if res is not None:
+            out.append("YES")
+            out.append(" ".join(f"{coord:.9f}" for p in res for coord in p))
+        else:
+            out.append("NO
+")
+ 
+    sys.stdout.write("
+".join(out) + "
+")
+ 
+if __name__ == "__main__":
+    main = solve
+    main()
