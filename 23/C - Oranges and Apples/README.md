@@ -1,0 +1,17 @@
+<h2><a href="https://codeforces.com/contest/23/problem/C" target="_blank" rel="noopener noreferrer">23C — Oranges and Apples</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 2500 |
+| **Language** | PyPy 3-64 |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 23C](https://codeforces.com/contest/23/problem/C) |
+
+## Topics
+`constructive algorithms` `sortings`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">C. Oranges and Apples</div><div class="time-limit"><div class="property-title">time limit per test</div>1.5 seconds</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard" style="font-weight: bold"><div class="property-title">input</div>stdin</div><div class="output-file output-standard" style="font-weight: bold"><div class="property-title">output</div>stdout</div></div><div><p>In <span class="tex-span">2<i>N</i> - 1</span> boxes there are apples and oranges. Your task is to choose <span class="tex-span"><i>N</i></span> boxes so, that they will contain not less than half of all the apples and not less than half of all the oranges.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first input line contains one number <span class="tex-span"><i>T</i></span> — amount of tests. The description of each test starts with a natural number <span class="tex-span"><i>N</i></span> — amount of boxes. Each of the following <span class="tex-span">2<i>N</i> - 1</span> lines contains numbers <span class="tex-span"><i>a</i><sub class="lower-index"><i>i</i></sub></span> and <span class="tex-span"><i>o</i><sub class="lower-index"><i>i</i></sub></span> — amount of apples and oranges in the <span class="tex-span"><i>i</i></span>-th box (<span class="tex-span">0 ≤ <i>a</i><sub class="lower-index"><i>i</i></sub>, <i>o</i><sub class="lower-index"><i>i</i></sub> ≤ 10<sup class="upper-index">9</sup></span>). The sum of <span class="tex-span"><i>N</i></span> in all the tests in the input doesn't exceed <span class="tex-span">10<sup class="upper-index">5</sup></span>. All the input numbers are integer.</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test output two lines. In the first line output <span class="tex-font-style-tt">YES</span>, if it's possible to choose <span class="tex-span"><i>N</i></span> boxes, or <span class="tex-font-style-tt">NO</span> otherwise. If the answer is positive output in the second line <span class="tex-span"><i>N</i></span> numbers — indexes of the chosen boxes. Boxes are numbered from 1 in the input order. Otherwise leave the second line empty. Separate the numbers with one space.</p></div><div class="sample-tests"><div class="section-title">Examples</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id007785170013622363" id="id0016133601766482653" class="input-output-copier">Copy</div></div><pre id="id007785170013622363">2<br>2<br>10 15<br>5 7<br>20 18<br>1<br>0 0<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id004535925190529193" id="id0043366214287815685" class="input-output-copier">Copy</div></div><pre id="id004535925190529193">YES<br>1 3<br>YES<br>1<br></pre></div></div></div>
