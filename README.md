@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 89 | 26 |
+| 90 | 26 |
 
 ---
 
@@ -23,13 +23,13 @@
 - [dp](#dp) (19)
 - [dsu](#dsu) (4)
 - [games](#games) (2)
-- [geometry](#geometry) (7)
+- [geometry](#geometry) (8)
 - [graph matchings](#graph-matchings) (1)
 - [graphs](#graphs) (8)
 - [greedy](#greedy) (13)
 - [hashing](#hashing) (4)
 - [implementation](#implementation) (33)
-- [math](#math) (17)
+- [math](#math) (18)
 - [number theory](#number-theory) (4)
 - [probabilities](#probabilities) (2)
 - [shortest paths](#shortest-paths) (4)
@@ -176,6 +176,7 @@
 | 13D | [Triangles](https://codeforces.com/contest/13/problem/D) | 2600 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/13/D%20-%20Triangles/solution.txt) |
 | 14C | [Four Segments](https://codeforces.com/contest/14/problem/C) | 1700 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/14/C%20-%20Four%20Segments/solution.txt) |
 | 18A | [Triangle](https://codeforces.com/contest/18/problem/A) | 1500 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/18/A%20-%20Triangle/solution.txt) |
+| 23D | [Tetragon](https://codeforces.com/contest/23/problem/D) | 2600 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/23/D%20-%20Tetragon/solution.txt) |
 
 ### graph matchings
 
@@ -281,6 +282,7 @@
 | 20B | [Equation](https://codeforces.com/contest/20/problem/B) | 2000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/20/B%20-%20Equation/solution.txt) |
 | 21B | [Intersection](https://codeforces.com/contest/21/problem/B) | 2000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/21/B%20-%20Intersection/solution.txt) |
 | 23B | [Party](https://codeforces.com/contest/23/problem/B) | 1600 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/23/B%20-%20Party/solution.txt) |
+| 23D | [Tetragon](https://codeforces.com/contest/23/problem/D) | 2600 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/23/D%20-%20Tetragon/solution.txt) |
 | 2227A | [Koshary](https://codeforces.com/contest/2227/problem/A) | 800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/2227/A%20-%20Koshary/solution.txt) |
 
 ### number theory
