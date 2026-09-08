@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 91 | 26 |
+| 92 | 26 |
 
 ---
 
@@ -25,7 +25,7 @@
 - [games](#games) (2)
 - [geometry](#geometry) (8)
 - [graph matchings](#graph-matchings) (1)
-- [graphs](#graphs) (9)
+- [graphs](#graphs) (10)
 - [greedy](#greedy) (13)
 - [hashing](#hashing) (4)
 - [implementation](#implementation) (33)
@@ -198,6 +198,7 @@
 | 21D | [Traveling Graph](https://codeforces.com/contest/21/problem/D) | 2400 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/21/D%20-%20Traveling%20Graph/solution.txt) |
 | 22C | [System Administrator](https://codeforces.com/contest/22/problem/C) | 1700 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/22/C%20-%20System%20Administrator/solution.txt) |
 | 23B | [Party](https://codeforces.com/contest/23/problem/B) | 1600 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/23/B%20-%20Party/solution.txt) |
+| 24A | [Ring road](https://codeforces.com/contest/24/problem/A) | 1400 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/24/A%20-%20Ring%20road/solution.txt) |
 | 2259H | [Treasure Map Destruction (Counting Version)](https://codeforces.com/contest/2259/problem/H) | 2200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/2259/H%20-%20Treasure%20Map%20Destruction%20(Counting%20Version)/solution.txt) |
 
 ### greedy
