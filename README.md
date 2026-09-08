@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 90 | 26 |
+| 91 | 26 |
 
 ---
 
@@ -18,18 +18,18 @@
 - [combinatorics](#combinatorics) (2)
 - [constructive algorithms](#constructive-algorithms) (9)
 - [data structures](#data-structures) (7)
-- [dfs and similar](#dfs-and-similar) (3)
+- [dfs and similar](#dfs-and-similar) (4)
 - [divide and conquer](#divide-and-conquer) (1)
-- [dp](#dp) (19)
+- [dp](#dp) (20)
 - [dsu](#dsu) (4)
 - [games](#games) (2)
 - [geometry](#geometry) (8)
 - [graph matchings](#graph-matchings) (1)
-- [graphs](#graphs) (8)
+- [graphs](#graphs) (9)
 - [greedy](#greedy) (13)
 - [hashing](#hashing) (4)
 - [implementation](#implementation) (33)
-- [math](#math) (18)
+- [math](#math) (19)
 - [number theory](#number-theory) (4)
 - [probabilities](#probabilities) (2)
 - [shortest paths](#shortest-paths) (4)
@@ -118,6 +118,7 @@
 | 9E | [Interestring graph and Apples](https://codeforces.com/contest/9/problem/E) | 2300 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/9/E%20-%20Interestring%20graph%20and%20Apples/solution.txt) |
 | 14D | [Two Paths](https://codeforces.com/contest/14/problem/D) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/14/D%20-%20Two%20Paths/solution.txt) |
 | 17B | [Hierarchy](https://codeforces.com/contest/17/problem/B) | 1500 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/17/B%20-%20Hierarchy/solution.txt) |
+| 2259H | [Treasure Map Destruction (Counting Version)](https://codeforces.com/contest/2259/problem/H) | 2200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/2259/H%20-%20Treasure%20Map%20Destruction%20(Counting%20Version)/solution.txt) |
 
 ### divide and conquer
 
@@ -148,6 +149,7 @@
 | 19B | [Checkout Assistant](https://codeforces.com/contest/19/problem/B) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/19/B%20-%20Checkout%20Assistant/solution.txt) |
 | 21C | [Stripe 2](https://codeforces.com/contest/21/problem/C) | 2000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/21/C%20-%20Stripe%202/solution.txt) |
 | 22B | [Bargaining Table](https://codeforces.com/contest/22/problem/B) | 1500 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/22/B%20-%20Bargaining%20Table/solution.txt) |
+| 2259H | [Treasure Map Destruction (Counting Version)](https://codeforces.com/contest/2259/problem/H) | 2200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/2259/H%20-%20Treasure%20Map%20Destruction%20(Counting%20Version)/solution.txt) |
 
 ### dsu
 
@@ -196,6 +198,7 @@
 | 21D | [Traveling Graph](https://codeforces.com/contest/21/problem/D) | 2400 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/21/D%20-%20Traveling%20Graph/solution.txt) |
 | 22C | [System Administrator](https://codeforces.com/contest/22/problem/C) | 1700 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/22/C%20-%20System%20Administrator/solution.txt) |
 | 23B | [Party](https://codeforces.com/contest/23/problem/B) | 1600 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/23/B%20-%20Party/solution.txt) |
+| 2259H | [Treasure Map Destruction (Counting Version)](https://codeforces.com/contest/2259/problem/H) | 2200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/2259/H%20-%20Treasure%20Map%20Destruction%20(Counting%20Version)/solution.txt) |
 
 ### greedy
 
@@ -284,6 +287,7 @@
 | 23B | [Party](https://codeforces.com/contest/23/problem/B) | 1600 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/23/B%20-%20Party/solution.txt) |
 | 23D | [Tetragon](https://codeforces.com/contest/23/problem/D) | 2600 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/23/D%20-%20Tetragon/solution.txt) |
 | 2227A | [Koshary](https://codeforces.com/contest/2227/problem/A) | 800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/2227/A%20-%20Koshary/solution.txt) |
+| 2259H | [Treasure Map Destruction (Counting Version)](https://codeforces.com/contest/2259/problem/H) | 2200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/2259/H%20-%20Treasure%20Map%20Destruction%20(Counting%20Version)/solution.txt) |
 
 ### number theory
 
