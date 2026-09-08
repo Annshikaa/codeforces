@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 92 | 26 |
+| 93 | 26 |
 
 ---
 
@@ -28,7 +28,7 @@
 - [graphs](#graphs) (10)
 - [greedy](#greedy) (13)
 - [hashing](#hashing) (4)
-- [implementation](#implementation) (33)
+- [implementation](#implementation) (34)
 - [math](#math) (19)
 - [number theory](#number-theory) (4)
 - [probabilities](#probabilities) (2)
@@ -263,6 +263,7 @@
 | 20A | [BerOS file system](https://codeforces.com/contest/20/problem/A) | 1700 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/20/A%20-%20BerOS%20file%20system/solution.txt) |
 | 21A | [Jabber ID](https://codeforces.com/contest/21/problem/A) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/21/A%20-%20Jabber%20ID/solution.txt) |
 | 21B | [Intersection](https://codeforces.com/contest/21/problem/B) | 2000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/21/B%20-%20Intersection/solution.txt) |
+| 24B | [F1 Champions](https://codeforces.com/contest/24/problem/B) | 1500 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/24/B%20-%20F1%20Champions/solution.txt) |
 | 35A | [Shell Game](https://codeforces.com/contest/35/problem/A) | 1000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/35/A%20-%20Shell%20Game/solution.txt) |
 | 2227A | [Koshary](https://codeforces.com/contest/2227/problem/A) | 800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/2227/A%20-%20Koshary/solution.txt) |
 
