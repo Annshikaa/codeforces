@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 93 | 26 |
+| 94 | 26 |
 
 ---
 
@@ -23,13 +23,13 @@
 - [dp](#dp) (20)
 - [dsu](#dsu) (4)
 - [games](#games) (2)
-- [geometry](#geometry) (8)
+- [geometry](#geometry) (9)
 - [graph matchings](#graph-matchings) (1)
 - [graphs](#graphs) (10)
 - [greedy](#greedy) (13)
 - [hashing](#hashing) (4)
-- [implementation](#implementation) (34)
-- [math](#math) (19)
+- [implementation](#implementation) (35)
+- [math](#math) (20)
 - [number theory](#number-theory) (4)
 - [probabilities](#probabilities) (2)
 - [shortest paths](#shortest-paths) (4)
@@ -179,6 +179,7 @@
 | 14C | [Four Segments](https://codeforces.com/contest/14/problem/C) | 1700 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/14/C%20-%20Four%20Segments/solution.txt) |
 | 18A | [Triangle](https://codeforces.com/contest/18/problem/A) | 1500 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/18/A%20-%20Triangle/solution.txt) |
 | 23D | [Tetragon](https://codeforces.com/contest/23/problem/D) | 2600 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/23/D%20-%20Tetragon/solution.txt) |
+| 24C | [Sequence of points](https://codeforces.com/contest/24/problem/C) | 1800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/24/C%20-%20Sequence%20of%20points/solution.txt) |
 
 ### graph matchings
 
@@ -264,6 +265,7 @@
 | 21A | [Jabber ID](https://codeforces.com/contest/21/problem/A) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/21/A%20-%20Jabber%20ID/solution.txt) |
 | 21B | [Intersection](https://codeforces.com/contest/21/problem/B) | 2000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/21/B%20-%20Intersection/solution.txt) |
 | 24B | [F1 Champions](https://codeforces.com/contest/24/problem/B) | 1500 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/24/B%20-%20F1%20Champions/solution.txt) |
+| 24C | [Sequence of points](https://codeforces.com/contest/24/problem/C) | 1800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/24/C%20-%20Sequence%20of%20points/solution.txt) |
 | 35A | [Shell Game](https://codeforces.com/contest/35/problem/A) | 1000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/35/A%20-%20Shell%20Game/solution.txt) |
 | 2227A | [Koshary](https://codeforces.com/contest/2227/problem/A) | 800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/2227/A%20-%20Koshary/solution.txt) |
 
@@ -288,6 +290,7 @@
 | 21B | [Intersection](https://codeforces.com/contest/21/problem/B) | 2000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/21/B%20-%20Intersection/solution.txt) |
 | 23B | [Party](https://codeforces.com/contest/23/problem/B) | 1600 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/23/B%20-%20Party/solution.txt) |
 | 23D | [Tetragon](https://codeforces.com/contest/23/problem/D) | 2600 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/23/D%20-%20Tetragon/solution.txt) |
+| 24C | [Sequence of points](https://codeforces.com/contest/24/problem/C) | 1800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/24/C%20-%20Sequence%20of%20points/solution.txt) |
 | 2227A | [Koshary](https://codeforces.com/contest/2227/problem/A) | 800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/2227/A%20-%20Koshary/solution.txt) |
 | 2259H | [Treasure Map Destruction (Counting Version)](https://codeforces.com/contest/2259/problem/H) | 2200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/2259/H%20-%20Treasure%20Map%20Destruction%20(Counting%20Version)/solution.txt) |
 
