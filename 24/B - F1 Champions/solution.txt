@@ -1,0 +1,52 @@
+import sys
+ 
+def solve():
+    input_data = sys.stdin.read().split()
+    if not input_data:
+        return
+ 
+    points_table = [25, 18, 15, 12, 10, 8, 6, 4, 2, 1]
+    
+    # Store data as: name -> {'points': int, 'counts': [0]*51}
+    drivers = {}
+    
+    t = int(input_data[0])
+    idx = 1
+    
+    for _ in range(t):
+        n = int(input_data[idx])
+        idx += 1
+        for rank in range(1, n + 1):
+            name = input_data[idx]
+            idx += 1
+            
+            if name not in drivers:
+                drivers[name] = {'points': 0, 'counts': [0] * 51}
+            
+            if rank <= 10:
+                drivers[name]['points'] += points_table[rank - 1]
+            drivers[name]['counts'][rank] += 1
+ 
+    # Key for Rule 1:
+    # 1. Total points
+    # 2. Counts of 1st, 2nd, ..., 50th places
+    def key_rule1(name):
+        d = drivers[name]
+        return (d['points'], d['counts'][1:])
+ 
+    # Key for Rule 2:
+    # 1. Count of 1st places
+    # 2. Total points
+    # 3. Counts of 2nd, 3rd, ..., 50th places
+    def key_rule2(name):
+        d = drivers[name]
+        return (d['counts'][1], d['points'], d['counts'][2:])
+ 
+    champ1 = max(drivers.keys(), key=key_rule1)
+    champ2 = max(drivers.keys(), key=key_rule2)
+ 
+    print(champ1)
+    print(champ2)
+ 
+if __name__ == '__main__':
+    solve()
