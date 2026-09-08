@@ -1,0 +1,33 @@
+import sys
+ 
+def solve():
+    input_data = sys.stdin.read().split()
+    if not input_data:
+        return
+ 
+    n = int(input_data[0])
+    j = int(input_data[1])
+    
+    x = int(input_data[2])
+    y = int(input_data[3])
+    
+    A = []
+    idx = 4
+    for _ in range(n):
+        ax = int(input_data[idx])
+        ay = int(input_data[idx + 1])
+        A.append((ax, ay))
+        idx += 2
+ 
+    # Sequence has period 2 * n
+    steps = j % (2 * n)
+ 
+    for i in range(steps):
+        ax, ay = A[i % n]
+        x = 2 * ax - x
+        y = 2 * ay - y
+ 
+    print(f"{x} {y}")
+ 
+if __name__ == '__main__':
+    solve()
