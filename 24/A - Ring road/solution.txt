@@ -1,0 +1,42 @@
+import sys
+ 
+def solve():
+    input = sys.stdin.read
+    data = input().split()
+    if not data:
+        return
+ 
+    n = int(data[0])
+    adj = [[] for _ in range(n + 1)]
+    total_cost = 0
+ 
+    idx = 1
+    for _ in range(n):
+        u = int(data[idx])
+        v = int(data[idx + 1])
+        c = int(data[idx + 2])
+        idx += 3
+        
+        # Traversing u -> v costs 0; traversing v -> u costs c
+        adj[u].append((v, 0))
+        adj[v].append((u, c))
+        total_cost += c
+ 
+    # Traverse the cycle in one direction
+    cost1 = 0
+    prev = 1
+    curr, cost = adj[1][0]
+    cost1 += cost
+ 
+    while curr != 1:
+        for nxt, c in adj[curr]:
+            if nxt != prev:
+                cost1 += c
+                prev = curr
+                curr = nxt
+                break
+ 
+    print(min(cost1, total_cost - cost1))
+ 
+if __name__ == '__main__':
+    solve()
