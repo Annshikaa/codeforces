@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 94 | 26 |
+| 95 | 26 |
 
 ---
 
@@ -35,7 +35,7 @@
 - [shortest paths](#shortest-paths) (4)
 - [sortings](#sortings) (12)
 - [string suffix structures](#string-suffix-structures) (1)
-- [strings](#strings) (6)
+- [strings](#strings) (7)
 - [trees](#trees) (2)
 - [two pointers](#two-pointers) (3)
 
@@ -351,6 +351,7 @@
 | 7D | [Palindrome Degree](https://codeforces.com/contest/7/problem/D) | 2200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/7/D%20-%20Palindrome%20Degree/solution.txt) |
 | 8A | [Train and Peter](https://codeforces.com/contest/8/problem/A) | 1200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/8/A%20-%20Train%20and%20Peter/solution.txt) |
 | 16D | [Logging](https://codeforces.com/contest/16/problem/D) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/16/D%20-%20Logging/solution.txt) |
+| 17E | [Palisection](https://codeforces.com/contest/17/problem/E) | 2900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/17/E%20-%20Palisection/solution.txt) |
 | 21A | [Jabber ID](https://codeforces.com/contest/21/problem/A) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/21/A%20-%20Jabber%20ID/solution.txt) |
 
 ### trees
