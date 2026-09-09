@@ -1,0 +1,82 @@
+import sys
+ 
+def solve():
+    input_data = sys.stdin.read().split()
+    if not input_data:
+        return
+ 
+    it = iter(input_data)
+    t = int(next(it))
+    out = []
+ 
+    for _ in range(t):
+        n = int(next(it))
+        a = [int(next(it)) for _ in range(n)]
+ 
+        ones = [i for i, x in enumerate(a) if x == 1]
+        neg_ones = [i for i, x in enumerate(a) if x == -1]
+ 
+        best_len = -1
+        best_pair = None
+ 
+        if not ones:
+            if len(neg_ones) >= 2:
+                best_len = neg_ones[-1] - neg_ones[0] + 1
+                best_pair = (neg_ones[0], neg_ones[-1])
+            elif len(neg_ones) == 1:
+                best_len = 1
+                best_pair = (neg_ones[0], neg_ones[0])
+            else:
+                best_len = 0
+                best_pair = None
+        else:
+            # 1. Between adjacent fixed 1s
+            for k in range(len(ones) - 1):
+                length = ones[k + 1] - ones[k] + 1
+                if length > best_len:
+                    best_len = length
+                    best_pair = (ones[k], ones[k + 1])
+ 
+            # 2. Before the first fixed 1
+            first_neg_before = -1
+            for idx in neg_ones:
+                if idx < ones[0]:
+                    first_neg_before = idx
+                    break
+            if first_neg_before != -1:
+                length = ones[0] - first_neg_before + 1
+                if length > best_len:
+                    best_len = length
+                    best_pair = (first_neg_before, ones[0])
+ 
+            # 3. After the last fixed 1
+            last_neg_after = -1
+            for idx in reversed(neg_ones):
+                if idx > ones[-1]:
+                    last_neg_after = idx
+                    break
+            if last_neg_after != -1:
+                length = last_neg_after - ones[-1] + 1
+                if length > best_len:
+                    best_len = length
+                    best_pair = (ones[-1], last_neg_after)
+ 
+            # Fallback if there's only one fixed 1 and no neg_ones can extend it
+            if best_len < 1:
+                best_len = 1
+                best_pair = (ones[0], ones[0])
+ 
+        # Construct the final array
+        ans = [0 if x == -1 else x for x in a]
+        if best_pair is not None:
+            ans[best_pair[0]] = 1
+            ans[best_pair[1]] = 1
+ 
+        out.append(" ".join(map(str, ans)))
+ 
+    sys.stdout.write("
+".join(out) + "
+")
+ 
+if __name__ == '__main__':
+    solve()
