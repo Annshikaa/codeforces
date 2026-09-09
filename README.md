@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 95 | 26 |
+| 96 | 26 |
 
 ---
 
@@ -16,7 +16,7 @@
 - [bitmasks](#bitmasks) (4)
 - [brute force](#brute-force) (15)
 - [combinatorics](#combinatorics) (2)
-- [constructive algorithms](#constructive-algorithms) (9)
+- [constructive algorithms](#constructive-algorithms) (10)
 - [data structures](#data-structures) (7)
 - [dfs and similar](#dfs-and-similar) (4)
 - [divide and conquer](#divide-and-conquer) (1)
@@ -26,7 +26,7 @@
 - [geometry](#geometry) (9)
 - [graph matchings](#graph-matchings) (1)
 - [graphs](#graphs) (10)
-- [greedy](#greedy) (13)
+- [greedy](#greedy) (14)
 - [hashing](#hashing) (4)
 - [implementation](#implementation) (35)
 - [math](#math) (20)
@@ -98,6 +98,7 @@
 | 14C | [Four Segments](https://codeforces.com/contest/14/problem/C) | 1700 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/14/C%20-%20Four%20Segments/solution.txt) |
 | 23B | [Party](https://codeforces.com/contest/23/problem/B) | 1600 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/23/B%20-%20Party/solution.txt) |
 | 23C | [Oranges and Apples](https://codeforces.com/contest/23/problem/C) | 2500 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/23/C%20-%20Oranges%20and%20Apples/solution.txt) |
+| 2259C | [101](https://codeforces.com/contest/2259/problem/C) | 1000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/2259/C%20-%20101/solution.txt) |
 
 ### data structures
 
@@ -219,6 +220,7 @@
 | 19C | [Deletion of Repeats](https://codeforces.com/contest/19/problem/C) | 2200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/19/C%20-%20Deletion%20of%20Repeats/solution.txt) |
 | 22D | [Segments](https://codeforces.com/contest/22/problem/D) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/22/D%20-%20Segments/solution.txt) |
 | 23A | [You're Given a String...](https://codeforces.com/contest/23/problem/A) | 1200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/23/A%20-%20You're%20Given%20a%20String.../solution.txt) |
+| 2259C | [101](https://codeforces.com/contest/2259/problem/C) | 1000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/2259/C%20-%20101/solution.txt) |
 
 ### hashing
 
