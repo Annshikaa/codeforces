@@ -1,0 +1,93 @@
+import sys
+from array import array
+ 
+def solve():
+    input_data = sys.stdin.read().split()
+    if not input_data:
+        return
+ 
+    n = int(input_data[0])
+    s = input_data[1]
+    MOD = 51123987
+ 
+    # Manacher's algorithm for odd-length palindromes
+    # d1[i] stores the radius around center s[i]
+    d1 = array('i', [0] * n)
+    l, r = 0, -1
+    for i in range(n):
+        k = 1 if i > r else min(d1[l + r - i], r - i + 1)
+        while 0 <= i - k and i + k < n and s[i - k] == s[i + k]:
+            k += 1
+        d1[i] = k
+        k -= 1
+        if i + k > r:
+            l = i - k
+            r = i + k
+ 
+    # Manacher's algorithm for even-length palindromes
+    # d2[i] stores the radius around center between s[i-1] and s[i]
+    d2 = array('i', [0] * n)
+    l, r = 0, -1
+    for i in range(n):
+        k = 0 if i > r else min(d2[l + r - i + 1], r - i + 1)
+        while 0 <= i - k - 1 and i + k < n and s[i - k - 1] == s[i + k]:
+            k += 1
+        d2[i] = k
+        k -= 1
+        if i + k > r:
+            l = i - k - 1
+            r = i + k
+ 
+    # Difference arrays for start points (diff_S) and end points (diff_E)
+    diff_S = array('i', [0] * (n + 2))
+    diff_E = array('i', [0] * (n + 2))
+ 
+    total_palindromes = 0
+ 
+    # Process odd-length palindromes
+    for i in range(n):
+        rad = d1[i]
+        total_palindromes += rad
+        diff_S[i - rad + 1] += 1
+        diff_S[i + 1] -= 1
+        diff_E[i] += 1
+        diff_E[i + rad] -= 1
+ 
+    # Process even-length palindromes
+    for i in range(n):
+        rad = d2[i]
+        if rad == 0:
+            continue
+        total_palindromes += rad
+        diff_S[i - rad] += 1
+        diff_S[i] -= 1
+        diff_E[i] += 1
+        diff_E[i + rad] -= 1
+ 
+    # Total combinations of pairs: K * (K - 1) // 2 mod MOD
+    k_mod = total_palindromes % MOD
+    total_pairs = (k_mod * ((total_palindromes - 1) % MOD) * ((MOD + 1) // 2)) % MOD
+ 
+    # Disjoint pairs: (palindromes ending <= i) * (palindromes starting == i + 1)
+    # Compute running prefix sums to avoid storing large temporary arrays
+    disjoint_pairs = 0
+    cur_s = 0
+    cur_e = 0
+    pref_e = 0
+ 
+    # Pre-resolve S to quickly query S[i + 1]
+    S = array('i', [0] * n)
+    for i in range(n):
+        cur_s += diff_S[i]
+        S[i] = cur_s
+ 
+    for i in range(n - 1):
+        cur_e += diff_E[i]
+        pref_e = (pref_e + cur_e) % MOD
+        disjoint_pairs = (disjoint_pairs + pref_e * S[i + 1]) % MOD
+ 
+    ans = (total_pairs - disjoint_pairs) % MOD
+    print(ans)
+ 
+if __name__ == '__main__':
+    solve()
