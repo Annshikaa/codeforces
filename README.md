@@ -6,13 +6,13 @@
 
 | Total Problems | Topics |
 |---|---|
-| 96 | 26 |
+| 97 | 26 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [binary search](#binary-search) (3)
+- [binary search](#binary-search) (4)
 - [bitmasks](#bitmasks) (4)
 - [brute force](#brute-force) (15)
 - [combinatorics](#combinatorics) (2)
@@ -48,6 +48,7 @@
 | 6E | [Exposition](https://codeforces.com/contest/6/problem/E) | 1900 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/6/E%20-%20Exposition/solution.txt) |
 | 16C | [Monitor](https://codeforces.com/contest/16/problem/C) | 1800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/16/C%20-%20Monitor/solution.txt) |
 | 21C | [Stripe 2](https://codeforces.com/contest/21/problem/C) | 2000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/21/C%20-%20Stripe%202/solution.txt) |
+| 24E | [Berland collider](https://codeforces.com/contest/24/problem/E) | 2300 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/24/E%20-%20Berland%20collider/solution.txt) |
 
 ### bitmasks
 
