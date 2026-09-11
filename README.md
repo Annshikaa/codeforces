@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 97 | 26 |
+| 98 | 26 |
 
 ---
 
@@ -29,8 +29,8 @@
 - [greedy](#greedy) (14)
 - [hashing](#hashing) (4)
 - [implementation](#implementation) (35)
-- [math](#math) (20)
-- [number theory](#number-theory) (4)
+- [math](#math) (21)
+- [number theory](#number-theory) (5)
 - [probabilities](#probabilities) (2)
 - [shortest paths](#shortest-paths) (4)
 - [sortings](#sortings) (12)
@@ -296,6 +296,7 @@
 | 24C | [Sequence of points](https://codeforces.com/contest/24/problem/C) | 1800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/24/C%20-%20Sequence%20of%20points/solution.txt) |
 | 2227A | [Koshary](https://codeforces.com/contest/2227/problem/A) | 800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/2227/A%20-%20Koshary/solution.txt) |
 | 2259H | [Treasure Map Destruction (Counting Version)](https://codeforces.com/contest/2259/problem/H) | 2200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/2259/H%20-%20Treasure%20Map%20Destruction%20(Counting%20Version)/solution.txt) |
+| 2260B | [Monocarp and Projects](https://codeforces.com/contest/2260/problem/B) | Unrated | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/2260/B%20-%20Monocarp%20and%20Projects/solution.txt) |
 
 ### number theory
 
@@ -305,6 +306,7 @@
 | 10C | [Digital Root](https://codeforces.com/contest/10/problem/C) | 2000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/10/C%20-%20Digital%20Root/solution.txt) |
 | 16C | [Monitor](https://codeforces.com/contest/16/problem/C) | 1800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/16/C%20-%20Monitor/solution.txt) |
 | 17A | [Noldbach problem](https://codeforces.com/contest/17/problem/A) | 1000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/17/A%20-%20Noldbach%20problem/solution.txt) |
+| 2260B | [Monocarp and Projects](https://codeforces.com/contest/2260/problem/B) | Unrated | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/2260/B%20-%20Monocarp%20and%20Projects/solution.txt) |
 
 ### probabilities
 
