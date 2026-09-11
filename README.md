@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 98 | 26 |
+| 99 | 26 |
 
 ---
 
@@ -28,7 +28,7 @@
 - [graphs](#graphs) (10)
 - [greedy](#greedy) (14)
 - [hashing](#hashing) (4)
-- [implementation](#implementation) (35)
+- [implementation](#implementation) (36)
 - [math](#math) (21)
 - [number theory](#number-theory) (5)
 - [probabilities](#probabilities) (2)
@@ -271,6 +271,7 @@
 | 24C | [Sequence of points](https://codeforces.com/contest/24/problem/C) | 1800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/24/C%20-%20Sequence%20of%20points/solution.txt) |
 | 35A | [Shell Game](https://codeforces.com/contest/35/problem/A) | 1000 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/35/A%20-%20Shell%20Game/solution.txt) |
 | 2227A | [Koshary](https://codeforces.com/contest/2227/problem/A) | 800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/2227/A%20-%20Koshary/solution.txt) |
+| 2260A | [Monocarp's Contest](https://codeforces.com/contest/2260/problem/A) | Unrated | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/2260/A%20-%20Monocarp's%20Contest/solution.txt) |
 
 ### math
 
