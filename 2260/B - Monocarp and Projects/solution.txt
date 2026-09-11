@@ -1,0 +1,40 @@
+import sys
+ 
+def solve():
+    input_data = sys.stdin.read().split()
+    if not input_data:
+        return
+    
+    t = int(input_data[0])
+    idx = 1
+    out = []
+    
+    for _ in range(t):
+        x = int(input_data[idx])
+        y = int(input_data[idx + 1])
+        k = int(input_data[idx + 2])
+        idx += 3
+        
+        d = y - x
+        L = x
+        R = x + k - 1
+        
+        total = 0
+        
+        # Range 1: m <= d
+        r1 = min(R, d)
+        for m in range(L, r1 + 1):
+            total += d % m
+            
+        # Range 2: m > d, where d % m == d
+        l2 = max(L, d + 1)
+        if l2 <= R:
+            total += (R - l2 + 1) * d
+            
+        out.append(str(total))
+        
+    print('
+'.join(out))
+ 
+if __name__ == '__main__':
+    solve()
