@@ -1,0 +1,27 @@
+import sys
+ 
+def solve():
+    input_data = sys.stdin.read().split()
+    if not input_data:
+        return
+    
+    it = iter(input_data)
+    t = int(next(it))
+    out = []
+    
+    for _ in range(t):
+        n = int(next(it))
+        a = [int(next(it)) for _ in range(n)]
+        
+        if a.count(0) < 2:
+            out.append("-1")
+        else:
+            ops = (1 if a[0] == 1 else 0) + (1 if a[-1] == 1 else 0)
+            out.append(str(ops))
+            
+    sys.stdout.write("
+".join(out) + "
+")
+ 
+if __name__ == '__main__':
+    solve()
