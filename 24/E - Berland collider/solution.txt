@@ -1,0 +1,57 @@
+import sys
+ 
+def solve():
+    input_data = sys.stdin.read().split()
+    if not input_data:
+        return
+    
+    n = int(input_data[0])
+    xs = [0.0] * n
+    vs = [0.0] * n
+    
+    idx = 1
+    has_right = False
+    possible = False
+    
+    for i in range(n):
+        x = float(input_data[idx])
+        v = float(input_data[idx + 1])
+        idx += 2
+        xs[i] = x
+        vs[i] = v
+        if v > 0:
+            has_right = True
+        elif v < 0 and has_right:
+            possible = True
+ 
+    if not possible:
+        print(-1)
+        return
+ 
+    def can(t):
+        max_r = -1e30
+        for i in range(n):
+            if vs[i] > 0:
+                cur = xs[i] + vs[i] * t
+                if cur > max_r:
+                    max_r = cur
+            else:
+                if xs[i] + vs[i] * t <= max_r:
+                    return True
+        return False
+ 
+    low = 0.0
+    high = 2e9
+ 
+    # 90-100 iterations achieve precision well beyond 10^-9
+    for _ in range(95):
+        mid = (low + high) * 0.5
+        if can(mid):
+            high = mid
+        else:
+            low = mid
+ 
+    print(f"{high:.15f}")
+ 
+if __name__ == '__main__':
+    solve()
