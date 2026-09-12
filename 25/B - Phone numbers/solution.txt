@@ -1,0 +1,30 @@
+import sys
+ 
+ 
+def solve():
+    input = sys.stdin.read
+    data = input().split()
+    if not data:
+        return
+ 
+    n = int(data[0])
+    s = data[1]
+ 
+    groups = []
+    i = 0
+ 
+    # If the length is odd, take the first 3 digits as a group
+    if n % 2 == 1:
+        groups.append(s[:3])
+        i = 3
+ 
+    # Divide the remainder into groups of 2
+    while i < n:
+        groups.append(s[i : i + 2])
+        i += 2
+ 
+    print("-".join(groups))
+ 
+ 
+if __name__ == "__main__":
+    solve()
