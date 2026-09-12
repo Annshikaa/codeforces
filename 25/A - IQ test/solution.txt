@@ -1,0 +1,25 @@
+import sys
+ 
+ 
+def solve():
+    input = sys.stdin.read
+    data = input().split()
+    if not data:
+        return
+ 
+    n = int(data[0])
+    nums = [int(x) for x in data[1 : n + 1]]
+ 
+    # Map each number to its parity (0 for even, 1 for odd)
+    parities = [x % 2 for x in nums]
+ 
+    # The outlier is either 0 or 1, whichever occurs only once
+    target_parity = 0 if parities.count(0) == 1 else 1
+ 
+    # Find the 1-based index of the outlier
+    ans = parities.index(target_parity) + 1
+    print(ans)
+ 
+ 
+if __name__ == "__main__":
+    solve()
