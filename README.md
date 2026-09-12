@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 99 | 26 |
+| 100 | 26 |
 
 ---
 
@@ -14,7 +14,7 @@
 
 - [binary search](#binary-search) (4)
 - [bitmasks](#bitmasks) (4)
-- [brute force](#brute-force) (15)
+- [brute force](#brute-force) (16)
 - [combinatorics](#combinatorics) (2)
 - [constructive algorithms](#constructive-algorithms) (10)
 - [data structures](#data-structures) (7)
@@ -78,6 +78,7 @@
 | 22A | [Second Order Statistics](https://codeforces.com/contest/22/problem/A) | 800 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/22/A%20-%20Second%20Order%20Statistics/solution.txt) |
 | 22B | [Bargaining Table](https://codeforces.com/contest/22/problem/B) | 1500 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/22/B%20-%20Bargaining%20Table/solution.txt) |
 | 23A | [You're Given a String...](https://codeforces.com/contest/23/problem/A) | 1200 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/23/A%20-%20You're%20Given%20a%20String.../solution.txt) |
+| 25A | [IQ test](https://codeforces.com/contest/25/problem/A) | 1300 | [PyPy 3-64](https://github.com/Annshikaa/codeforces/blob/HEAD/25/A%20-%20IQ%20test/solution.txt) |
 
 ### combinatorics
 
